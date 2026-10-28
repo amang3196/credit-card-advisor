@@ -1,0 +1,51 @@
+{
+  "_status": "VERIFIED",
+  "_sources": {
+    "rates_and_caps": "sbi_cashback_revision_2026-04.pdf p.1 (5% online max 2,000; 1% offline max 2,000; 4,000 per statement cycle)",
+    "exclusions": "sbi_cashback_tnc.pdf p.35 (fuel, wallet, rent, jewellery, education, utility, insurance, gift shops, railways, quasi-cash, gaming, tolls, govt)",
+    "fee": "sbi_common_mitc.pdf p.4 (999, waived on annual spends of Rs 2 lakh or more in the preceding year)"
+  },
+  "_notes": "Railways are excluded, so train bookings in 'travel' earn nothing; flights and hotels booked online earn 5%. Transactions under Rs 100 earn no cashback. Mapping rule (same as the agent's prompt): a merchant-specific rate is applied to a whole category only if those merchants are most of it; otherwise the base rate is kept and it's listed under _merchant_specific.",
+  "card_id": "sbi_cashback",
+  "card_name": "Cashback SBI Card",
+  "annual_fee_inr": 999,
+  "fee_waiver_spend_inr": 200000,
+  "fee_waiver_excluded_categories": [],
+  "reward_rules": [
+    {
+      "categories": [
+        "amazon",
+        "flipkart",
+        "swiggy",
+        "zomato",
+        "other_online",
+        "travel"
+      ],
+      "rate_pct": 5,
+      "cap_inr": 2000,
+      "cap_period": "statement_cycle",
+      "description": "5% on online spends",
+      "source": "sbi_cashback_revision_2026-04.pdf p.1"
+    },
+    {
+      "categories": [
+        "offline"
+      ],
+      "rate_pct": 1,
+      "cap_inr": 2000,
+      "cap_period": "statement_cycle",
+      "description": "1% on offline (POS) spends",
+      "source": "sbi_cashback_revision_2026-04.pdf p.1"
+    }
+  ],
+  "base_rate_pct": 0,
+  "base_cap_inr": null,
+  "excluded_categories": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent"
+  ],
+  "overall_cap_inr": 4000,
+  "overall_cap_period": "statement_cycle"
+}

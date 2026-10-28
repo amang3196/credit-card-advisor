@@ -1,0 +1,39 @@
+{
+  "_status": "VERIFIED",
+  "_sources": {
+    "rates_and_caps": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1 (Table 1.1) and p.7 (sample statement: Swiggy and online 5% share one 'Capping for the 5% Cashback accrual 1500'); 1% other spends max 1,000 per billing cycle",
+    "online_list": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.2 (Table 2.1: Amazon, Flipkart, Nykaa, Ajio, OTT, cabs, electronics, apparel, travel sites incl. Cleartrip, Ixigo, Yatra, EaseMyTrip)",
+    "exclusions": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1-2 (fuel, rent, jewellery, govt, gaming, education, EMI, wallet, gift cards)",
+    "fee": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5 (Rs 500 + taxes; renewal waived on spends of Rs 1,50,000 in the preceding year)"
+  },
+  "_notes": "CHANGED from the draft: Swiggy and online now share ONE 5% bucket capped at Rs 1,500, and travel earns 5%. Zomato isn't on the 5% list, so it gets 1%. Utilities and insurance are not excluded, so they get 1%. Minimum transaction Rs 249 for 5%, Rs 100 for 1%. Mapping rule (same as the agent's prompt): a merchant-specific rate is applied to a whole category only if those merchants are most of it; otherwise the base rate is kept and it's listed under _merchant_specific.",
+  "card_id": "swiggy_hdfc_ornge",
+  "card_name": "Swiggy Ornge HDFC Bank Credit Card",
+  "annual_fee_inr": 500,
+  "fee_waiver_spend_inr": 150000,
+  "fee_waiver_excluded_categories": [],
+  "reward_rules": [
+    {
+      "categories": [
+        "swiggy",
+        "amazon",
+        "flipkart",
+        "other_online",
+        "travel"
+      ],
+      "rate_pct": 5,
+      "cap_inr": 1500,
+      "cap_period": "statement_cycle",
+      "description": "5% on Swiggy + select online (shared cap)",
+      "source": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1, p.7"
+    }
+  ],
+  "base_rate_pct": 1,
+  "base_cap_inr": 1000,
+  "base_cap_period": "statement_cycle",
+  "excluded_categories": [
+    "fuel",
+    "rent"
+  ],
+  "overall_cap_inr": null
+}

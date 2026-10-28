@@ -1,0 +1,73 @@
+# Which PDF belongs to which card(s).
+# Save each PDF into data/pdfs/ with exactly the file name below.
+# effective_date: the date printed on the document (YYYY-MM-DD), or "unknown".
+# doc_type: base     = the card's main reward terms / fee schedule
+#           revision = a notice that changes earlier terms (newer one wins)
+# Missing files are skipped during ingestion, so you can start with a few.
+
+cards:
+  - card_id: sbi_cashback
+    card_name: Cashback SBI Card
+    bank: SBI Card
+  - card_id: hdfc_millennia
+    card_name: HDFC Bank Millennia Credit Card
+    bank: HDFC Bank
+  - card_id: swiggy_hdfc_ornge
+    card_name: Swiggy Ornge HDFC Bank Credit Card
+    bank: HDFC Bank
+  - card_id: swiggy_hdfc_blck
+    card_name: Swiggy BLCK HDFC Bank Credit Card
+    bank: HDFC Bank
+  - card_id: flipkart_axis
+    card_name: Flipkart Axis Bank Credit Card
+    bank: Axis Bank
+  - card_id: amazon_pay_icici
+    card_name: Amazon Pay ICICI Bank Credit Card
+    bank: ICICI Bank
+
+documents:
+  - file: sbi_cashback_tnc.pdf
+    card_ids: [sbi_cashback]
+    doc_type: base
+    effective_date: unknown
+
+  - file: sbi_cashback_revision_2026-04.pdf
+    card_ids: [sbi_cashback]
+    doc_type: revision
+    effective_date: "2026-04-01"
+
+  - file: sbi_common_mitc.pdf            # SBI Card MITC (common to all SBI cards)
+    card_ids: [sbi_cashback]
+    doc_type: base
+    effective_date: unknown
+
+  - file: hdfc_millennia_tnc_2026-07.pdf
+    card_ids: [hdfc_millennia]
+    doc_type: base
+    effective_date: "2026-07-20"
+
+  # One PDF covers TWO cards. The agent has to keep their numbers apart.
+  - file: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf
+    card_ids: [swiggy_hdfc_ornge, swiggy_hdfc_blck]
+    doc_type: base
+    effective_date: "2026-03-04"
+
+  - file: axis_flipkart_revision_2025-06.pdf
+    card_ids: [flipkart_axis]
+    doc_type: revision
+    effective_date: "2025-06-20"
+
+  - file: axis_common_mitc.pdf       # Axis Bank MITC (common to all Axis cards)
+    card_ids: [flipkart_axis]
+    doc_type: base
+    effective_date: unknown
+
+  - file: icici_amazon_pay_tnc_2026-10.pdf
+    card_ids: [amazon_pay_icici]
+    doc_type: base
+    effective_date: "2026-10-12"
+
+  - file: icici_amazon_pay_mitc_2026-07.pdf            # Amazon Pay ICICI MITC
+    card_ids: [amazon_pay_icici]
+    doc_type: base
+    effective_date: "2026-07-10"

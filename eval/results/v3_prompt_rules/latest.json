@@ -1,0 +1,1080 @@
+{
+  "extraction": {
+    "overall_field_accuracy": 0.769,
+    "per_card": {
+      "amazon_pay_icici": {
+        "accuracy": 0.885,
+        "seconds": 19.5,
+        "mismatches": [
+          {
+            "field": "other_online.rate_pct",
+            "gold": 1.0,
+            "pred": 2.0,
+            "ok": false
+          },
+          {
+            "field": "insurance.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "insurance.annual_cap",
+            "gold": null,
+            "pred": 0.0,
+            "ok": false
+          }
+        ]
+      },
+      "flipkart_axis": {
+        "accuracy": 0.5,
+        "seconds": 18.7,
+        "mismatches": [
+          {
+            "field": "amazon.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "flipkart.annual_cap",
+            "gold": 16000.0,
+            "pred": 48000.0,
+            "ok": false
+          },
+          {
+            "field": "swiggy.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "swiggy.annual_cap",
+            "gold": null,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "zomato.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "zomato.annual_cap",
+            "gold": null,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "other_online.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "other_online.annual_cap",
+            "gold": null,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "offline.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "offline.annual_cap",
+            "gold": null,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "travel.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "travel.annual_cap",
+            "gold": null,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "amazon.rate_pct_non_prime",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          }
+        ]
+      },
+      "hdfc_millennia": {
+        "accuracy": 0.731,
+        "seconds": 17.9,
+        "mismatches": [
+          {
+            "field": "annual_fee_inr",
+            "gold": 1000.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "fee_waiver_spend_inr",
+            "gold": 100000.0,
+            "pred": null,
+            "ok": false
+          },
+          {
+            "field": "other_online.rate_pct",
+            "gold": 1.0,
+            "pred": 5.0,
+            "ok": false
+          },
+          {
+            "field": "utilities.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "utilities.annual_cap",
+            "gold": 12000.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "insurance.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "insurance.annual_cap",
+            "gold": 12000.0,
+            "pred": 0.0,
+            "ok": false
+          }
+        ]
+      },
+      "sbi_cashback": {
+        "accuracy": 0.923,
+        "seconds": 21.3,
+        "mismatches": [
+          {
+            "field": "travel.rate_pct",
+            "gold": 5.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "travel.annual_cap",
+            "gold": 24000.0,
+            "pred": null,
+            "ok": false
+          }
+        ]
+      },
+      "swiggy_hdfc_blck": {
+        "accuracy": 0.731,
+        "seconds": 16.0,
+        "mismatches": [
+          {
+            "field": "fee_waiver_spend_inr",
+            "gold": null,
+            "pred": 75000.0,
+            "ok": false
+          },
+          {
+            "field": "zomato.rate_pct",
+            "gold": 1.0,
+            "pred": 5.0,
+            "ok": false
+          },
+          {
+            "field": "zomato.annual_cap",
+            "gold": 12000.0,
+            "pred": 18000.0,
+            "ok": false
+          },
+          {
+            "field": "utilities.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "utilities.annual_cap",
+            "gold": 12000.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "insurance.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "insurance.annual_cap",
+            "gold": 12000.0,
+            "pred": 0.0,
+            "ok": false
+          }
+        ]
+      },
+      "swiggy_hdfc_ornge": {
+        "accuracy": 0.846,
+        "seconds": 24.4,
+        "mismatches": [
+          {
+            "field": "utilities.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "utilities.annual_cap",
+            "gold": 12000.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "insurance.rate_pct",
+            "gold": 1.0,
+            "pred": 0.0,
+            "ok": false
+          },
+          {
+            "field": "insurance.annual_cap",
+            "gold": 12000.0,
+            "pred": 0.0,
+            "ok": false
+          }
+        ]
+      }
+    },
+    "usage": {
+      "total": {
+        "prompt_tokens": 212610,
+        "cached_prompt_tokens": 77440,
+        "completion_tokens": 8727,
+        "reasoning_tokens": 0,
+        "requests": 16,
+        "est_cost_usd": 0.1465
+      },
+      "by_step": {
+        "Card Rules Researcher (gpt-5.4-mini)": {
+          "prompt_tokens": 212610,
+          "cached_prompt_tokens": 77440,
+          "completion_tokens": 8727,
+          "reasoning_tokens": 0,
+          "requests": 16,
+          "est_cost_usd": 0.146457
+        }
+      }
+    }
+  },
+  "recommend": {
+    "summary": {
+      "crew": {
+        "top_pick_accuracy": 0.8,
+        "mean_regret_inr": 288.0,
+        "mean_abs_error_inr": 1172.0,
+        "within_10pct_share": 0.567
+      },
+      "baseline": {
+        "top_pick_accuracy": 0.2,
+        "mean_regret_inr": 3724.0,
+        "mean_abs_error_inr": 6545.0,
+        "within_10pct_share": 0.067
+      }
+    },
+    "rows": {
+      "crew": [
+        {
+          "persona": "p1_amazon_prime",
+          "gold_top": "swiggy_hdfc_blck",
+          "pred_top": "swiggy_hdfc_blck",
+          "regret": 0.0,
+          "gold_values": [
+            8400.0,
+            2050.0,
+            9720.0,
+            9360.0,
+            9740.0,
+            9720.0
+          ],
+          "pred_values": [
+            8400.0,
+            -590.0,
+            9360.0,
+            9360.0,
+            9380.0,
+            9360.0
+          ],
+          "abs_errors": [
+            0.0,
+            2640.0,
+            360.0,
+            0.0,
+            360.0,
+            360.0
+          ]
+        },
+        {
+          "persona": "p2_food_delivery",
+          "gold_top": "swiggy_hdfc_blck",
+          "pred_top": "swiggy_hdfc_blck",
+          "regret": 0.0,
+          "gold_values": [
+            2520.0,
+            1930.0,
+            7800.0,
+            9720.0,
+            11900.0,
+            8280.0
+          ],
+          "pred_values": [
+            3000.0,
+            -590.0,
+            9720.0,
+            9720.0,
+            13340.0,
+            8280.0
+          ],
+          "abs_errors": [
+            480.0,
+            2520.0,
+            1920.0,
+            0.0,
+            1440.0,
+            0.0
+          ]
+        },
+        {
+          "persona": "p3_rent_big_spender",
+          "gold_top": "swiggy_hdfc_ornge",
+          "pred_top": "swiggy_hdfc_ornge",
+          "regret": 0.0,
+          "gold_values": [
+            6120.0,
+            8520.0,
+            9000.0,
+            18600.0,
+            17900.0,
+            19080.0
+          ],
+          "pred_values": [
+            7920.0,
+            3000.0,
+            15720.0,
+            15000.0,
+            17420.0,
+            18600.0
+          ],
+          "abs_errors": [
+            1800.0,
+            5520.0,
+            6720.0,
+            3600.0,
+            480.0,
+            480.0
+          ]
+        },
+        {
+          "persona": "p4_flipkart_offline",
+          "gold_top": "hdfc_millennia",
+          "pred_top": "hdfc_millennia",
+          "regret": 0.0,
+          "gold_values": [
+            3240.0,
+            7800.0,
+            8040.0,
+            7800.0,
+            6860.0,
+            8040.0
+          ],
+          "pred_values": [
+            3000.0,
+            5410.0,
+            7800.0,
+            7800.0,
+            6620.0,
+            7800.0
+          ],
+          "abs_errors": [
+            240.0,
+            2390.0,
+            240.0,
+            0.0,
+            240.0,
+            240.0
+          ]
+        },
+        {
+          "persona": "p5_light_online",
+          "gold_top": "swiggy_hdfc_ornge",
+          "pred_top": "hdfc_millennia",
+          "regret": 1440.0,
+          "gold_values": [
+            3000.0,
+            1930.0,
+            3960.0,
+            4221.18,
+            4220.0,
+            5400.0
+          ],
+          "pred_values": [
+            3360.0,
+            610.0,
+            5400.0,
+            4221.18,
+            4220.0,
+            5400.0
+          ],
+          "abs_errors": [
+            360.0,
+            1320.0,
+            1440.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "baseline": [
+        {
+          "persona": "p1_amazon_prime",
+          "gold_top": "swiggy_hdfc_blck",
+          "pred_top": "amazon_pay_icici",
+          "regret": 1340.0,
+          "gold_values": [
+            8400.0,
+            2050.0,
+            9720.0,
+            9360.0,
+            9740.0,
+            9720.0
+          ],
+          "pred_values": [
+            1440.0,
+            0.0,
+            0.0,
+            0.0,
+            2280.0,
+            1680.0
+          ],
+          "abs_errors": [
+            6960.0,
+            2050.0,
+            9720.0,
+            9360.0,
+            7460.0,
+            8040.0
+          ]
+        },
+        {
+          "persona": "p2_food_delivery",
+          "gold_top": "swiggy_hdfc_blck",
+          "pred_top": "swiggy_hdfc_blck",
+          "regret": 0.0,
+          "gold_values": [
+            2520.0,
+            1930.0,
+            7800.0,
+            9720.0,
+            11900.0,
+            8280.0
+          ],
+          "pred_values": [
+            2160.0,
+            2160.0,
+            2160.0,
+            2160.0,
+            5420.0,
+            12010.0
+          ],
+          "abs_errors": [
+            360.0,
+            230.0,
+            5640.0,
+            7560.0,
+            6480.0,
+            3730.0
+          ]
+        },
+        {
+          "persona": "p3_rent_big_spender",
+          "gold_top": "swiggy_hdfc_ornge",
+          "pred_top": "hdfc_millennia",
+          "regret": 10080.0,
+          "gold_values": [
+            6120.0,
+            8520.0,
+            9000.0,
+            18600.0,
+            17900.0,
+            19080.0
+          ],
+          "pred_values": [
+            0.0,
+            1990.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "abs_errors": [
+            6120.0,
+            6530.0,
+            9000.0,
+            18600.0,
+            17900.0,
+            19080.0
+          ]
+        },
+        {
+          "persona": "p4_flipkart_offline",
+          "gold_top": "hdfc_millennia",
+          "pred_top": "amazon_pay_icici",
+          "regret": 4800.0,
+          "gold_values": [
+            3240.0,
+            7800.0,
+            8040.0,
+            7800.0,
+            6860.0,
+            8040.0
+          ],
+          "pred_values": [
+            4800.0,
+            -590.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "abs_errors": [
+            1560.0,
+            8390.0,
+            8040.0,
+            7800.0,
+            6860.0,
+            8040.0
+          ]
+        },
+        {
+          "persona": "p5_light_online",
+          "gold_top": "swiggy_hdfc_ornge",
+          "pred_top": "amazon_pay_icici",
+          "regret": 2400.0,
+          "gold_values": [
+            3000.0,
+            1930.0,
+            3960.0,
+            4221.18,
+            4220.0,
+            5400.0
+          ],
+          "pred_values": [
+            5400.0,
+            3490.0,
+            4200.0,
+            3600.0,
+            1800.0,
+            1800.0
+          ],
+          "abs_errors": [
+            2400.0,
+            1560.0,
+            240.0,
+            621.1800000000003,
+            2420.0,
+            3600.0
+          ]
+        }
+      ]
+    },
+    "usage": {
+      "total": {
+        "prompt_tokens": 29892,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 4306,
+        "reasoning_tokens": 0,
+        "requests": 5,
+        "est_cost_usd": 0.0418
+      },
+      "by_step": {
+        "baseline_recommend (gpt-5.4-mini)": {
+          "prompt_tokens": 29892,
+          "cached_prompt_tokens": 0,
+          "completion_tokens": 4306,
+          "reasoning_tokens": 0,
+          "requests": 5,
+          "est_cost_usd": 0.041796
+        }
+      }
+    }
+  },
+  "qa": {
+    "summary": {
+      "agent": {
+        "faithfulness": 0.975,
+        "faithfulness_n": 8,
+        "context_recall": 0.958,
+        "context_recall_n": 8,
+        "context_precision": 0.842,
+        "context_precision_n": 8,
+        "factual_correctness": 0.588,
+        "factual_correctness_n": 8,
+        "avg_seconds": 6.8
+      },
+      "baseline": {
+        "faithfulness": 1.0,
+        "faithfulness_n": 8,
+        "context_recall": 0.958,
+        "context_recall_n": 8,
+        "context_precision": 0.765,
+        "context_precision_n": 8,
+        "factual_correctness": 0.506,
+        "factual_correctness_n": 8,
+        "avg_seconds": 2.1
+      }
+    },
+    "samples": {
+      "agent": [
+        {
+          "id": "q01",
+          "card_id": "sbi_cashback",
+          "question": "What is the maximum cashback I can earn per statement cycle on the Cashback SBI Card?",
+          "reference": "From 1 April 2026 total cashback is capped at Rs 4,000 per statement cycle: up to Rs 2,000 on online spends (5%) and up to Rs 2,000 on offline spends (1%).",
+          "answer": "The maximum cashback that may be earned on online transactions in a statement cycle is ₹2,000, and on offline transactions in a statement cycle is ₹2,000; under no circumstances shall the aggregate cashback in a single statement cycle exceed ₹4,000. The newer revision keeps the same cap: “Maximum Cashback per statement cycle” is ₹4,000. [sbi_cashback_tnc.pdf p.14] [sbi_cashback_revision_2026-04.pdf p.1]",
+          "contexts": [
+            "[sbi_cashback_tnc.pdf p.14] Cashback SBI Card | Section: CASHBACK SBI Card FAQ’S\n\nAns: The maximum cashback that may be earned on online transactions in a statement cycle is `2,000. The maximum cashback that may be earned on Offline transactions in a statement cycle is `2,000. Under no circumstances shall the aggregate cashback in a single statement cycle exceed `4,000.\n\n- For example: If your statement generation date is 11th July, the transactions posted from 12th June to 11th July will be considered under this statement cycle and all eligible online transactions during this period will accrue 5% Cashback and all eligible offline transactions will accrue 1% Cashback. The maximum card cashback that can be earned cumulative of online and offline spends is `4,000. Within the same statement period, all transactions posted after reaching the respective cashback limit of Online (`2,000) and Offline (`2,000) will not accrue any cashback till 11th July.\n\n- Note: Card Cashback is accrued on posting/settlement date of transaction and not on effective date of transaction and accordingly Card Cashback will get accrued on account as per applicable cashback structure at the time of transaction posting.\n\n13. My cashback for current statement shows negative balance. What does it mean? Ans: Your Cashback will be reversed in case of purchase cancellations, reversals and returns. The reversal amount for such transactions will be adjusted/debited in your monthly statement.\n\n- For instance: An online transaction posted on 10th June of ` 40,000 would be eligible for a Card Cashback of 5% i.e. ` 2,000, assuming the statement was generated on 11th June. In that case, the Card Cashback of ` 2,000 will be posted to your account on 13th June.",
+            "[sbi_cashback_revision_2026-04.pdf p.1] Cashback SBI Card\n\nRevision in the benefits of CASHBACK SBI Card\n\nWith effect from 1st April 2026, following revisions will be applicable to your CASHBACK SBI Card:\n\nThe maximum Cashback* that can be earned in a statement cycle will be capped at `4,000, as follows:\n\n|Spend Type|Cashback (%)|Max. Cashback (`)|\n|---|---|---|\n|Online|5%|`2,000|\n|Offline (POS at Merchant Outlets)|1%|`2,000|\n|Maximum Cashback per statement cycle|-|`4,000|\n\nCashback will not be applicable on spends at Digital Gaming Platforms/Merchants, Tolls and Governmentrelated Transactions, in addition to existing exclusions.\n\n|Category|Merchant Category Codes (MCCs)|\n|---|---|\n|Digital Gaming Platforms/ Merchants|7993, 7994, 5816|\n|Tolls|4784|\n|Government related Transactions|9222, 9311, 9402|\n\nThe Merchant Category Codes are defined by the Networks and are subject to change basis their discretion and such changes shall be implemented basis communication from the Networks without any requirement for intimation/information to the customers.\n\n> *Cashback not applicable on Merchant EMI & Flexipay EMI transactions and on following categories: Utility, insurance, Fuel, Rent, Wallet, School & Educational Services, Jewelry, Railways etc. For complete list of exclusions, click here",
+            "[sbi_cashback_tnc.pdf p.36] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- e) Cashback earned for the purchases during the current billing statement month will be credited in the next billing statement month on statement generation date plus two days i.e. if the statement date is 15th Feb, cashback earned in the Feb month cycle (16th Jan-15th Feb) will be credited on 17th Feb.\n\n- f) Cashback earned will be computed based on spends during the statement period minus any returns or refunds during the same period. In case the cardholder reverses a transaction, the corresponding cashback earned on the transaction will also be reversed and in case the cardholder has an outstanding balance on credit card in the form of reversed cashback, the same will be treated as an ordinary outstanding balance and the customer will be liable to pay for such outstanding amount, failing which the said amount will attract the fees & charges as per the schedule of charges defined in the Most Important Terms and Conditions.\n\n- g) In case the purchase/transaction is returned/cancelled/reversed post statement generation date, cashback toward such transactions will be posted to the cardholder's SBI Card account within two days of the statement generation.\n\n- h) In case of conversion of a transaction to EMI at a later date, cashback earned on such transaction will be reversed during the same billing statement month as EMI conversion.\n\n- i) The cashbacks earned/reversed during a billing statement month will be visible in the monthly credit card billing statement.\n\n- j) Maximum Card Cashback that can be earned on online and offline spends in a statement cycle is capped at ₹4,000. Post reaching the capping limit, cardholder will not earn any cashback for that statement cycle.",
+            "[sbi_cashback_tnc.pdf p.37] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- v) The Card Cashback will be rounded down for each individual transaction. For e.g., for an eligible online transaction of ₹2,999, the 5% Card Cashback would be calculated as following: 5% Card Cashback= ₹2,999 * 5% = ₹149 (rounded down from ₹149.95)\n\n- w) The cashback shall not be applicable if the Card has been withdrawn or cancelled or is liable to be cancelled or the account of the Cardholder is a delinquent Account.\n\n- x) SBI Card’s computation of the Cashback shall be final, conclusive and binding on a Cardholder and will not be liable to be disputed or questioned.\n\n- y) The terms contained in this document shall be in addition to and not in derogation of the Most Important Terms and Conditions document.\n\n- z) The cashback proposition is made available at the discretion of SBI Card and SBI Card expressly reserves the right at any time and with notice to Card members, to add to and/or alter, modify, change or vary all or any of these Terms and Conditions or to replace wholly or in part, the Cashback Program by another Program, or to withdraw it altogether.\n\n- 11.2 Additional Terms and Conditions under Card Cashback Program\n\n- (a) The limit / cap on Card Cashback which can be earned as per a monthly billing cycle can’t be exceeded under any circumstances. In case a Cardholder for a billing cycle has achieved his/her Card Cashback limit, but the Cardholder cancels any of the settled transactions through which it has received the cashback, then the cashback for such cancelled transaction will also be reversed and the Cardholder can’t claim any further cashback for any settled transactions done during the monthly billing cycle.\n\n- 11.3 Eligibility",
+            "[sbi_cashback_tnc.pdf p.34] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n## 11. CARD CASHBACK\n\n11.1 Card Cashback Program\n\n- a) SBI Card Cashback Program (“the Program”) allows eligible CASHBACK SBI Card (“Cardholder/s”) to earn Card Cashback from spending on their CASHBACK SBI Card, as determined by SBI Cards and Payment Services Limited (“SBICPSL”) from time to time. Card Cashback earned on such SBI Card is directly credited to the SBI Card account within two working days of the statement generation.\n\n- b) The cashbacks will be processed according to the following table:\n\n|Spends|Cashback|\n|---|---|\n|Online Spends|5%|\n|Offline Spends|1%|\n\nc) Online Spends will be identified basis the online indicators sent by Card Networks (VISA, Rupay. Etc.) and acquirer. Any transaction not categorized as online would be termed as offline. The MCCs are defined by the networks and are subjected to change basis their discretion and such changes shall be implemented basis communication from the Networks without any requirement for intimation/information to the customers.\n\n- d) Cashback shall not be earned for following spends/transactions on the card,\n\n- Any purchases at petrol pumps/service stations (MCCs: 5172, 5541, 5542, 5983)\n\n- Balance transfers, Balance Transfer on EMIs\n\n- Cash advances\n\n- Financial charges (e.g., late payment fee, dishonored cheque charges, service fee, transaction charges etc.)\n\n- Disputed transactions\n\n- Encash\n\n- ATM Withdrawals\n\n- E wallet loading transactions identified under MCCs 6540 and 6541\n\n- Payments towards Rent/property management under MCCs 6513 and 7349\n\n- Jewelry transactions identified under MCCs 5051, 5094, 7631, 5944\n\n- School and Educational Services transactions identified under MCCs 5111, 5192, 5942, 5943, 8211, 8220, 8241, 8244, 8249, 8299, 8351\n\n- Utility transactions identified under MCCs 4900, 4814, 4816, 4899, 9399",
+            "[sbi_common_mitc.pdf p.33-34] Cashback SBI Card | Section: O. Balance Transfer:\n\nCredit Limit and Cash Limit are assigned to Cardholders based on internal SBICPSL credit criteria (Add-On cardholders share the same limits as that of the Primary Account Holder). These limits are communicated to the cardholder at the time of card delivery. The Credit Limit and Cash Limits are communicated to the Cardholder in every statement. The Available Credit Limit (i.e. the Credit Limit available for use) at the time of the statement generation is provided as a part of the statement. SBICPSL will review the Cardholder account periodically, and increase or decrease the Cardholder credit limit based on internal criteria. Cardholders seeking to have their credit limit increased can do so by writing to SBICPSL and providing financial documents declaring their income. SBICPSL, at it’s sole discretion and based on such new documents provided, may increase the Credit Limit of the Cardholder.\n\n3. *BILLING AND STATEMENT\n\n- a) SBICPSL will send the Cardholder a monthly statement showing the payments credited and the transactions debited to the Cardholder’s Account since the last statement, provided the card has been active\n\nduring the said period. SBICPSL will either mail a statement of transactions in the card account to the mailing address it has on record, or send a statement through email to the email id on record, on a pre-determined date."
+          ],
+          "seconds": 5.9,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.999999999975,
+            "factual_correctness": 0.8
+          },
+          "errors": {}
+        },
+        {
+          "id": "q02",
+          "card_id": "sbi_cashback",
+          "question": "Which spends don't earn cashback on the Cashback SBI Card?",
+          "reference": "No cashback on Merchant EMI and Flexipay EMI transactions, utility, insurance, fuel, rent, wallet, school and educational services, jewellery and railways. From 1 April 2026 digital gaming platforms, tolls and government-related transactions are also excluded.",
+          "answer": "On the Cashback SBI Card, cashback is not earned on fuel/petrol pump spends, balance transfers and balance transfer on EMIs, cash advances, financial charges, disputed transactions, encash, ATM withdrawals, e-wallet loading, rent/property management, jewelry, school and educational services, and utility transactions. It is also not applicable on insurance, card/gift/novelty/souvenir shop, railways, member financial institution/quasi-cash, digital gaming platforms/merchants, tolls, government-related transactions, standing instruction/Fetch and Pay payments on SBI Card platforms, Flexipay, and merchant EMI transactions. [sbi_cashback_tnc.pdf p.34-35]",
+          "contexts": [
+            "[sbi_cashback_tnc.pdf p.34-35] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- Insurance transactions identified under MCCs 5960, 6300, 6381\n\n- Card, Gift, Novelty & Souvenir Shops transactions identified under MCC 5947\n\n- Railways transactions identified under MCCs 4011, 4112\n\n- Member Financial Institution/Quasi Cash transactions identified under MCCs 6011, 6012, 6051\n\n- Payments made using Standing Instructions / Fetch and Pay on SBI Card platforms (Website /\n\nMobile App / Chatbot ILA)\n\n- Flexipay Transactions\n\n- Merchant EMI i.e. EMI’s availed at the time of purchase at Merchant establishment or websites. (Card Cashback reversed for Flexipay/Merchant EMI will be credited back to account only when the respective Flexipay/Merchant EMI has been successfully cancelled by the cardholder. In the event of Foreclosure of Flexipay/Merchant EMI, no Card Cashback will be credited back in any scenario)\n\n- For instance, if the Cardholder spends 45,000 in a billing statement month with the following break up of spends.\n\nOnline spends: ₹35,000 | Offline spends: ₹10,000\n\nOf the said Online Spends, ₹10,000 was an EMI purchase.\n\nThus, the total spends eligible for cashback would only be ₹10,000 + ₹35,000 – ₹10,000 (EMI transaction) = ₹35,000. The cashback for the billing statement month in example would be calculated as follows:\n\n- 5% of ₹25,000 = ₹1,250\n\n- 1% of ₹10,000 = ₹100\n\nThus, the total cashback for the example would be ₹1250+100 = ₹1,350\n\nAll identification of eligible and non-eligible transactions regarding Card Cashback by SBICPL are on best effort basis and may be subject to technical limitations. Further, MCCs are defined by network and are subject to change basis network discretion.\n\nBelow categories will not be eligible for Cashback benefit:\n\n|Category|Merchant Category Code (MCC)|\n|---|---|\n|Fuel|5172, 5541, 5542, 5983|\n|Wallet|6540, 6541|\n|Rental|6513, 7349|\n|Jewelry|5051, 5094, 7631, 5944|\n|School & Educational Services|5111, 5192, 5942, 5943, 8211, 8220, 8241, 8244, 8249, 8299, 8351|\n|Utility|4900, 4814, 4816, 4899, 9399|\n|Insurance|5960, 6300, 6381|\n|Card, Gift, Novelty & Souvenir Shops|5947|\n|Railways|4011, 4112|\n|Member Financial Institution/Quasi Cash|6011, 6012, 6051|\n|Digital Gaming Platforms/Merchants|7993, 7994, 5816|\n|Tolls|4784|\n|Government related Transactions|9222, 9311, 9402|",
+            "[sbi_cashback_tnc.pdf p.34] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n## 11. CARD CASHBACK\n\n11.1 Card Cashback Program\n\n- a) SBI Card Cashback Program (“the Program”) allows eligible CASHBACK SBI Card (“Cardholder/s”) to earn Card Cashback from spending on their CASHBACK SBI Card, as determined by SBI Cards and Payment Services Limited (“SBICPSL”) from time to time. Card Cashback earned on such SBI Card is directly credited to the SBI Card account within two working days of the statement generation.\n\n- b) The cashbacks will be processed according to the following table:\n\n|Spends|Cashback|\n|---|---|\n|Online Spends|5%|\n|Offline Spends|1%|\n\nc) Online Spends will be identified basis the online indicators sent by Card Networks (VISA, Rupay. Etc.) and acquirer. Any transaction not categorized as online would be termed as offline. The MCCs are defined by the networks and are subjected to change basis their discretion and such changes shall be implemented basis communication from the Networks without any requirement for intimation/information to the customers.\n\n- d) Cashback shall not be earned for following spends/transactions on the card,\n\n- Any purchases at petrol pumps/service stations (MCCs: 5172, 5541, 5542, 5983)\n\n- Balance transfers, Balance Transfer on EMIs\n\n- Cash advances\n\n- Financial charges (e.g., late payment fee, dishonored cheque charges, service fee, transaction charges etc.)\n\n- Disputed transactions\n\n- Encash\n\n- ATM Withdrawals\n\n- E wallet loading transactions identified under MCCs 6540 and 6541\n\n- Payments towards Rent/property management under MCCs 6513 and 7349\n\n- Jewelry transactions identified under MCCs 5051, 5094, 7631, 5944\n\n- School and Educational Services transactions identified under MCCs 5111, 5192, 5942, 5943, 8211, 8220, 8241, 8244, 8249, 8299, 8351\n\n- Utility transactions identified under MCCs 4900, 4814, 4816, 4899, 9399",
+            "[sbi_cashback_revision_2026-04.pdf p.1] Cashback SBI Card\n\nRevision in the benefits of CASHBACK SBI Card\n\nWith effect from 1st April 2026, following revisions will be applicable to your CASHBACK SBI Card:\n\nThe maximum Cashback* that can be earned in a statement cycle will be capped at `4,000, as follows:\n\n|Spend Type|Cashback (%)|Max. Cashback (`)|\n|---|---|---|\n|Online|5%|`2,000|\n|Offline (POS at Merchant Outlets)|1%|`2,000|\n|Maximum Cashback per statement cycle|-|`4,000|\n\nCashback will not be applicable on spends at Digital Gaming Platforms/Merchants, Tolls and Governmentrelated Transactions, in addition to existing exclusions.\n\n|Category|Merchant Category Codes (MCCs)|\n|---|---|\n|Digital Gaming Platforms/ Merchants|7993, 7994, 5816|\n|Tolls|4784|\n|Government related Transactions|9222, 9311, 9402|\n\nThe Merchant Category Codes are defined by the Networks and are subject to change basis their discretion and such changes shall be implemented basis communication from the Networks without any requirement for intimation/information to the customers.\n\n> *Cashback not applicable on Merchant EMI & Flexipay EMI transactions and on following categories: Utility, insurance, Fuel, Rent, Wallet, School & Educational Services, Jewelry, Railways etc. For complete list of exclusions, click here",
+            "[sbi_cashback_tnc.pdf p.37] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- v) The Card Cashback will be rounded down for each individual transaction. For e.g., for an eligible online transaction of ₹2,999, the 5% Card Cashback would be calculated as following: 5% Card Cashback= ₹2,999 * 5% = ₹149 (rounded down from ₹149.95)\n\n- w) The cashback shall not be applicable if the Card has been withdrawn or cancelled or is liable to be cancelled or the account of the Cardholder is a delinquent Account.\n\n- x) SBI Card’s computation of the Cashback shall be final, conclusive and binding on a Cardholder and will not be liable to be disputed or questioned.\n\n- y) The terms contained in this document shall be in addition to and not in derogation of the Most Important Terms and Conditions document.\n\n- z) The cashback proposition is made available at the discretion of SBI Card and SBI Card expressly reserves the right at any time and with notice to Card members, to add to and/or alter, modify, change or vary all or any of these Terms and Conditions or to replace wholly or in part, the Cashback Program by another Program, or to withdraw it altogether.\n\n- 11.2 Additional Terms and Conditions under Card Cashback Program\n\n- (a) The limit / cap on Card Cashback which can be earned as per a monthly billing cycle can’t be exceeded under any circumstances. In case a Cardholder for a billing cycle has achieved his/her Card Cashback limit, but the Cardholder cancels any of the settled transactions through which it has received the cashback, then the cashback for such cancelled transaction will also be reversed and the Cardholder can’t claim any further cashback for any settled transactions done during the monthly billing cycle.\n\n- 11.3 Eligibility",
+            "[sbi_cashback_tnc.pdf p.36] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- k) If a Cardholder's card is terminated at any time for any reason, whether by the primary Cardholder or SBI Card, the primary Cardholder will forthwith be disqualified from earning the cashback and all the Card Cashback not posted to the Cardholder's SBI Card account shall automatically be forfeited immediately after voluntary or involuntary cancellation of the CASHBACK SBI Card.\n\n- l) The SBI Card must not be overdue, suspended, blocked, cancelled or terminated by SBICPSL at the time of the posting of the Card Cashback in the Cardholder's SBI Card account.\n\n- m) The Card Cashback accrued will be credited in the Primary Cardholder’s account, and not in the Additional Cardholder's SBI Card account.\n\n- n) In case CASHBACK SBI Card holder transfers to any other SBI Card then the Card Cashback earned but not posted to the SBI Cardholder's account would be posted to the Cardholder's account within two working days of the transfer.\n\n- In case of flipping / transfer from any other variant of SBI Credit card to CASHBACK SBI Card, the reward points accrued and not redeemed on such variant would expire immediately upon such flipping / transfer. All reward points are required to be redeemed prior to transferring / flipping to CASHBACK SBI Card.\n\n- o) The Credit Card is issued for personal expenses and purposes only. The Cardholder must not use the Credit Card to purchase anything for resale, for commercial or business purposes. The Credit Card should be used only for lawful, bona fide personal purposes and must not be used for any money laundering, anti-social or speculative activities or must not be exploited commercially in business (e.g. for working capital purposes).",
+            "[sbi_cashback_tnc.pdf p.37-38] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- (a) The Program is open to holders of CASHBACK SBI Card, whose accounts are valid and in good standing so determined by SBICPSL.\n\n- (b) The Card Cashback earned by an Additional Cardholder (Add On Card) will accrue to the account of the Primary Cardholder\n\n- 11.4 Enrolment\n\n- (a) Participation in the Program is voluntary.\n\n- (b) The Cardholder may opt out of the Program by sending intimation (telephonic or written) to SBICPSL.\n\n- (c) The Cardholder may continue to use his/her CASHBACK SBI Card as he/she normally does.\n\n- (d) The Annual Fee for participation in the Program may be as determined by SBICPSL from time to time.\n\n- (e) Enrolment Date - shall mean the date of launch of the Program for the existing Cardholders and the account set up date by SBICPSL for the new Cardholders.\n\n- (f) Enrolment Year - shall mean “any twelve-month period” commencing on the Enrolment Date.\n\n- 11.5 Card Cashback\n\n- (a) A Cardholder cannot accrue Card Cashback for any charge incurred prior to his/her Enrolment Date.\n\n- (b) Card Cashback earned by a Cardholder on an SBI Card cannot be combined or used in conjunction with Points of his/her other SBI Cards at the time of redemption or transferred to any other customer loyalty program unless otherwise notified by SBICPSL.\n\n- (c) The Card Cashback do not constitute property of the Cardholder and are not transferable by operation of law or otherwise to any other person or entity.\n\n- (d) Adjustments will be made to the Card Cashback if there are any credits, including those arising from returned goods or services or billing disputes. If a disputed transaction is resolved in favour of the Cardholder or where a transaction is reversed, proportionate Card Cashback will also be reversed and posted to the Cardholder."
+          ],
+          "seconds": 13.1,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.9266666666481335,
+            "factual_correctness": 0.65
+          },
+          "errors": {}
+        },
+        {
+          "id": "q03",
+          "card_id": "hdfc_millennia",
+          "question": "Which merchants give 5% cashback on the HDFC Millennia credit card?",
+          "reference": "Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber and Zomato, on non-EMI spends.",
+          "answer": "The HDFC Millennia Credit Card gives 5% cashback on Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber and Zomato. The card also says 5% cashback is only for non-EMI spends in these merchants, with Uber limited to travel/commute-related spends and MCC 4121. [hdfc_millennia_tnc_2026-07.pdf p.1] [hdfc_millennia_tnc_2026-07.pdf p.2]",
+          "contexts": [
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n## 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- 10 online merchants qualifying for 5% CashBack are Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber & Zomato\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- The Cardholder can earn up to 1,000 CashPoints under the 5% CashBack on 10 online merchants in a calendar month.\n\n- CashBack of 5% on 10 merchants are calculated basis the Terminal / merchant IDs (TIDs & MIDs) shared by the respective merchant partners. If in case the TID / MID is not available in the set-up, such transactions will not qualify for the benefit.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- Incase the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the equivalent CashPoints will be reversed/adjusted under the 5% CashPoints category.\n\n- CashPoints shall not be eligible for the following spends on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` Smart EMI / Dial an EMI transaction",
+            "[hdfc_millennia_tnc_2026-07.pdf p.1] HDFC Bank Millennia Credit Card | Section: Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## CashBack Proposition\n\nDefinition: For the Millennia Credit Card, the following terms, unless the context otherwise admits, shall have the following meanings:\n\n- CashBack shall mean the CashPoints awarded in the customer’s credit card account under the reward points scheme.\n\n- CashBack will be processed as per the following table:\n\n|Spends on|CashBack|Maximum CashBack / CashPointsper Cycle|\n|---|---|---|\n|CashBack on Amazon, BookMyShow, Cult.fit,|5%|1000|\n|Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ,|||\n|Uber & Zomato*|||\n|Other Spends (except Fuel, EMI, Wallet,|1%|1000|\n|Rentpayments,Govt related txns)|||\n\n- CashBack valid only for non-emi spends in the 10 online merchants.\n\n- Gift or Prepaid Card loads & Voucher Purchase transactions will be considered in other spends category.\n\nNote:\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card\n\n- Effective 1st September 2024, Education payments made through third-party apps will NOT earn Reward Points. However, education payments made directly through college/school websites or their POS machines will earn Reward Points. Education MCCs: 8211,8220,8241,8244,8249,8299\n\n- Effective 1st September 2024, Wallet loading and EMI transactions will NOT earn Reward Points. Wallet MCC: 6540\n\nNote : Cardholder can redeem CashPoints as CashBack against their outstanding on the Millennia Credit Card.The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- A cardholder will be eligible for 1% CashPoints as per product feature if he/she does a transaction through SmartBuy/PayZapp which includes transaction from 10 online merchants also. All other existing SmartBuy/PayZapp offers will be applicable as per SmartBuy/PayZapp Terms & Conditions.\n\n- A cardholder will be eligible for 1% CashPoints on prepaid card/gift Card/ and/ or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners) will not be considered under 5% CashPoints even if it is from the 10 online merchants.\n\n- The 5% CashPoints on Uber is eligible for travel/commute related spends. The Uber transactions carried out through the MCC code of 4121 (as defined by card networks Visa, MasterCard, RuPay and Diners) will only be considered for 5% CashPoints.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n## 1% CashBack on other spends – Terms & Conditions\n\n- 1% cashback on all other spends excluding Fuel, Wallet, EMI, govt, rental transactions.\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the subsequent month 1st week.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- CashPoints shall not be eligible for the following spends/transactions on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` All EMI transactions(even if preclosed) including Smart EMI / Dial an EMI transaction\n\n- The Cardholder can earn up to 1,000 CashPoints under the 1% CashBack on other spends in a calendar month.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- In case the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the CashPoints will be reversed from next month earning under the 1% CashPoints category.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.4] HDFC Bank Millennia Credit Card | Section: Other Benefits –Terms & Conditions\n\n## Other Benefits –Terms & Conditions\n\n- Welcome Benefit of 1000 CashPoints will be given to the cardholder if the joining membership fee is paid.\n\n- There will be no cashpoints posting for renewal membership fee payments.\n\n- 1% Fuel Surcharge waiver on fuel transactions (Minimum transaction of ₹400, Maximum transaction of ₹5,000 & Maximum waiver of ₹250 per statement cycle). The rate of surcharge may vary depending on the fuel station and their acquiring bank. Taxes as applicable shall apply further. In any case, Bank shall be giving a maximum waiver of 1% in case of any dispute, subject to limit applicable limits.\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.3-4] HDFC Bank Millennia Credit Card | Section: Milestone Benefit – Terms & Conditions\n\n## Milestone Benefit – Terms & Conditions\n\n- Cardholder will be eligible if he/she achieves the Net spends (Spends minus Reversals) target of ₹1 lac within the specified calendar quarter.\n\n- The calendar quarter are January to March, April to June, July to September, October to December.\n\n- The transaction settled from the merchant within the calendar quarter will be eligible for considering the target achievement and settlement/Posting date of the transaction\n\n- EMI Principal amount paid during the calendar quarter only will be considered under spend target achievement.\n\n- SmartEMI/Dial An EMI (DAE) amount will not considered under this Milestone benefit achievement.\n\n- Cardholder can view the spends achievement via Net Banking. Please follow the path to check: Net banking login -> cards ->Enquire ->Redeem Reward Points -> Select Card -> My Rewards -> Spend Promo Details\n\n- Once cardholder is eligible post achieving the target, voucher message will be triggered to registered phone number & email ID within 30 working days.\n\n- The voucher message triggered to the customer through SMS & Email will be valid and active only for 120 days from the triggered date.\n\n- The cardholder needs to select from the available voucher options. He/she can choose by replying back to the specified number with the option to get the voucher or visit the vendor page by clicking on the link available in the message/email for selecting the voucher of his/her choice.\n\n- The sample SMS which the card holder will receive: `o` Congrats! You are eligible for a Free Gift Voucher worth INR 1000 on your HDFC Bank Millennia Credit Card.\n\nTo claim, SMS:\n\nMILNIA A for Big Basket\n\nMILNIA B for BookMyShow\n\nMILNIA C for Pizza Hut\n\nMILNIA D for PVR MILNIA\n\nE for Uber\n\nAnd send to 53030."
+          ],
+          "seconds": 6.4,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.9999999999666667,
+            "factual_correctness": 0.33
+          },
+          "errors": {}
+        },
+        {
+          "id": "q04",
+          "card_id": "hdfc_millennia",
+          "question": "How much 5% cashback can I earn per cycle on HDFC Millennia, and what is the cap on the 1% category?",
+          "reference": "5% cashback is capped at 1,000 CashPoints per cycle, and 1% cashback on other spends is capped at 1,000 CashPoints per calendar month.",
+          "answer": "On HDFC Bank Millennia Credit Card, the 5% cashback category is capped at 1,000 CashPoints per calendar month, which equals ₹1,000. The 1% category is also capped at 1,000 CashPoints per calendar month. [hdfc_millennia_tnc_2026-07.pdf p.2] [hdfc_millennia_tnc_2026-07.pdf p.3]",
+          "contexts": [
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n## 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- 10 online merchants qualifying for 5% CashBack are Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber & Zomato\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- The Cardholder can earn up to 1,000 CashPoints under the 5% CashBack on 10 online merchants in a calendar month.\n\n- CashBack of 5% on 10 merchants are calculated basis the Terminal / merchant IDs (TIDs & MIDs) shared by the respective merchant partners. If in case the TID / MID is not available in the set-up, such transactions will not qualify for the benefit.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- Incase the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the equivalent CashPoints will be reversed/adjusted under the 5% CashPoints category.\n\n- CashPoints shall not be eligible for the following spends on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` Smart EMI / Dial an EMI transaction",
+            "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n## 1% CashBack on other spends – Terms & Conditions\n\n- 1% cashback on all other spends excluding Fuel, Wallet, EMI, govt, rental transactions.\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the subsequent month 1st week.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- CashPoints shall not be eligible for the following spends/transactions on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` All EMI transactions(even if preclosed) including Smart EMI / Dial an EMI transaction\n\n- The Cardholder can earn up to 1,000 CashPoints under the 1% CashBack on other spends in a calendar month.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- In case the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the CashPoints will be reversed from next month earning under the 1% CashPoints category.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.1] HDFC Bank Millennia Credit Card | Section: Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## CashBack Proposition\n\nDefinition: For the Millennia Credit Card, the following terms, unless the context otherwise admits, shall have the following meanings:\n\n- CashBack shall mean the CashPoints awarded in the customer’s credit card account under the reward points scheme.\n\n- CashBack will be processed as per the following table:\n\n|Spends on|CashBack|Maximum CashBack / CashPointsper Cycle|\n|---|---|---|\n|CashBack on Amazon, BookMyShow, Cult.fit,|5%|1000|\n|Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ,|||\n|Uber & Zomato*|||\n|Other Spends (except Fuel, EMI, Wallet,|1%|1000|\n|Rentpayments,Govt related txns)|||\n\n- CashBack valid only for non-emi spends in the 10 online merchants.\n\n- Gift or Prepaid Card loads & Voucher Purchase transactions will be considered in other spends category.\n\nNote:\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card\n\n- Effective 1st September 2024, Education payments made through third-party apps will NOT earn Reward Points. However, education payments made directly through college/school websites or their POS machines will earn Reward Points. Education MCCs: 8211,8220,8241,8244,8249,8299\n\n- Effective 1st September 2024, Wallet loading and EMI transactions will NOT earn Reward Points. Wallet MCC: 6540\n\nNote : Cardholder can redeem CashPoints as CashBack against their outstanding on the Millennia Credit Card.The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- A cardholder will be eligible for 1% CashPoints as per product feature if he/she does a transaction through SmartBuy/PayZapp which includes transaction from 10 online merchants also. All other existing SmartBuy/PayZapp offers will be applicable as per SmartBuy/PayZapp Terms & Conditions.\n\n- A cardholder will be eligible for 1% CashPoints on prepaid card/gift Card/ and/ or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners) will not be considered under 5% CashPoints even if it is from the 10 online merchants.\n\n- The 5% CashPoints on Uber is eligible for travel/commute related spends. The Uber transactions carried out through the MCC code of 4121 (as defined by card networks Visa, MasterCard, RuPay and Diners) will only be considered for 5% CashPoints.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.4] HDFC Bank Millennia Credit Card | Section: Other Benefits –Terms & Conditions\n\n## Other Benefits –Terms & Conditions\n\n- Welcome Benefit of 1000 CashPoints will be given to the cardholder if the joining membership fee is paid.\n\n- There will be no cashpoints posting for renewal membership fee payments.\n\n- 1% Fuel Surcharge waiver on fuel transactions (Minimum transaction of ₹400, Maximum transaction of ₹5,000 & Maximum waiver of ₹250 per statement cycle). The rate of surcharge may vary depending on the fuel station and their acquiring bank. Taxes as applicable shall apply further. In any case, Bank shall be giving a maximum waiver of 1% in case of any dispute, subject to limit applicable limits.\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n- A cardholder will not be eligible for 1% CashPoints on prepaid card/gift Card/ wallet load and / or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners)\n\n- Smartpay transactions will be considered under 1% CashBack category.\n\n- With effect from 1st January 2023, Rent payments and Government related transactions will NOT earn Reward Points."
+          ],
+          "seconds": 6.5,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.8055555555287036,
+            "factual_correctness": 0.4
+          },
+          "errors": {}
+        },
+        {
+          "id": "q05",
+          "card_id": "hdfc_millennia",
+          "question": "Do rent payments earn cashback on HDFC Millennia?",
+          "reference": "No. Rent payments and government-related transactions do not earn cashback (since 1 January 2023). Fuel is also excluded.",
+          "answer": "No. HDFC Millennia’s terms say rent payments “will NOT earn Reward Points” and are excluded from both the 1% and 5% CashBack categories [hdfc_millennia_tnc_2026-07.pdf p.3][hdfc_millennia_tnc_2026-07.pdf p.2]. The card also says rental transactions are subject to a 1% fee, capped at ₹3000 per transaction [hdfc_millennia_tnc_2026-07.pdf p.5].",
+          "contexts": [
+            "[hdfc_millennia_tnc_2026-07.pdf p.1] HDFC Bank Millennia Credit Card | Section: Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## CashBack Proposition\n\nDefinition: For the Millennia Credit Card, the following terms, unless the context otherwise admits, shall have the following meanings:\n\n- CashBack shall mean the CashPoints awarded in the customer’s credit card account under the reward points scheme.\n\n- CashBack will be processed as per the following table:\n\n|Spends on|CashBack|Maximum CashBack / CashPointsper Cycle|\n|---|---|---|\n|CashBack on Amazon, BookMyShow, Cult.fit,|5%|1000|\n|Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ,|||\n|Uber & Zomato*|||\n|Other Spends (except Fuel, EMI, Wallet,|1%|1000|\n|Rentpayments,Govt related txns)|||\n\n- CashBack valid only for non-emi spends in the 10 online merchants.\n\n- Gift or Prepaid Card loads & Voucher Purchase transactions will be considered in other spends category.\n\nNote:\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card\n\n- Effective 1st September 2024, Education payments made through third-party apps will NOT earn Reward Points. However, education payments made directly through college/school websites or their POS machines will earn Reward Points. Education MCCs: 8211,8220,8241,8244,8249,8299\n\n- Effective 1st September 2024, Wallet loading and EMI transactions will NOT earn Reward Points. Wallet MCC: 6540\n\nNote : Cardholder can redeem CashPoints as CashBack against their outstanding on the Millennia Credit Card.The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n- A cardholder will not be eligible for 1% CashPoints on prepaid card/gift Card/ wallet load and / or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners)\n\n- Smartpay transactions will be considered under 1% CashBack category.\n\n- With effect from 1st January 2023, Rent payments and Government related transactions will NOT earn Reward Points.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n## 1% CashBack on other spends – Terms & Conditions\n\n- 1% cashback on all other spends excluding Fuel, Wallet, EMI, govt, rental transactions.\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the subsequent month 1st week.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- CashPoints shall not be eligible for the following spends/transactions on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` All EMI transactions(even if preclosed) including Smart EMI / Dial an EMI transaction\n\n- The Cardholder can earn up to 1,000 CashPoints under the 1% CashBack on other spends in a calendar month.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- In case the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the CashPoints will be reversed from next month earning under the 1% CashPoints category.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n## 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- 10 online merchants qualifying for 5% CashBack are Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber & Zomato\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- The Cardholder can earn up to 1,000 CashPoints under the 5% CashBack on 10 online merchants in a calendar month.\n\n- CashBack of 5% on 10 merchants are calculated basis the Terminal / merchant IDs (TIDs & MIDs) shared by the respective merchant partners. If in case the TID / MID is not available in the set-up, such transactions will not qualify for the benefit.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- Incase the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the equivalent CashPoints will be reversed/adjusted under the 5% CashPoints category.\n\n- CashPoints shall not be eligible for the following spends on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` Smart EMI / Dial an EMI transaction",
+            "[hdfc_millennia_tnc_2026-07.pdf p.5] HDFC Bank Millennia Credit Card | Section: Important Changes in Charges:\n\n## Important Changes in Charges:\n\nEffective 1st August, 2024, the following revision to your HDFC Bank Credit card charges will apply.\n\n## Rental Transactions:\n\nIf you use services like (but not limited to) CRED, PayTM, Cheq, MobiKwik, Freecharge, and others to pay rent/ for txns under below MCC, a 1% fee will be charged on the transaction amount and capped at ₹3000 per transaction. Rental Mcc: 6513",
+            "[hdfc_millennia_tnc_2026-07.pdf p.4] HDFC Bank Millennia Credit Card | Section: Other Benefits –Terms & Conditions\n\n## Other Benefits –Terms & Conditions\n\n- Welcome Benefit of 1000 CashPoints will be given to the cardholder if the joining membership fee is paid.\n\n- There will be no cashpoints posting for renewal membership fee payments.\n\n- 1% Fuel Surcharge waiver on fuel transactions (Minimum transaction of ₹400, Maximum transaction of ₹5,000 & Maximum waiver of ₹250 per statement cycle). The rate of surcharge may vary depending on the fuel station and their acquiring bank. Taxes as applicable shall apply further. In any case, Bank shall be giving a maximum waiver of 1% in case of any dispute, subject to limit applicable limits.\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card."
+          ],
+          "seconds": 5.6,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 0.6666666666666666,
+            "context_precision": 0.99999999998,
+            "factual_correctness": 0.22
+          },
+          "errors": {}
+        },
+        {
+          "id": "q06",
+          "card_id": "swiggy_hdfc_blck",
+          "question": "How much cashback does the Swiggy BLCK HDFC card give on Swiggy, and is there a cap?",
+          "reference": "10% cashback on the Swiggy app (food, Instamart, Dineout), capped at Rs 1,500 per billing cycle, on transactions of at least Rs 249.",
+          "answer": "The Swiggy BLCK HDFC Bank Credit Card gives 10% cashback on spends on the Swiggy App (Food Delivery, Instamart and Dineout), and the cap is Rs. 1,500 per billing cycle. Transactions using Swiggy Money Wallet, Swiggy Liquor, and any other later-decided categories are excluded. [hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10]",
+          "contexts": [
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10] Swiggy BLCK HDFC Bank Credit Card | Section: Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## 1. Customer Value Proposition\n\n- Cashback on Swiggy BLCK HDFC Bank Credit Card will be processed as per the following table –\n\nTable 1.1\n\n|Type of Spends|Cashback|Capping|Exclusions / Inclusions|\n|---|---|---|---|\n|Spends on Swiggy App* (Food Delivery, Instamart and Dineout)|10% cashback|Rs.1500 per billing cycle|Exclusions- Transactions made using Swiggy Money Wallet, Swiggy Liquor, and any other categories (if any) decided later|\n|Spends on online shopping across Famous Merchants and categories like Apparels, Pharmacies, Pet stores, Personal Care, Electronics, Entertainment, Travel, Discount Stores & Local cabs basis eligible list of MCCs|5% cashback|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Cleartrip|5% + (6% Instant Discount on Travel and 19% Instant Discount on Hotels)|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Nykaa|5% Cashback + 5% Instant Discount|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Spends on other categories *|1% cashback|Rs.1000 per billing cycle|Exclusions- Fuel, Rent, Jewellery, Govt. spends, Gaming and Education, EMI & Wallet|\n\nRefer section 2.3 on Eligible list of Brands, Categories and MCC\n\n- Capping per billing cycle and Exclusions for each cashback category are applicable\n\n- Cashback will not be accrued for the following transactions using Swiggy BLCK HDFC Bank Credit Card\n\n- ❖ Prepaid Card/Gift Card/Wallet\n\n- ❖ Rent\n\n- ❖ Government related transactions\n\n- ❖ Gaming\n\n- ❖ Education\n\n- ❖ Fuel\n\n- ❖ Jewellery\n\n- ❖ Smartpay",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10-11] Swiggy BLCK HDFC Bank Credit Card | Section: 1. Customer Value Proposition\n\n- ❖ Smartbuy portal\n\n- ❖ EMI (all type)\n\n- ❖ Cash advances, Purchase of travelers’ cheques\n\n- ❖ Purchase of foreign currency and fees\n\n- ❖ Any other categories as decided from Time to Time\n\n## 2.2 10% cashback on Swiggy App (Food ordering, Instamart and Dineout)\n\n- Earning 10% Cashback using Swiggy BLCK HDFC Bank Credit Card is applicable only on transaction done on Swiggy Food ordering, Instamart and Dineout.\n\n- Transactions made on any other Swiggy platform except the above stated platforms won’t qualify for the 10% Cashback category\n\n- Please refer Table 1.1 for capping per billing cycle and exclusions on 10% Cashback category.\n\nNote:\n\n(Please refer to Section 4.2 for more details on cashback redemption)\n\n10% Cashback on Swiggy Platform on eligible categories are calculated basis the Merchant IDs (MIDs), Terminal IDs(TIDs) shared by the co-brand partner. If in case the TID is not available in the set-up, such transactions will not qualify for the benefit .",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.17] Swiggy BLCK HDFC Bank Credit Card | Section: 4.2 Cashback Redemption\n\n## 4.2 Cashback Redemption\n\n## 4.2.1 T&Cs\n\n- Cashback earned for current billing cycle will be auto redeemed against outstanding amount. Note – Cashback will not get adjusted or auto redeemed against Financial Charges accrued. Cashback auto redemption is solely applicable on outstanding balance excluding the Finance charges.\n\n- For more details on Finance charges please refer Most Important Terms and Conditions.\n\n- In order to earn 10% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 249 using the card.\n\n- In order to earn 5% and 1% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 100 using the card.\n\n- Cashback can only be earned on eligible transactions as defined by as Table 1.1 (stated above)",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.15-16] Swiggy BLCK HDFC Bank Credit Card | Section: 4.1 Cashback T&Cs on Swiggy BLCK HDFC Bank Credit Card\n\n- Any cashback related discrepancy needs to be reported in writing within 30 days from the statement generation date in which transaction related to the said cashback appears.\n\n- Cashback will be displayed in form of summary in statements (e-statement, web statement, physical statement & PDF) for all the transaction made during a particular billing cycle. The transaction level details regarding the cashback will not be displayed in the statements.\n\n|Posting Description|\n|---|\n|10% SwiggyBLCK Cashback Rev|\n|10% SwiggyBLCK Cashback|\n|5% SwiggyBLCK Cashback Rev|\n|5% SwiggyBLCK Cashback|\n|1% SwiggyBLCK Cashback Rev|\n|1% SwiggyBLCK Cashback|\n\nFor e.g., Consider a billing cycle from 15th January to 14th February\n\nSwiggy BLCK HDFC Bank Credit Card\n\n|Transaction Date|Posting Date|Transaction Narration|Transaction Amount|Cashback|Summary|\n|---|---|---|---|---|---|\n|19th Jan|20th Jan|SwiggyTransaction|1000|100|transactions on Swiggy will earn 10% cashback|\n|21st Jan||10% SwiggyBLCK Cashback|100|||\n|21st Jan|22nd Jan|Swiggy Transaction|150|0|transactions on Swiggy less than 249 will not earn cashback|\n|25th Jan|26th Jan|Offline Spends|1800|18|transactions on offline spends earn 1% cashback|\n|27th Jan||1% SwiggyBLCK Cashback|18|||\n|28th Jan|29th Jan|Online Transaction on Nykaa|2500|125|Two transactions done on the same posting Date will show|\n|28th Jan|29th Jan|Online Transaction on Croma|20000|1000| cumulative cashback|\n|30th Jan||5% SwiggyBLCK Cashback|1125|||\n|4th Feb|5th Feb|Reversal on Croma|-20000|-1000|Reversal of transactions will reverse equivalent cashback|\n|6th Feb||5% Swiggy BLCK Cashback Rev|-1000|||\n|10th Feb|11th Feb|Online Transactions on Apparels|30000|1375|Capping for the 5% Cashback accrual 1500|\n|12th Feb||5% SwiggyBLCK Cashback|1375|||\n|||Total|35450|||",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.15] Swiggy BLCK HDFC Bank Credit Card | Section: 4.1 Cashback T&Cs on Swiggy BLCK HDFC Bank Credit Card\n\n## 4.1 Cashback T&Cs on Swiggy BLCK HDFC Bank Credit Card\n\n- The transaction settled from the merchant will be eligible for Cashback and Posting date of the transaction will be considered for cashback calculation.\n\n- For any transaction against which the posting date is recorded under the next statement, Cashback will be posted in the card account statement in accordance with posting date.\n\n- Payments/credits not initiated by the customer such as Merchant refund/cashback/charge reversals etc. received into the credit card account will not be considered as a payment towards the outstanding of the card. However, such credits will be considered to compute the subsequent month’s dues.\n\n- In order to earn 10% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 249 using the card.\n\n- In order to earn 5% and 1% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 100 using the card.\n\n- Cashback can only be earned on eligible transactions as defined by as Table 1.1 (stated above)\n\n- Cashback earned will be calculated based on all the spends across defined cashback categories during the statement period minus any returns or refunds during the same period.\n\n- The principal cardholder will forthwith be disqualified from earning the cashbacks, if Swiggy BLCK HDFC Bank Credit Card is terminated at any time for any reason, whether by the primary Cardholder or the Bank.\n\n- Any remaining Cashback including Cashbacks pending credit into the Swiggy account of the Cardholder shall immediately cease to be valid upon the occurrence of the following:\n\n- a) The cancellation of the Swiggy BLCK HDFC Bank credit card",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.12] Swiggy BLCK HDFC Bank Credit Card | Section: 2.4 1% cashback on Other spends\n\n## 2.4 1% cashback on Other spends\n\n- Exclusion for 1% cashback category – Fuel, Rent, Government related transactions, EMI, Gaming, Education, Gift Card, Wallet and Jewelry.\n\n## 2.5 List of Excluded cashback Categories with Swiggy BLCK HDFC Bank Credit Card –\n\n|Category|MCC|\n|---|---|\n|Fuel [one merged cell across 4 rows]|5172|\n|Fuel [one merged cell across 4 rows]|5541|\n|Fuel [one merged cell across 4 rows]|5542|\n|Fuel [one merged cell across 4 rows]|5983|\n|Rent|6513|\n|Wallet|6540|\n|Jl ewery [one merged cell across 2 rows]|5094|\n|Jl ewery [one merged cell across 2 rows]|5944|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9211|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9222|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9223|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9311|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9399|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9402|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9405|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9950|\n|Gift Cards|5947|\n|EMI|Multiple MCCs|\n|Gaming|5816|\n|Education|8211, 8220, 8241, 8244, 8249, 8299|\n\n- For capping per billing cycle and more details on exclusions on 1% Cashback categories, please refer to Table 1.1 (stated above)"
+          ],
+          "seconds": 4.7,
+          "scores": {
+            "faithfulness": 0.8,
+            "context_recall": 1.0,
+            "context_precision": 0.99999999998,
+            "factual_correctness": 0.5
+          },
+          "errors": {}
+        },
+        {
+          "id": "q07",
+          "card_id": "swiggy_hdfc_ornge",
+          "question": "What is the renewal fee on the Swiggy Ornge HDFC card and how can it be waived?",
+          "reference": "Rs 500 plus taxes from the second year, waived if you spend Rs 1,50,000 or more in the preceding year.",
+          "answer": "The renewal year fee on the Swiggy Ornge HDFC Bank Credit Card is Rs. 500. It is waived if the cardholder spends Rs. 1,50,000 or more in the preceding year. [hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5]",
+          "contexts": [
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5] Swiggy Ornge HDFC Bank Credit Card | Section: 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n## 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n- Annual fee of INR 500 + applicable taxes is charged once to enjoy the benefits of Swiggy Ornge HDFC Bank Credit Card\n\n- Annual fee will be levied within 120 days. Renewal year fee of Rs 500 will be charged from second year onwards.\n\n- Renewal Year Fee waiver is applicable on spends of Rs. 1,50,000 and above in the preceding Year",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1] Swiggy Ornge HDFC Bank Credit Card | Section: Terms and Conditions - Swiggy Ornge HDFC Bank Credit Card\n\n## Terms and Conditions - Swiggy Ornge HDFC Bank Credit Card\n\n## 1. Customer Value Proposition\n\n- Cashback on Swiggy Ornge HDFC Bank Credit Card will be processed as per the following table –\n\nTable 1.1\n\n|Type of Spends|Cashback|Capping|Exclusions / Inclusions|\n|---|---|---|---|\n|Spends on Swiggy App* (Food Delivery, Instamart and Dineout)|5% cashback|Rs.1500 per billing cycle [one merged cell across 4 rows]|Exclusions- Transactions made using Swiggy Money Wallet, Swiggy Liquor, and any other categories (if any) decided later|\n|Spends on select Online Merchants and categories like Apparels, Pharmacies, Pet stores, Personal Care, Electronics, Entertainment, Travel, Discount Stores & Local cabs basis eligible list of MCCs|5% cashback|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Cleartrip|5% + (6% Instant Discount on Travel and 19% Instant Discount on Hotels)|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Nykaa|5% Cashback + 5% Instant Discount|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Spends on other categories *|1% cashback|Rs.1000 per billing cycle|Exclusions- Fuel, Rent, Jewellery, Govt. spends, Gaming and Education, EMI & Wallet|\n\n- Refer section 2.3 on Eligible list of Brands, Categories and MCC\n\n- Capping per billing cycle and Exclusions for each cashback category are applicable\n\n- Cashback will not be accrued for the following transactions using Swiggy Ornge HDFC Bank Credit Card\n\n- ❖ Prepaid Card/Gift Card/Wallet\n\n- ❖ Rent\n\n- ❖ Government related transactions\n\n- ❖ Gaming\n\n- ❖ Education\n\n- ❖ Fuel",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.4] Swiggy Ornge HDFC Bank Credit Card | Section: 2.6 Welcome Benefit\n\n## 2.6 Welcome Benefit\n\n- Eligible cardholders are entitled for complimentary Swiggy One Membership for 12 months as welcome benefit. For existing Swiggy One Membership holders, the benefit will be extended by 12 months\n\n- Cardholder is eligible for welcome benefit on card activation. Card activation can be done one or more below mentioned ways –\n\n1. making a transaction using the Credit Card,\n\n2. to use the card via OTP or IVR, setting PIN for the card, and enabling card controls such as online transactions, enabling international transactions etc.\n\n- The activation should happen within 37 days of card issuance, to claim complementary Swiggy One membership for 3 months.\n\n- The customers need to claim 'Swiggy One' on Swiggy app post card activation to unlock the benefit. This option will be available on the Swiggy app within 2-3 days of card activation.\n\n- Please click here for the detailed T&Cs on Swiggy One Membership (available under the section Swiggy One Membership Program Specific Terms) and unlocking the benefit on Swiggy app.\n\n- Link: https://www.swiggy.com/terms-and-conditions.\n\n- Below are the terms of membership\n\n|Scenarios|Current User membership|Membership issued|\n|---|---|---|\n|1|No membership|Complimentary Swiggy One Membership for 12 Months|\n|3|Existing One Membership|Top up to be done post expiry of the existing Swiggy one membership|\n|4|BLCK Membership|New Swiggy one Membership will be disabled and can be claimed on expiration of the BLCK membership|",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.4-5] Swiggy Ornge HDFC Bank Credit Card | Section: Please Click here for card activation guidelines\n\n## Please Click here for card activation guidelines\n\n## 2.7 Additional Offer during Birthday Week\n\n- Additional 10% discount on Swiggy Dineout upto Rs.500 on minimum order value of Rs. 3000. This is over and above 10% cashback on Swiggy Dineout using the card. For detailed T&Cs on Swiggy Dineout, please refer to the offer terms and conditions at the restaurant booking page\n\n- The offer is applicable for a duration of 7 days (3 days prior and 3 days after the birthday). For example – Cardholder bank registered Birthday is on 14th Oct. The eligibility of the offer is from 11th Oct to 17th Oct (both days inclusive).\n\n- Birthday date should be as per the bank records while applying for the card will be considered for the offer.\n\n- The offer is applicable once per cardholder.\n\n- Follow below steps on the Swiggy app in order to redeem –\n\n1. Click on \"Claim now\" button on Swiggy app main page or Dineout page on Birthday related communication.\n\n2. Select the restaurant of your choice and book your preferred slot\n\n3. Apply the coupon \"SWIGGYCARDBDAY\" available in the 'Apply Coupon' section while making the payment via Dineout\n\n4. Make the payment using your Swiggy Ornge HDFC Bank credit card on Dineout.\n\n- Cardholder are eligible for this offer only post 30 days after card activation. (Ex – if card activation is done on 1st of November, and DOB is 2nd November, offer is not applicable).\n\n- Offer start date : 21st Oct’24\n\n- Swiggy reserves the right, at any time, without prior notice and without assigning any reason whatsoever, to add/alter/modify/change or vary all of these terms and conditions or to replace, wholly or in part, this offer by another offer, whether similar to this offer or not, or to extend or withdraw it altogether",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1-2] Swiggy Ornge HDFC Bank Credit Card | Section: 1. Customer Value Proposition\n\n- ❖ Jewellery\n\n- ❖ Smartpay\n\n- ❖ Smartbuy portal\n\n- ❖ EMI (all type)\n\n- ❖ Cash advances, Purchase of travelers’ cheques\n\n- ❖ Purchase of foreign currency and fees\n\n- ❖ Any other categories as decided from Time to Time\n\n## 2.2 5% cashback on Swiggy App (Food ordering, Instamart and Dineout)\n\n- Earning 5% Cashback using Swiggy Ornge HDFC Bank Credit Card is applicable only on transaction done on Swiggy Food ordering, Instamart and Dineout.\n\n- Transactions made on any other Swiggy platform except the above stated platforms won’t qualify for the 5% Cashback category\n\n- Please refer Table 1.1 for capping per billing cycle and exclusions on 5% Cashback category.\n\nNote:\n\n(Please refer to Section 4.2 for more details on cashback redemption)\n\n5% Cashback on Swiggy Platform on eligible categories are calculated basis the Merchant IDs (MIDs), Terminal IDs(TIDs) shared by the co-brand partner. If in case the TID is not available in the set-up, such transactions will not qualify for the benefit .",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.8] Swiggy Ornge HDFC Bank Credit Card | Section: 4.2 Cashback Redemption\n\n## 4.2 Cashback Redemption\n\n## 4.2.1 T&Cs\n\n- Cashback earned for current billing cycle will be auto redeemed against outstanding amount.\n\nNote – Cashback will not get adjusted or auto redeemed against Financial Charges accrued. Cashback auto redemption is solely applicable on outstanding balance excluding the Finance charges.\n\nFor more details on Finance charges please refer Most Important Terms and Conditions.\n\n- In order to earn 5% Cashback on eligible transactions using Swiggy Ornge HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 249 using the card.\n\n- In order to earn 1% Cashback on eligible transactions using Swiggy Ornge HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 100 using the card.\n\n- Cashback can only be earned on eligible transactions as defined by as Table 1.1 (stated above)"
+          ],
+          "seconds": 4.7,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.9999999999,
+            "factual_correctness": 0.8
+          },
+          "errors": {}
+        },
+        {
+          "id": "q08",
+          "card_id": "swiggy_hdfc_ornge",
+          "question": "What is the difference in annual fee between the Swiggy Ornge and Swiggy BLCK HDFC cards?",
+          "reference": "Swiggy Ornge charges Rs 500 plus taxes and Swiggy BLCK charges Rs 1,000 plus taxes.",
+          "answer": "The Swiggy Ornge HDFC Bank Credit Card has an annual fee of Rs. 500 + applicable taxes, while the Swiggy BLCK HDFC Bank Credit Card has an annual fee of Rs. 1000 + applicable taxes, so the difference is Rs. 500 + applicable taxes. [hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5] [hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14]",
+          "contexts": [
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5] Swiggy Ornge HDFC Bank Credit Card | Section: 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n## 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n- Annual fee of INR 500 + applicable taxes is charged once to enjoy the benefits of Swiggy Ornge HDFC Bank Credit Card\n\n- Annual fee will be levied within 120 days. Renewal year fee of Rs 500 will be charged from second year onwards.\n\n- Renewal Year Fee waiver is applicable on spends of Rs. 1,50,000 and above in the preceding Year",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.4] Swiggy Ornge HDFC Bank Credit Card | Section: 2.6 Welcome Benefit\n\n## 2.6 Welcome Benefit\n\n- Eligible cardholders are entitled for complimentary Swiggy One Membership for 12 months as welcome benefit. For existing Swiggy One Membership holders, the benefit will be extended by 12 months\n\n- Cardholder is eligible for welcome benefit on card activation. Card activation can be done one or more below mentioned ways –\n\n1. making a transaction using the Credit Card,\n\n2. to use the card via OTP or IVR, setting PIN for the card, and enabling card controls such as online transactions, enabling international transactions etc.\n\n- The activation should happen within 37 days of card issuance, to claim complementary Swiggy One membership for 3 months.\n\n- The customers need to claim 'Swiggy One' on Swiggy app post card activation to unlock the benefit. This option will be available on the Swiggy app within 2-3 days of card activation.\n\n- Please click here for the detailed T&Cs on Swiggy One Membership (available under the section Swiggy One Membership Program Specific Terms) and unlocking the benefit on Swiggy app.\n\n- Link: https://www.swiggy.com/terms-and-conditions.\n\n- Below are the terms of membership\n\n|Scenarios|Current User membership|Membership issued|\n|---|---|---|\n|1|No membership|Complimentary Swiggy One Membership for 12 Months|\n|3|Existing One Membership|Top up to be done post expiry of the existing Swiggy one membership|\n|4|BLCK Membership|New Swiggy one Membership will be disabled and can be claimed on expiration of the BLCK membership|",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.3] Swiggy Ornge HDFC Bank Credit Card | Section: 2.4 1% cashback on Other spends\n\n## 2.4 1% cashback on Other spends\n\n- Exclusion for 1% cashback category – Fuel, Rent, Government related transactions, EMI, Gaming, Education, Gift Card, Wallet and Jewelry\n\n## 2.5 List of Excluded cashback Categories with Swiggy Ornge HDFC Bank Credit Card\n\n|Category|MCC|\n|---|---|\n|Fuel [one merged cell across 4 rows]|5172|\n|Fuel [one merged cell across 4 rows]|5541|\n|Fuel [one merged cell across 4 rows]|5542|\n|Fuel [one merged cell across 4 rows]|5983|\n|Rent|6513|\n|Wallet|6540|\n|Jl ewery [one merged cell across 2 rows]|5094|\n|Jl ewery [one merged cell across 2 rows]|5944|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9211|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9222|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9223|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9311|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9399|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9402|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9405|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9950|\n|Gift Cards|5947|\n|EMI|Multiple MCCs|\n|Gaming|5816|\n|Education|8211, 8220, 8241, 8244, 8249, 8299|\n\n- For capping per billing cycle and more details on exclusions on 1% Cashback categories, please refer to Table 1.1 (stated above)",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1-2] Swiggy Ornge HDFC Bank Credit Card | Section: 1. Customer Value Proposition\n\n- ❖ Jewellery\n\n- ❖ Smartpay\n\n- ❖ Smartbuy portal\n\n- ❖ EMI (all type)\n\n- ❖ Cash advances, Purchase of travelers’ cheques\n\n- ❖ Purchase of foreign currency and fees\n\n- ❖ Any other categories as decided from Time to Time\n\n## 2.2 5% cashback on Swiggy App (Food ordering, Instamart and Dineout)\n\n- Earning 5% Cashback using Swiggy Ornge HDFC Bank Credit Card is applicable only on transaction done on Swiggy Food ordering, Instamart and Dineout.\n\n- Transactions made on any other Swiggy platform except the above stated platforms won’t qualify for the 5% Cashback category\n\n- Please refer Table 1.1 for capping per billing cycle and exclusions on 5% Cashback category.\n\nNote:\n\n(Please refer to Section 4.2 for more details on cashback redemption)\n\n5% Cashback on Swiggy Platform on eligible categories are calculated basis the Merchant IDs (MIDs), Terminal IDs(TIDs) shared by the co-brand partner. If in case the TID is not available in the set-up, such transactions will not qualify for the benefit .",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1] Swiggy Ornge HDFC Bank Credit Card | Section: Terms and Conditions - Swiggy Ornge HDFC Bank Credit Card\n\n## Terms and Conditions - Swiggy Ornge HDFC Bank Credit Card\n\n## 1. Customer Value Proposition\n\n- Cashback on Swiggy Ornge HDFC Bank Credit Card will be processed as per the following table –\n\nTable 1.1\n\n|Type of Spends|Cashback|Capping|Exclusions / Inclusions|\n|---|---|---|---|\n|Spends on Swiggy App* (Food Delivery, Instamart and Dineout)|5% cashback|Rs.1500 per billing cycle [one merged cell across 4 rows]|Exclusions- Transactions made using Swiggy Money Wallet, Swiggy Liquor, and any other categories (if any) decided later|\n|Spends on select Online Merchants and categories like Apparels, Pharmacies, Pet stores, Personal Care, Electronics, Entertainment, Travel, Discount Stores & Local cabs basis eligible list of MCCs|5% cashback|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Cleartrip|5% + (6% Instant Discount on Travel and 19% Instant Discount on Hotels)|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Nykaa|5% Cashback + 5% Instant Discount|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Spends on other categories *|1% cashback|Rs.1000 per billing cycle|Exclusions- Fuel, Rent, Jewellery, Govt. spends, Gaming and Education, EMI & Wallet|\n\n- Refer section 2.3 on Eligible list of Brands, Categories and MCC\n\n- Capping per billing cycle and Exclusions for each cashback category are applicable\n\n- Cashback will not be accrued for the following transactions using Swiggy Ornge HDFC Bank Credit Card\n\n- ❖ Prepaid Card/Gift Card/Wallet\n\n- ❖ Rent\n\n- ❖ Government related transactions\n\n- ❖ Gaming\n\n- ❖ Education\n\n- ❖ Fuel",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.8] Swiggy Ornge HDFC Bank Credit Card | Section: 4.2 Cashback Redemption\n\n## 4.2 Cashback Redemption\n\n## 4.2.1 T&Cs\n\n- Cashback earned for current billing cycle will be auto redeemed against outstanding amount.\n\nNote – Cashback will not get adjusted or auto redeemed against Financial Charges accrued. Cashback auto redemption is solely applicable on outstanding balance excluding the Finance charges.\n\nFor more details on Finance charges please refer Most Important Terms and Conditions.\n\n- In order to earn 5% Cashback on eligible transactions using Swiggy Ornge HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 249 using the card.\n\n- In order to earn 1% Cashback on eligible transactions using Swiggy Ornge HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 100 using the card.\n\n- Cashback can only be earned on eligible transactions as defined by as Table 1.1 (stated above)",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14] Swiggy BLCK HDFC Bank Credit Card | Section: 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n## 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n- Annual fee of INR 1000+ applicable taxes is charged once to enjoy the benefits of Swiggy BLCK HDFC Bank Credit Card.\n\n- Joining Fee of Rs. 1000 will be waived on spending Rs.75,000 in the first 90 days. (Applicable for first Year only)\n\n- Annual fee will be levied within 120 days. Renewal year fee of Rs 1000 will be charged from second year onwards.",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.12-13] Swiggy BLCK HDFC Bank Credit Card | Section: 2.6 Welcome Benefit\n\n## 2.6 Welcome Benefit\n\n- Eligible cardholders are entitled for complimentary Swiggy BLCK Membership for 3 months as welcome benefit. For existing Swiggy BLCK Membership holders, the benefit will be extended by 3 months.\n\n- Cardholder is eligible for welcome benefit on card activation. Card activation can be done one or more below mentioned ways –\n\n- ➢ making a transaction using the Credit Card,\n\n- ➢ To use the card via OTP or IVR, setting PIN for the card, and enabling card controls such as online transactions, enabling international transactions etc.\n\n- The activation should happen within 37 days of card issuance, to claim complementary Swiggy BLCK membership for 3 months.\n\n- The customers need to claim 'Swiggy BLCK' on Swiggy app post card activation to unlock the benefit. This option will be available on the Swiggy app within 2-3 days of card activation.\n\n- Please click here for the detailed T&Cs on Swiggy BLCK Membership (available under the section Swiggy BLCK Membership Program Specific Terms) and unlocking the benefit on Swiggy app.\n\nLink: https://www.swiggy.com/terms-and-conditions.\n\n- Below are the terms of Membership -\n\n|Scenarios|Existing User membership|Membership issued|\n|---|---|---|\n|1|No membership|Complimentary Swiggy BLCK Membership for 3 Months|\n|2|BLCK Membership|Topupto be donepost expiryof existingBLCK membership|\n|3|One Membership|One membership will get cancelled and the refund will be issued. Customer can claim the BLCK Membership.|",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10] Swiggy BLCK HDFC Bank Credit Card | Section: Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## 1. Customer Value Proposition\n\n- Cashback on Swiggy BLCK HDFC Bank Credit Card will be processed as per the following table –\n\nTable 1.1\n\n|Type of Spends|Cashback|Capping|Exclusions / Inclusions|\n|---|---|---|---|\n|Spends on Swiggy App* (Food Delivery, Instamart and Dineout)|10% cashback|Rs.1500 per billing cycle|Exclusions- Transactions made using Swiggy Money Wallet, Swiggy Liquor, and any other categories (if any) decided later|\n|Spends on online shopping across Famous Merchants and categories like Apparels, Pharmacies, Pet stores, Personal Care, Electronics, Entertainment, Travel, Discount Stores & Local cabs basis eligible list of MCCs|5% cashback|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Cleartrip|5% + (6% Instant Discount on Travel and 19% Instant Discount on Hotels)|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Nykaa|5% Cashback + 5% Instant Discount|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Spends on other categories *|1% cashback|Rs.1000 per billing cycle|Exclusions- Fuel, Rent, Jewellery, Govt. spends, Gaming and Education, EMI & Wallet|\n\nRefer section 2.3 on Eligible list of Brands, Categories and MCC\n\n- Capping per billing cycle and Exclusions for each cashback category are applicable\n\n- Cashback will not be accrued for the following transactions using Swiggy BLCK HDFC Bank Credit Card\n\n- ❖ Prepaid Card/Gift Card/Wallet\n\n- ❖ Rent\n\n- ❖ Government related transactions\n\n- ❖ Gaming\n\n- ❖ Education\n\n- ❖ Fuel\n\n- ❖ Jewellery\n\n- ❖ Smartpay",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.12] Swiggy BLCK HDFC Bank Credit Card | Section: 2.4 1% cashback on Other spends\n\n## 2.4 1% cashback on Other spends\n\n- Exclusion for 1% cashback category – Fuel, Rent, Government related transactions, EMI, Gaming, Education, Gift Card, Wallet and Jewelry.\n\n## 2.5 List of Excluded cashback Categories with Swiggy BLCK HDFC Bank Credit Card –\n\n|Category|MCC|\n|---|---|\n|Fuel [one merged cell across 4 rows]|5172|\n|Fuel [one merged cell across 4 rows]|5541|\n|Fuel [one merged cell across 4 rows]|5542|\n|Fuel [one merged cell across 4 rows]|5983|\n|Rent|6513|\n|Wallet|6540|\n|Jl ewery [one merged cell across 2 rows]|5094|\n|Jl ewery [one merged cell across 2 rows]|5944|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9211|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9222|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9223|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9311|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9399|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9402|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9405|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9950|\n|Gift Cards|5947|\n|EMI|Multiple MCCs|\n|Gaming|5816|\n|Education|8211, 8220, 8241, 8244, 8249, 8299|\n\n- For capping per billing cycle and more details on exclusions on 1% Cashback categories, please refer to Table 1.1 (stated above)",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10-11] Swiggy BLCK HDFC Bank Credit Card | Section: 1. Customer Value Proposition\n\n- ❖ Smartbuy portal\n\n- ❖ EMI (all type)\n\n- ❖ Cash advances, Purchase of travelers’ cheques\n\n- ❖ Purchase of foreign currency and fees\n\n- ❖ Any other categories as decided from Time to Time\n\n## 2.2 10% cashback on Swiggy App (Food ordering, Instamart and Dineout)\n\n- Earning 10% Cashback using Swiggy BLCK HDFC Bank Credit Card is applicable only on transaction done on Swiggy Food ordering, Instamart and Dineout.\n\n- Transactions made on any other Swiggy platform except the above stated platforms won’t qualify for the 10% Cashback category\n\n- Please refer Table 1.1 for capping per billing cycle and exclusions on 10% Cashback category.\n\nNote:\n\n(Please refer to Section 4.2 for more details on cashback redemption)\n\n10% Cashback on Swiggy Platform on eligible categories are calculated basis the Merchant IDs (MIDs), Terminal IDs(TIDs) shared by the co-brand partner. If in case the TID is not available in the set-up, such transactions will not qualify for the benefit .",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.13] Swiggy BLCK HDFC Bank Credit Card | Section: Please Click here for card activation guidelines\n\n## Please Click here for card activation guidelines\n\n## 2.7 Additional Offer during Birthday Week\n\n- Additional 10% discount on Swiggy Dineout upto Rs.500 on minimum order value of Rs. 3000. This is over and above 10% cashback on Swiggy Dineout using the card. For detailed T&Cs on Swiggy Dineout, please refer to the offer terms and conditions at the restaurant booking page\n\n- The offer is applicable for a duration of 7 days (3 days prior and 3 days after the birthday). For example – Cardholder bank registered Birthday is on 14th Oct. The eligibility of the offer is from 11th Oct to 17th Oct (both days inclusive).\n\n- Birthday date should be as per the bank records while applying for the card will be considered for the offer.\n\n- The offer is applicable once per cardholder.\n\n- Follow below steps on the Swiggy app in order to redeem –\n\n1. Click on \"Claim now\" button on Swiggy app main page or Dineout page on Birthday related communication.\n\n2. Select the restaurant of your choice and book your preferred slot\n\n3. Apply the coupon \"SWIGGYCARDBDAY\" available in the 'Apply Coupon' section while making the payment via Dineout\n\n4. Make the payment using your Swiggy HDFC credit card on Dineout.\n\n- Cardholder are eligible for this offer only post 30 days after card activation. (Ex – if card activation is done on 1st of November, and DOB is 2nd November, offer is not applicable).\n\n- Offer start date : 21st Oct’24\n\n- Swiggy reserves the right, at any time, without prior notice and without assigning any reason whatsoever, to add/alter/modify/change or vary all of these terms and conditions or to replace, wholly or in part, this offer by another offer, whether similar to this offer or not, or to extend or withdraw it altogether"
+          ],
+          "seconds": 7.5,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.0,
+            "factual_correctness": 1.0
+          },
+          "errors": {}
+        }
+      ],
+      "baseline": [
+        {
+          "id": "q01",
+          "card_id": "sbi_cashback",
+          "question": "What is the maximum cashback I can earn per statement cycle on the Cashback SBI Card?",
+          "reference": "From 1 April 2026 total cashback is capped at Rs 4,000 per statement cycle: up to Rs 2,000 on online spends (5%) and up to Rs 2,000 on offline spends (1%).",
+          "answer": "The maximum cashback you can earn per statement cycle on the Cashback SBI Card is ₹4,000 in total. This is capped at ₹2,000 for online transactions and ₹2,000 for offline transactions [sbi_cashback_tnc.pdf p.14] [sbi_cashback_revision_2026-04.pdf p.1] [sbi_cashback_tnc.pdf p.36].",
+          "contexts": [
+            "[sbi_cashback_tnc.pdf p.14] Cashback SBI Card | Section: CASHBACK SBI Card FAQ’S\n\nAns: The maximum cashback that may be earned on online transactions in a statement cycle is `2,000. The maximum cashback that may be earned on Offline transactions in a statement cycle is `2,000. Under no circumstances shall the aggregate cashback in a single statement cycle exceed `4,000.\n\n- For example: If your statement generation date is 11th July, the transactions posted from 12th June to 11th July will be considered under this statement cycle and all eligible online transactions during this period will accrue 5% Cashback and all eligible offline transactions will accrue 1% Cashback. The maximum card cashback that can be earned cumulative of online and offline spends is `4,000. Within the same statement period, all transactions posted after reaching the respective cashback limit of Online (`2,000) and Offline (`2,000) will not accrue any cashback till 11th July.\n\n- Note: Card Cashback is accrued on posting/settlement date of transaction and not on effective date of transaction and accordingly Card Cashback will get accrued on account as per applicable cashback structure at the time of transaction posting.\n\n13. My cashback for current statement shows negative balance. What does it mean? Ans: Your Cashback will be reversed in case of purchase cancellations, reversals and returns. The reversal amount for such transactions will be adjusted/debited in your monthly statement.\n\n- For instance: An online transaction posted on 10th June of ` 40,000 would be eligible for a Card Cashback of 5% i.e. ` 2,000, assuming the statement was generated on 11th June. In that case, the Card Cashback of ` 2,000 will be posted to your account on 13th June.",
+            "[sbi_cashback_revision_2026-04.pdf p.1] Cashback SBI Card\n\nRevision in the benefits of CASHBACK SBI Card\n\nWith effect from 1st April 2026, following revisions will be applicable to your CASHBACK SBI Card:\n\nThe maximum Cashback* that can be earned in a statement cycle will be capped at `4,000, as follows:\n\n|Spend Type|Cashback (%)|Max. Cashback (`)|\n|---|---|---|\n|Online|5%|`2,000|\n|Offline (POS at Merchant Outlets)|1%|`2,000|\n|Maximum Cashback per statement cycle|-|`4,000|\n\nCashback will not be applicable on spends at Digital Gaming Platforms/Merchants, Tolls and Governmentrelated Transactions, in addition to existing exclusions.\n\n|Category|Merchant Category Codes (MCCs)|\n|---|---|\n|Digital Gaming Platforms/ Merchants|7993, 7994, 5816|\n|Tolls|4784|\n|Government related Transactions|9222, 9311, 9402|\n\nThe Merchant Category Codes are defined by the Networks and are subject to change basis their discretion and such changes shall be implemented basis communication from the Networks without any requirement for intimation/information to the customers.\n\n> *Cashback not applicable on Merchant EMI & Flexipay EMI transactions and on following categories: Utility, insurance, Fuel, Rent, Wallet, School & Educational Services, Jewelry, Railways etc. For complete list of exclusions, click here",
+            "[sbi_cashback_tnc.pdf p.36] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- e) Cashback earned for the purchases during the current billing statement month will be credited in the next billing statement month on statement generation date plus two days i.e. if the statement date is 15th Feb, cashback earned in the Feb month cycle (16th Jan-15th Feb) will be credited on 17th Feb.\n\n- f) Cashback earned will be computed based on spends during the statement period minus any returns or refunds during the same period. In case the cardholder reverses a transaction, the corresponding cashback earned on the transaction will also be reversed and in case the cardholder has an outstanding balance on credit card in the form of reversed cashback, the same will be treated as an ordinary outstanding balance and the customer will be liable to pay for such outstanding amount, failing which the said amount will attract the fees & charges as per the schedule of charges defined in the Most Important Terms and Conditions.\n\n- g) In case the purchase/transaction is returned/cancelled/reversed post statement generation date, cashback toward such transactions will be posted to the cardholder's SBI Card account within two days of the statement generation.\n\n- h) In case of conversion of a transaction to EMI at a later date, cashback earned on such transaction will be reversed during the same billing statement month as EMI conversion.\n\n- i) The cashbacks earned/reversed during a billing statement month will be visible in the monthly credit card billing statement.\n\n- j) Maximum Card Cashback that can be earned on online and offline spends in a statement cycle is capped at ₹4,000. Post reaching the capping limit, cardholder will not earn any cashback for that statement cycle.",
+            "[sbi_cashback_tnc.pdf p.14-15] Cashback SBI Card | Section: CASHBACK SBI Card FAQ’S\n\nSuppose on 15th June, you returned the item. Then the cashback of ` 2,000 will be reversed due to purchase return and the same will be adjusted/debited in\n\nyour next monthly statement.\n\n14. What do I have to do to receive the earned Cashback?\n\n- Ans: The Card Cashback will be automatically credited to your SBI Card account and will reflect in your monthly statement.\n\n15. When will I receive Cashback?\n\n- Ans: Card Cashback will be posted within two working days of the statement generation of your respective cycle.\n\n- 16 Where can I see the earned Cashback?\n\n- Ans: You can log in to SBI Card Website or SBI Card Mobile app to check the same. 17. Will I earn Card Cashback on fuel spends?\n\n- Ans: Cashback is not applicable on fuel spends. However, you will receive get1% Fuel Surcharge Waiver across all Petrol Pumps in India on fuel transaction amount ranging from `500 to `3,000. Maximum surcharge waiver of `100 per billing statement, per credit card account is applicable. For further details, please refer the cardholder TnCs.\n\n18. What will happen to my Card Cashback if I switch to other SBI credit card? Ans: In case you flip/transfer your CASHBACK SBI Card to another SBI Card, all the Card Cashback earned by you will be automatically posted to your SBI Card account within two working days of the transfer.\n\n19. What will happen to my reward points if I transfer to CASHBACK SBI card from any other SBI Card?\n\n- Ans: In case you flip/transfer your existing credit card to CASHBACK SBI Card, all the reward points accrued and not redeemed on existing card would expire immediately upon flipping / transfer.\n\n- Kindly redeem your reward points before you flip/transfer to Cashback SBI Card.\n\n- 20. What will happen to my earned Card Cashback in case of replacement or renewal of my card?",
+            "[sbi_cashback_tnc.pdf p.34] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n## 11. CARD CASHBACK\n\n11.1 Card Cashback Program\n\n- a) SBI Card Cashback Program (“the Program”) allows eligible CASHBACK SBI Card (“Cardholder/s”) to earn Card Cashback from spending on their CASHBACK SBI Card, as determined by SBI Cards and Payment Services Limited (“SBICPSL”) from time to time. Card Cashback earned on such SBI Card is directly credited to the SBI Card account within two working days of the statement generation.\n\n- b) The cashbacks will be processed according to the following table:\n\n|Spends|Cashback|\n|---|---|\n|Online Spends|5%|\n|Offline Spends|1%|\n\nc) Online Spends will be identified basis the online indicators sent by Card Networks (VISA, Rupay. Etc.) and acquirer. Any transaction not categorized as online would be termed as offline. The MCCs are defined by the networks and are subjected to change basis their discretion and such changes shall be implemented basis communication from the Networks without any requirement for intimation/information to the customers.\n\n- d) Cashback shall not be earned for following spends/transactions on the card,\n\n- Any purchases at petrol pumps/service stations (MCCs: 5172, 5541, 5542, 5983)\n\n- Balance transfers, Balance Transfer on EMIs\n\n- Cash advances\n\n- Financial charges (e.g., late payment fee, dishonored cheque charges, service fee, transaction charges etc.)\n\n- Disputed transactions\n\n- Encash\n\n- ATM Withdrawals\n\n- E wallet loading transactions identified under MCCs 6540 and 6541\n\n- Payments towards Rent/property management under MCCs 6513 and 7349\n\n- Jewelry transactions identified under MCCs 5051, 5094, 7631, 5944\n\n- School and Educational Services transactions identified under MCCs 5111, 5192, 5942, 5943, 8211, 8220, 8241, 8244, 8249, 8299, 8351\n\n- Utility transactions identified under MCCs 4900, 4814, 4816, 4899, 9399",
+            "[sbi_cashback_tnc.pdf p.38] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- (e) SBICPSL will notify the Primary Cardholder in the monthly statement of account in respect of the SBI Card of the number of Card Cashback earned immediately preceding the closing date for the said monthly statement.\n\n- (f) In the event the SBI Card is voluntarily closed by the Cardholder, the Card Cashback earned on his/her SBI Card can be redeemed within 30 days of closure, otherwise these will automatically lapse. In the event of cancellation of the SBI Card for any other reason, all the Card Cashback earned will stand forfeited. If the SBI Card is blocked or suspended by SBICPSL for any reason whatsoever, then the Card Cashback earned shall stand forfeited but may be reinstated at the discretion of SBICPSL if use of SBI Card is reinstated.\n\n- (g) Card Cashback is accrued on posting/settlement date of transaction and not on effective date of transaction and accordingly Card Cashback will get accrued on account as per applicable cashback structure at the time of transaction posting."
+          ],
+          "seconds": 1.8,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.94999999997625,
+            "factual_correctness": 0.67
+          },
+          "errors": {}
+        },
+        {
+          "id": "q02",
+          "card_id": "sbi_cashback",
+          "question": "Which spends don't earn cashback on the Cashback SBI Card?",
+          "reference": "No cashback on Merchant EMI and Flexipay EMI transactions, utility, insurance, fuel, rent, wallet, school and educational services, jewellery and railways. From 1 April 2026 digital gaming platforms, tolls and government-related transactions are also excluded.",
+          "answer": "Cashback is **not earned** on the following spends/transactions on the Cashback SBI Card:\n\n- Purchases at **petrol pumps/service stations**\n- **Balance transfers** and **Balance Transfer on EMIs**\n- **Cash advances**\n- **Financial charges** such as late payment fee, dishonored cheque charges, service fee, transaction charges, etc.\n- **Disputed transactions**\n- **Encash**\n- **ATM withdrawals**\n- **E-wallet loading transactions** (MCCs 6540, 6541)\n- **Rent/property management payments** (MCCs 6513, 7349)\n- **Jewelry transactions** (MCCs 5051, 5094, 7631, 5944)\n- **School and educational services transactions** (MCCs 5111, 5192, 5942, 5943, 8211, 8220, 8241, 8244, 8249, 8299, 8351)\n- **Utility transactions** (MCCs 4900, 4814, 4816, 4899, 9399)\n\nAlso, from the revision effective 1 Apr 2026, cashback will additionally not apply on:\n- **Digital gaming platforms/merchants**\n- **Tolls**\n- **Government-related transactions**  \n[sbi_cashback_tnc.pdf p.34][sbi_cashback_revision_2026-04.pdf p.1]",
+          "contexts": [
+            "[sbi_cashback_tnc.pdf p.34] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n## 11. CARD CASHBACK\n\n11.1 Card Cashback Program\n\n- a) SBI Card Cashback Program (“the Program”) allows eligible CASHBACK SBI Card (“Cardholder/s”) to earn Card Cashback from spending on their CASHBACK SBI Card, as determined by SBI Cards and Payment Services Limited (“SBICPSL”) from time to time. Card Cashback earned on such SBI Card is directly credited to the SBI Card account within two working days of the statement generation.\n\n- b) The cashbacks will be processed according to the following table:\n\n|Spends|Cashback|\n|---|---|\n|Online Spends|5%|\n|Offline Spends|1%|\n\nc) Online Spends will be identified basis the online indicators sent by Card Networks (VISA, Rupay. Etc.) and acquirer. Any transaction not categorized as online would be termed as offline. The MCCs are defined by the networks and are subjected to change basis their discretion and such changes shall be implemented basis communication from the Networks without any requirement for intimation/information to the customers.\n\n- d) Cashback shall not be earned for following spends/transactions on the card,\n\n- Any purchases at petrol pumps/service stations (MCCs: 5172, 5541, 5542, 5983)\n\n- Balance transfers, Balance Transfer on EMIs\n\n- Cash advances\n\n- Financial charges (e.g., late payment fee, dishonored cheque charges, service fee, transaction charges etc.)\n\n- Disputed transactions\n\n- Encash\n\n- ATM Withdrawals\n\n- E wallet loading transactions identified under MCCs 6540 and 6541\n\n- Payments towards Rent/property management under MCCs 6513 and 7349\n\n- Jewelry transactions identified under MCCs 5051, 5094, 7631, 5944\n\n- School and Educational Services transactions identified under MCCs 5111, 5192, 5942, 5943, 8211, 8220, 8241, 8244, 8249, 8299, 8351\n\n- Utility transactions identified under MCCs 4900, 4814, 4816, 4899, 9399",
+            "[sbi_cashback_tnc.pdf p.14-15] Cashback SBI Card | Section: CASHBACK SBI Card FAQ’S\n\nSuppose on 15th June, you returned the item. Then the cashback of ` 2,000 will be reversed due to purchase return and the same will be adjusted/debited in\n\nyour next monthly statement.\n\n14. What do I have to do to receive the earned Cashback?\n\n- Ans: The Card Cashback will be automatically credited to your SBI Card account and will reflect in your monthly statement.\n\n15. When will I receive Cashback?\n\n- Ans: Card Cashback will be posted within two working days of the statement generation of your respective cycle.\n\n- 16 Where can I see the earned Cashback?\n\n- Ans: You can log in to SBI Card Website or SBI Card Mobile app to check the same. 17. Will I earn Card Cashback on fuel spends?\n\n- Ans: Cashback is not applicable on fuel spends. However, you will receive get1% Fuel Surcharge Waiver across all Petrol Pumps in India on fuel transaction amount ranging from `500 to `3,000. Maximum surcharge waiver of `100 per billing statement, per credit card account is applicable. For further details, please refer the cardholder TnCs.\n\n18. What will happen to my Card Cashback if I switch to other SBI credit card? Ans: In case you flip/transfer your CASHBACK SBI Card to another SBI Card, all the Card Cashback earned by you will be automatically posted to your SBI Card account within two working days of the transfer.\n\n19. What will happen to my reward points if I transfer to CASHBACK SBI card from any other SBI Card?\n\n- Ans: In case you flip/transfer your existing credit card to CASHBACK SBI Card, all the reward points accrued and not redeemed on existing card would expire immediately upon flipping / transfer.\n\n- Kindly redeem your reward points before you flip/transfer to Cashback SBI Card.\n\n- 20. What will happen to my earned Card Cashback in case of replacement or renewal of my card?",
+            "[sbi_cashback_revision_2026-04.pdf p.1] Cashback SBI Card\n\nRevision in the benefits of CASHBACK SBI Card\n\nWith effect from 1st April 2026, following revisions will be applicable to your CASHBACK SBI Card:\n\nThe maximum Cashback* that can be earned in a statement cycle will be capped at `4,000, as follows:\n\n|Spend Type|Cashback (%)|Max. Cashback (`)|\n|---|---|---|\n|Online|5%|`2,000|\n|Offline (POS at Merchant Outlets)|1%|`2,000|\n|Maximum Cashback per statement cycle|-|`4,000|\n\nCashback will not be applicable on spends at Digital Gaming Platforms/Merchants, Tolls and Governmentrelated Transactions, in addition to existing exclusions.\n\n|Category|Merchant Category Codes (MCCs)|\n|---|---|\n|Digital Gaming Platforms/ Merchants|7993, 7994, 5816|\n|Tolls|4784|\n|Government related Transactions|9222, 9311, 9402|\n\nThe Merchant Category Codes are defined by the Networks and are subject to change basis their discretion and such changes shall be implemented basis communication from the Networks without any requirement for intimation/information to the customers.\n\n> *Cashback not applicable on Merchant EMI & Flexipay EMI transactions and on following categories: Utility, insurance, Fuel, Rent, Wallet, School & Educational Services, Jewelry, Railways etc. For complete list of exclusions, click here",
+            "[sbi_cashback_tnc.pdf p.36] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- k) If a Cardholder's card is terminated at any time for any reason, whether by the primary Cardholder or SBI Card, the primary Cardholder will forthwith be disqualified from earning the cashback and all the Card Cashback not posted to the Cardholder's SBI Card account shall automatically be forfeited immediately after voluntary or involuntary cancellation of the CASHBACK SBI Card.\n\n- l) The SBI Card must not be overdue, suspended, blocked, cancelled or terminated by SBICPSL at the time of the posting of the Card Cashback in the Cardholder's SBI Card account.\n\n- m) The Card Cashback accrued will be credited in the Primary Cardholder’s account, and not in the Additional Cardholder's SBI Card account.\n\n- n) In case CASHBACK SBI Card holder transfers to any other SBI Card then the Card Cashback earned but not posted to the SBI Cardholder's account would be posted to the Cardholder's account within two working days of the transfer.\n\n- In case of flipping / transfer from any other variant of SBI Credit card to CASHBACK SBI Card, the reward points accrued and not redeemed on such variant would expire immediately upon such flipping / transfer. All reward points are required to be redeemed prior to transferring / flipping to CASHBACK SBI Card.\n\n- o) The Credit Card is issued for personal expenses and purposes only. The Cardholder must not use the Credit Card to purchase anything for resale, for commercial or business purposes. The Credit Card should be used only for lawful, bona fide personal purposes and must not be used for any money laundering, anti-social or speculative activities or must not be exploited commercially in business (e.g. for working capital purposes).",
+            "[sbi_cashback_tnc.pdf p.38] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- (e) SBICPSL will notify the Primary Cardholder in the monthly statement of account in respect of the SBI Card of the number of Card Cashback earned immediately preceding the closing date for the said monthly statement.\n\n- (f) In the event the SBI Card is voluntarily closed by the Cardholder, the Card Cashback earned on his/her SBI Card can be redeemed within 30 days of closure, otherwise these will automatically lapse. In the event of cancellation of the SBI Card for any other reason, all the Card Cashback earned will stand forfeited. If the SBI Card is blocked or suspended by SBICPSL for any reason whatsoever, then the Card Cashback earned shall stand forfeited but may be reinstated at the discretion of SBICPSL if use of SBI Card is reinstated.\n\n- (g) Card Cashback is accrued on posting/settlement date of transaction and not on effective date of transaction and accordingly Card Cashback will get accrued on account as per applicable cashback structure at the time of transaction posting.",
+            "[sbi_cashback_tnc.pdf p.37-38] Cashback SBI Card | Section: 11. CARD CASHBACK\n\n- (a) The Program is open to holders of CASHBACK SBI Card, whose accounts are valid and in good standing so determined by SBICPSL.\n\n- (b) The Card Cashback earned by an Additional Cardholder (Add On Card) will accrue to the account of the Primary Cardholder\n\n- 11.4 Enrolment\n\n- (a) Participation in the Program is voluntary.\n\n- (b) The Cardholder may opt out of the Program by sending intimation (telephonic or written) to SBICPSL.\n\n- (c) The Cardholder may continue to use his/her CASHBACK SBI Card as he/she normally does.\n\n- (d) The Annual Fee for participation in the Program may be as determined by SBICPSL from time to time.\n\n- (e) Enrolment Date - shall mean the date of launch of the Program for the existing Cardholders and the account set up date by SBICPSL for the new Cardholders.\n\n- (f) Enrolment Year - shall mean “any twelve-month period” commencing on the Enrolment Date.\n\n- 11.5 Card Cashback\n\n- (a) A Cardholder cannot accrue Card Cashback for any charge incurred prior to his/her Enrolment Date.\n\n- (b) Card Cashback earned by a Cardholder on an SBI Card cannot be combined or used in conjunction with Points of his/her other SBI Cards at the time of redemption or transferred to any other customer loyalty program unless otherwise notified by SBICPSL.\n\n- (c) The Card Cashback do not constitute property of the Cardholder and are not transferable by operation of law or otherwise to any other person or entity.\n\n- (d) Adjustments will be made to the Card Cashback if there are any credits, including those arising from returned goods or services or billing disputes. If a disputed transaction is resolved in favour of the Cardholder or where a transaction is reversed, proportionate Card Cashback will also be reversed and posted to the Cardholder."
+          ],
+          "seconds": 3.0,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.91666666664375,
+            "factual_correctness": 0.26
+          },
+          "errors": {}
+        },
+        {
+          "id": "q03",
+          "card_id": "hdfc_millennia",
+          "question": "Which merchants give 5% cashback on the HDFC Millennia credit card?",
+          "reference": "Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber and Zomato, on non-EMI spends.",
+          "answer": "The 5% cashback merchants on the HDFC Millennia Credit Card are: Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber, and Zomato [hdfc_millennia_tnc_2026-07.pdf p.2].",
+          "contexts": [
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n## 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- 10 online merchants qualifying for 5% CashBack are Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber & Zomato\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- The Cardholder can earn up to 1,000 CashPoints under the 5% CashBack on 10 online merchants in a calendar month.\n\n- CashBack of 5% on 10 merchants are calculated basis the Terminal / merchant IDs (TIDs & MIDs) shared by the respective merchant partners. If in case the TID / MID is not available in the set-up, such transactions will not qualify for the benefit.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- Incase the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the equivalent CashPoints will be reversed/adjusted under the 5% CashPoints category.\n\n- CashPoints shall not be eligible for the following spends on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` Smart EMI / Dial an EMI transaction",
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- A cardholder will be eligible for 1% CashPoints as per product feature if he/she does a transaction through SmartBuy/PayZapp which includes transaction from 10 online merchants also. All other existing SmartBuy/PayZapp offers will be applicable as per SmartBuy/PayZapp Terms & Conditions.\n\n- A cardholder will be eligible for 1% CashPoints on prepaid card/gift Card/ and/ or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners) will not be considered under 5% CashPoints even if it is from the 10 online merchants.\n\n- The 5% CashPoints on Uber is eligible for travel/commute related spends. The Uber transactions carried out through the MCC code of 4121 (as defined by card networks Visa, MasterCard, RuPay and Diners) will only be considered for 5% CashPoints.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.1] HDFC Bank Millennia Credit Card | Section: Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## CashBack Proposition\n\nDefinition: For the Millennia Credit Card, the following terms, unless the context otherwise admits, shall have the following meanings:\n\n- CashBack shall mean the CashPoints awarded in the customer’s credit card account under the reward points scheme.\n\n- CashBack will be processed as per the following table:\n\n|Spends on|CashBack|Maximum CashBack / CashPointsper Cycle|\n|---|---|---|\n|CashBack on Amazon, BookMyShow, Cult.fit,|5%|1000|\n|Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ,|||\n|Uber & Zomato*|||\n|Other Spends (except Fuel, EMI, Wallet,|1%|1000|\n|Rentpayments,Govt related txns)|||\n\n- CashBack valid only for non-emi spends in the 10 online merchants.\n\n- Gift or Prepaid Card loads & Voucher Purchase transactions will be considered in other spends category.\n\nNote:\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card\n\n- Effective 1st September 2024, Education payments made through third-party apps will NOT earn Reward Points. However, education payments made directly through college/school websites or their POS machines will earn Reward Points. Education MCCs: 8211,8220,8241,8244,8249,8299\n\n- Effective 1st September 2024, Wallet loading and EMI transactions will NOT earn Reward Points. Wallet MCC: 6540\n\nNote : Cardholder can redeem CashPoints as CashBack against their outstanding on the Millennia Credit Card.The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.4] HDFC Bank Millennia Credit Card | Section: Other Benefits –Terms & Conditions\n\n## Other Benefits –Terms & Conditions\n\n- Welcome Benefit of 1000 CashPoints will be given to the cardholder if the joining membership fee is paid.\n\n- There will be no cashpoints posting for renewal membership fee payments.\n\n- 1% Fuel Surcharge waiver on fuel transactions (Minimum transaction of ₹400, Maximum transaction of ₹5,000 & Maximum waiver of ₹250 per statement cycle). The rate of surcharge may vary depending on the fuel station and their acquiring bank. Taxes as applicable shall apply further. In any case, Bank shall be giving a maximum waiver of 1% in case of any dispute, subject to limit applicable limits.\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card.",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.2-3] Swiggy Ornge HDFC Bank Credit Card | Section: 2.3 5% cashback on Online spends\n\n## 2.3 5% cashback on Online spends\n\n- 5% Cashback will only be accrued on online transactions done on following Brands and categories on certain MCCs with Swiggy Ornge HDFC Bank Credit Card -\n\nRefer Table 2.1 for detailed list of MCCs\n\n- Eligible Merchant Category Codes and Merchants for 5% Cashback on Swiggy Ornge HDFC Bank Credit Card are stated as follows in Table 2.1\n\n- Any other MCC except stated under table 2.1 are not eligible for 5% cashback.\n\n- Only select merchants mapped under the MCCs listed in Table 2.1are eligible for 5% Cashback.\n\nTable 2.1\n\n|Merchant/Category|MCC|\n|---|---|\n|Apparels|5137,5139,5611,5621,5631,5641,5651,5655,5661,5691,5697,5699,5948|\n|Pharmacies|5122,5912,5975,8042,8043|\n|Pet Stores|5192,5733,5735,5941,5942,5945,5995,7829,7941|\n|Personal Care|5977,7230,7297,7298|\n|Ola, Zoom, Uber|4111, 4121, 5511, 5521, 7512|\n|Reliance Retail, VijaySales,Croma|1731, 5045, 5046, 5065, 5099, 5722, 5732, 5734, 5946, 7372, 7622, 7623, 7629, 7631|\n|Paytm Travel,||\n|EaseMyTrip, Ixigo, Yatra, Ibibo|4111, 4112, 4121, 4131, 4722, 7011|\n|Amazon, Flipkart,|All online transactions except standard excluded MCCs (refer table 2.5)|\n|Nykaa, ClearTrip,||\n|Ajio,||\n|Netflix, Hotstar,||\n|BookMyShow,||\n|Meesho||\n\n*Only select merchants covered under MCC included under Table 1.2 are eligible for 5% Cashback\n\nPlease note that MCC code is captured by the Merchant, and Bank does not hold any responsibility of crediting cashback if the MCC code is wrongly captured at the merchant end for off us transactions.",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.11-12] Swiggy BLCK HDFC Bank Credit Card | Section: 2.3 5% cashback on Select Online merchant & category spends\n\n## 2.3 5% cashback on Select Online merchant & category spends\n\n- 5% Cashback will only be accrued on online transactions done on following Brands and categories on certain MCCs with Swiggy BLCK HDFC Bank Credit Card -\n\nRefer Table 2.1 for detailed list of MCCs\n\n- Eligible Merchant Category Codes and Merchants for 5% Cashback on Swiggy BLCK HDFC Bank Credit Card are stated as follows in Table 2.1\n\n- Any other MCC except stated under table 2.1 are not eligible for 5% cashback.\n\n- Only select merchants mapped under the MCCs listed in Table 2.1are eligible for 5% Cashback.\n\nTable 2.1\n\n|Merchant/Category|MCC|\n|---|---|\n|Apparels|5137,5139,5611,5621,5631,5641,5651,5655,5661,5691,5697,5699,5948|\n|Pharmacies|5122,5912,5975,8042,8043|\n|Pet Stores|5192,5733,5735,5941,5942,5945,5995,7829,7941|\n|Personal Care|5977,7230,7297,7298|\n|Ola, Zoom, Uber|4111, 4121, 5511, 5521, 7512|\n|Reliance Retail, VijaySales,Croma|1731, 5045, 5046, 5065, 5099, 5722, 5732, 5734, 5946, 7372, 7622, 7623, 7629, 7631|\n|Paytm Travel,||\n|EaseMyTrip, Ixigo, Yatra,Ibibo|4111, 4112, 4121, 4131, 4722, 7011|\n|Amazon, Flipkart,||\n|Nykaa, ClearTrip, Ajio,|All online transactions except standard excluded MCCs (refer table 2.5)|\n|Netflix,Hotstar,||\n|BookMyShow,||\n|Meesho||\n\n*Only select merchants covered under MCC included under Table 1.2 are eligible for 5% Cashback\n\nPlease note that MCC code is captured by the Merchant, and Bank does not hold any responsibility of crediting cashback if the MCC code is wrongly captured at the merchant end for off us transactions."
+          ],
+          "seconds": 1.9,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.9999999999666667,
+            "factual_correctness": 0.0
+          },
+          "errors": {}
+        },
+        {
+          "id": "q04",
+          "card_id": "hdfc_millennia",
+          "question": "How much 5% cashback can I earn per cycle on HDFC Millennia, and what is the cap on the 1% category?",
+          "reference": "5% cashback is capped at 1,000 CashPoints per cycle, and 1% cashback on other spends is capped at 1,000 CashPoints per calendar month.",
+          "answer": "For HDFC Millennia, the maximum CashBack / CashPoints per cycle is **1,000 for the 5% category** and **1,000 for the 1% category** [hdfc_millennia_tnc_2026-07.pdf p.1].",
+          "contexts": [
+            "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n## 1% CashBack on other spends – Terms & Conditions\n\n- 1% cashback on all other spends excluding Fuel, Wallet, EMI, govt, rental transactions.\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the subsequent month 1st week.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- CashPoints shall not be eligible for the following spends/transactions on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` All EMI transactions(even if preclosed) including Smart EMI / Dial an EMI transaction\n\n- The Cardholder can earn up to 1,000 CashPoints under the 1% CashBack on other spends in a calendar month.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- In case the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the CashPoints will be reversed from next month earning under the 1% CashPoints category.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n## 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- 10 online merchants qualifying for 5% CashBack are Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber & Zomato\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- The Cardholder can earn up to 1,000 CashPoints under the 5% CashBack on 10 online merchants in a calendar month.\n\n- CashBack of 5% on 10 merchants are calculated basis the Terminal / merchant IDs (TIDs & MIDs) shared by the respective merchant partners. If in case the TID / MID is not available in the set-up, such transactions will not qualify for the benefit.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- Incase the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the equivalent CashPoints will be reversed/adjusted under the 5% CashPoints category.\n\n- CashPoints shall not be eligible for the following spends on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` Smart EMI / Dial an EMI transaction",
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- A cardholder will be eligible for 1% CashPoints as per product feature if he/she does a transaction through SmartBuy/PayZapp which includes transaction from 10 online merchants also. All other existing SmartBuy/PayZapp offers will be applicable as per SmartBuy/PayZapp Terms & Conditions.\n\n- A cardholder will be eligible for 1% CashPoints on prepaid card/gift Card/ and/ or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners) will not be considered under 5% CashPoints even if it is from the 10 online merchants.\n\n- The 5% CashPoints on Uber is eligible for travel/commute related spends. The Uber transactions carried out through the MCC code of 4121 (as defined by card networks Visa, MasterCard, RuPay and Diners) will only be considered for 5% CashPoints.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.1] HDFC Bank Millennia Credit Card | Section: Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## CashBack Proposition\n\nDefinition: For the Millennia Credit Card, the following terms, unless the context otherwise admits, shall have the following meanings:\n\n- CashBack shall mean the CashPoints awarded in the customer’s credit card account under the reward points scheme.\n\n- CashBack will be processed as per the following table:\n\n|Spends on|CashBack|Maximum CashBack / CashPointsper Cycle|\n|---|---|---|\n|CashBack on Amazon, BookMyShow, Cult.fit,|5%|1000|\n|Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ,|||\n|Uber & Zomato*|||\n|Other Spends (except Fuel, EMI, Wallet,|1%|1000|\n|Rentpayments,Govt related txns)|||\n\n- CashBack valid only for non-emi spends in the 10 online merchants.\n\n- Gift or Prepaid Card loads & Voucher Purchase transactions will be considered in other spends category.\n\nNote:\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card\n\n- Effective 1st September 2024, Education payments made through third-party apps will NOT earn Reward Points. However, education payments made directly through college/school websites or their POS machines will earn Reward Points. Education MCCs: 8211,8220,8241,8244,8249,8299\n\n- Effective 1st September 2024, Wallet loading and EMI transactions will NOT earn Reward Points. Wallet MCC: 6540\n\nNote : Cardholder can redeem CashPoints as CashBack against their outstanding on the Millennia Credit Card.The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n- A cardholder will not be eligible for 1% CashPoints on prepaid card/gift Card/ wallet load and / or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners)\n\n- Smartpay transactions will be considered under 1% CashBack category.\n\n- With effect from 1st January 2023, Rent payments and Government related transactions will NOT earn Reward Points.",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.3] Swiggy Ornge HDFC Bank Credit Card | Section: 2.4 1% cashback on Other spends\n\n## 2.4 1% cashback on Other spends\n\n- Exclusion for 1% cashback category – Fuel, Rent, Government related transactions, EMI, Gaming, Education, Gift Card, Wallet and Jewelry\n\n## 2.5 List of Excluded cashback Categories with Swiggy Ornge HDFC Bank Credit Card\n\n|Category|MCC|\n|---|---|\n|Fuel [one merged cell across 4 rows]|5172|\n|Fuel [one merged cell across 4 rows]|5541|\n|Fuel [one merged cell across 4 rows]|5542|\n|Fuel [one merged cell across 4 rows]|5983|\n|Rent|6513|\n|Wallet|6540|\n|Jl ewery [one merged cell across 2 rows]|5094|\n|Jl ewery [one merged cell across 2 rows]|5944|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9211|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9222|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9223|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9311|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9399|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9402|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9405|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9950|\n|Gift Cards|5947|\n|EMI|Multiple MCCs|\n|Gaming|5816|\n|Education|8211, 8220, 8241, 8244, 8249, 8299|\n\n- For capping per billing cycle and more details on exclusions on 1% Cashback categories, please refer to Table 1.1 (stated above)"
+          ],
+          "seconds": 1.6,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.4166666666458333,
+            "factual_correctness": 0.5
+          },
+          "errors": {}
+        },
+        {
+          "id": "q05",
+          "card_id": "hdfc_millennia",
+          "question": "Do rent payments earn cashback on HDFC Millennia?",
+          "reference": "No. Rent payments and government-related transactions do not earn cashback (since 1 January 2023). Fuel is also excluded.",
+          "answer": "No. Rent payments do not earn cashback/reward points on HDFC Millennia. The passages say “Rent payments and Govt related transactions will NOT earn Reward Points” and exclude rent payments from both the 1% and 5% cashback categories [hdfc_millennia_tnc_2026-07.pdf p.3] [hdfc_millennia_tnc_2026-07.pdf p.2].",
+          "contexts": [
+            "[hdfc_millennia_tnc_2026-07.pdf p.1] HDFC Bank Millennia Credit Card | Section: Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## CashBack Proposition\n\nDefinition: For the Millennia Credit Card, the following terms, unless the context otherwise admits, shall have the following meanings:\n\n- CashBack shall mean the CashPoints awarded in the customer’s credit card account under the reward points scheme.\n\n- CashBack will be processed as per the following table:\n\n|Spends on|CashBack|Maximum CashBack / CashPointsper Cycle|\n|---|---|---|\n|CashBack on Amazon, BookMyShow, Cult.fit,|5%|1000|\n|Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ,|||\n|Uber & Zomato*|||\n|Other Spends (except Fuel, EMI, Wallet,|1%|1000|\n|Rentpayments,Govt related txns)|||\n\n- CashBack valid only for non-emi spends in the 10 online merchants.\n\n- Gift or Prepaid Card loads & Voucher Purchase transactions will be considered in other spends category.\n\nNote:\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card\n\n- Effective 1st September 2024, Education payments made through third-party apps will NOT earn Reward Points. However, education payments made directly through college/school websites or their POS machines will earn Reward Points. Education MCCs: 8211,8220,8241,8244,8249,8299\n\n- Effective 1st September 2024, Wallet loading and EMI transactions will NOT earn Reward Points. Wallet MCC: 6540\n\nNote : Cardholder can redeem CashPoints as CashBack against their outstanding on the Millennia Credit Card.The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n## 1% CashBack on other spends – Terms & Conditions\n\n- 1% cashback on all other spends excluding Fuel, Wallet, EMI, govt, rental transactions.\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the subsequent month 1st week.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- CashPoints shall not be eligible for the following spends/transactions on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` All EMI transactions(even if preclosed) including Smart EMI / Dial an EMI transaction\n\n- The Cardholder can earn up to 1,000 CashPoints under the 1% CashBack on other spends in a calendar month.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- In case the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the CashPoints will be reversed from next month earning under the 1% CashPoints category.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n## 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- 10 online merchants qualifying for 5% CashBack are Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber & Zomato\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- The Cardholder can earn up to 1,000 CashPoints under the 5% CashBack on 10 online merchants in a calendar month.\n\n- CashBack of 5% on 10 merchants are calculated basis the Terminal / merchant IDs (TIDs & MIDs) shared by the respective merchant partners. If in case the TID / MID is not available in the set-up, such transactions will not qualify for the benefit.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- Incase the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the equivalent CashPoints will be reversed/adjusted under the 5% CashPoints category.\n\n- CashPoints shall not be eligible for the following spends on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` Smart EMI / Dial an EMI transaction",
+            "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n- A cardholder will not be eligible for 1% CashPoints on prepaid card/gift Card/ wallet load and / or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners)\n\n- Smartpay transactions will be considered under 1% CashBack category.\n\n- With effect from 1st January 2023, Rent payments and Government related transactions will NOT earn Reward Points.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.4] HDFC Bank Millennia Credit Card | Section: Other Benefits –Terms & Conditions\n\n## Other Benefits –Terms & Conditions\n\n- Welcome Benefit of 1000 CashPoints will be given to the cardholder if the joining membership fee is paid.\n\n- There will be no cashpoints posting for renewal membership fee payments.\n\n- 1% Fuel Surcharge waiver on fuel transactions (Minimum transaction of ₹400, Maximum transaction of ₹5,000 & Maximum waiver of ₹250 per statement cycle). The rate of surcharge may vary depending on the fuel station and their acquiring bank. Taxes as applicable shall apply further. In any case, Bank shall be giving a maximum waiver of 1% in case of any dispute, subject to limit applicable limits.\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card.",
+            "[hdfc_millennia_tnc_2026-07.pdf p.5] HDFC Bank Millennia Credit Card | Section: Important Changes in Charges:\n\n## Important Changes in Charges:\n\nEffective 1st August, 2024, the following revision to your HDFC Bank Credit card charges will apply.\n\n## Rental Transactions:\n\nIf you use services like (but not limited to) CRED, PayTM, Cheq, MobiKwik, Freecharge, and others to pay rent/ for txns under below MCC, a 1% fee will be charged on the transaction amount and capped at ₹3000 per transaction. Rental Mcc: 6513"
+          ],
+          "seconds": 2.0,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 0.6666666666666666,
+            "context_precision": 0.9666666666473333,
+            "factual_correctness": 0.22
+          },
+          "errors": {}
+        },
+        {
+          "id": "q06",
+          "card_id": "swiggy_hdfc_blck",
+          "question": "How much cashback does the Swiggy BLCK HDFC card give on Swiggy, and is there a cap?",
+          "reference": "10% cashback on the Swiggy app (food, Instamart, Dineout), capped at Rs 1,500 per billing cycle, on transactions of at least Rs 249.",
+          "answer": "The Swiggy BLCK HDFC Bank Credit Card gives **10% cashback on spends on the Swiggy App** for **Food Delivery, Instamart, and Dineout**, with a **cap of Rs. 1,500 per billing cycle** [hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10].",
+          "contexts": [
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10] Swiggy BLCK HDFC Bank Credit Card | Section: Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## 1. Customer Value Proposition\n\n- Cashback on Swiggy BLCK HDFC Bank Credit Card will be processed as per the following table –\n\nTable 1.1\n\n|Type of Spends|Cashback|Capping|Exclusions / Inclusions|\n|---|---|---|---|\n|Spends on Swiggy App* (Food Delivery, Instamart and Dineout)|10% cashback|Rs.1500 per billing cycle|Exclusions- Transactions made using Swiggy Money Wallet, Swiggy Liquor, and any other categories (if any) decided later|\n|Spends on online shopping across Famous Merchants and categories like Apparels, Pharmacies, Pet stores, Personal Care, Electronics, Entertainment, Travel, Discount Stores & Local cabs basis eligible list of MCCs|5% cashback|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Cleartrip|5% + (6% Instant Discount on Travel and 19% Instant Discount on Hotels)|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Nykaa|5% Cashback + 5% Instant Discount|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Spends on other categories *|1% cashback|Rs.1000 per billing cycle|Exclusions- Fuel, Rent, Jewellery, Govt. spends, Gaming and Education, EMI & Wallet|\n\nRefer section 2.3 on Eligible list of Brands, Categories and MCC\n\n- Capping per billing cycle and Exclusions for each cashback category are applicable\n\n- Cashback will not be accrued for the following transactions using Swiggy BLCK HDFC Bank Credit Card\n\n- ❖ Prepaid Card/Gift Card/Wallet\n\n- ❖ Rent\n\n- ❖ Government related transactions\n\n- ❖ Gaming\n\n- ❖ Education\n\n- ❖ Fuel\n\n- ❖ Jewellery\n\n- ❖ Smartpay",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10-11] Swiggy BLCK HDFC Bank Credit Card | Section: 1. Customer Value Proposition\n\n- ❖ Smartbuy portal\n\n- ❖ EMI (all type)\n\n- ❖ Cash advances, Purchase of travelers’ cheques\n\n- ❖ Purchase of foreign currency and fees\n\n- ❖ Any other categories as decided from Time to Time\n\n## 2.2 10% cashback on Swiggy App (Food ordering, Instamart and Dineout)\n\n- Earning 10% Cashback using Swiggy BLCK HDFC Bank Credit Card is applicable only on transaction done on Swiggy Food ordering, Instamart and Dineout.\n\n- Transactions made on any other Swiggy platform except the above stated platforms won’t qualify for the 10% Cashback category\n\n- Please refer Table 1.1 for capping per billing cycle and exclusions on 10% Cashback category.\n\nNote:\n\n(Please refer to Section 4.2 for more details on cashback redemption)\n\n10% Cashback on Swiggy Platform on eligible categories are calculated basis the Merchant IDs (MIDs), Terminal IDs(TIDs) shared by the co-brand partner. If in case the TID is not available in the set-up, such transactions will not qualify for the benefit .",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.17] Swiggy BLCK HDFC Bank Credit Card | Section: 4.2 Cashback Redemption\n\n## 4.2 Cashback Redemption\n\n## 4.2.1 T&Cs\n\n- Cashback earned for current billing cycle will be auto redeemed against outstanding amount. Note – Cashback will not get adjusted or auto redeemed against Financial Charges accrued. Cashback auto redemption is solely applicable on outstanding balance excluding the Finance charges.\n\n- For more details on Finance charges please refer Most Important Terms and Conditions.\n\n- In order to earn 10% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 249 using the card.\n\n- In order to earn 5% and 1% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 100 using the card.\n\n- Cashback can only be earned on eligible transactions as defined by as Table 1.1 (stated above)",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.12] Swiggy BLCK HDFC Bank Credit Card | Section: 2.4 1% cashback on Other spends\n\n## 2.4 1% cashback on Other spends\n\n- Exclusion for 1% cashback category – Fuel, Rent, Government related transactions, EMI, Gaming, Education, Gift Card, Wallet and Jewelry.\n\n## 2.5 List of Excluded cashback Categories with Swiggy BLCK HDFC Bank Credit Card –\n\n|Category|MCC|\n|---|---|\n|Fuel [one merged cell across 4 rows]|5172|\n|Fuel [one merged cell across 4 rows]|5541|\n|Fuel [one merged cell across 4 rows]|5542|\n|Fuel [one merged cell across 4 rows]|5983|\n|Rent|6513|\n|Wallet|6540|\n|Jl ewery [one merged cell across 2 rows]|5094|\n|Jl ewery [one merged cell across 2 rows]|5944|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9211|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9222|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9223|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9311|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9399|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9402|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9405|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9950|\n|Gift Cards|5947|\n|EMI|Multiple MCCs|\n|Gaming|5816|\n|Education|8211, 8220, 8241, 8244, 8249, 8299|\n\n- For capping per billing cycle and more details on exclusions on 1% Cashback categories, please refer to Table 1.1 (stated above)",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.15] Swiggy BLCK HDFC Bank Credit Card | Section: 4.1 Cashback T&Cs on Swiggy BLCK HDFC Bank Credit Card\n\n## 4.1 Cashback T&Cs on Swiggy BLCK HDFC Bank Credit Card\n\n- The transaction settled from the merchant will be eligible for Cashback and Posting date of the transaction will be considered for cashback calculation.\n\n- For any transaction against which the posting date is recorded under the next statement, Cashback will be posted in the card account statement in accordance with posting date.\n\n- Payments/credits not initiated by the customer such as Merchant refund/cashback/charge reversals etc. received into the credit card account will not be considered as a payment towards the outstanding of the card. However, such credits will be considered to compute the subsequent month’s dues.\n\n- In order to earn 10% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 249 using the card.\n\n- In order to earn 5% and 1% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 100 using the card.\n\n- Cashback can only be earned on eligible transactions as defined by as Table 1.1 (stated above)\n\n- Cashback earned will be calculated based on all the spends across defined cashback categories during the statement period minus any returns or refunds during the same period.\n\n- The principal cardholder will forthwith be disqualified from earning the cashbacks, if Swiggy BLCK HDFC Bank Credit Card is terminated at any time for any reason, whether by the primary Cardholder or the Bank.\n\n- Any remaining Cashback including Cashbacks pending credit into the Swiggy account of the Cardholder shall immediately cease to be valid upon the occurrence of the following:\n\n- a) The cancellation of the Swiggy BLCK HDFC Bank credit card",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.11-12] Swiggy BLCK HDFC Bank Credit Card | Section: 2.3 5% cashback on Select Online merchant & category spends\n\n## 2.3 5% cashback on Select Online merchant & category spends\n\n- 5% Cashback will only be accrued on online transactions done on following Brands and categories on certain MCCs with Swiggy BLCK HDFC Bank Credit Card -\n\nRefer Table 2.1 for detailed list of MCCs\n\n- Eligible Merchant Category Codes and Merchants for 5% Cashback on Swiggy BLCK HDFC Bank Credit Card are stated as follows in Table 2.1\n\n- Any other MCC except stated under table 2.1 are not eligible for 5% cashback.\n\n- Only select merchants mapped under the MCCs listed in Table 2.1are eligible for 5% Cashback.\n\nTable 2.1\n\n|Merchant/Category|MCC|\n|---|---|\n|Apparels|5137,5139,5611,5621,5631,5641,5651,5655,5661,5691,5697,5699,5948|\n|Pharmacies|5122,5912,5975,8042,8043|\n|Pet Stores|5192,5733,5735,5941,5942,5945,5995,7829,7941|\n|Personal Care|5977,7230,7297,7298|\n|Ola, Zoom, Uber|4111, 4121, 5511, 5521, 7512|\n|Reliance Retail, VijaySales,Croma|1731, 5045, 5046, 5065, 5099, 5722, 5732, 5734, 5946, 7372, 7622, 7623, 7629, 7631|\n|Paytm Travel,||\n|EaseMyTrip, Ixigo, Yatra,Ibibo|4111, 4112, 4121, 4131, 4722, 7011|\n|Amazon, Flipkart,||\n|Nykaa, ClearTrip, Ajio,|All online transactions except standard excluded MCCs (refer table 2.5)|\n|Netflix,Hotstar,||\n|BookMyShow,||\n|Meesho||\n\n*Only select merchants covered under MCC included under Table 1.2 are eligible for 5% Cashback\n\nPlease note that MCC code is captured by the Merchant, and Bank does not hold any responsibility of crediting cashback if the MCC code is wrongly captured at the merchant end for off us transactions."
+          ],
+          "seconds": 1.7,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.8666666666377778,
+            "factual_correctness": 0.8
+          },
+          "errors": {}
+        },
+        {
+          "id": "q07",
+          "card_id": "swiggy_hdfc_ornge",
+          "question": "What is the renewal fee on the Swiggy Ornge HDFC card and how can it be waived?",
+          "reference": "Rs 500 plus taxes from the second year, waived if you spend Rs 1,50,000 or more in the preceding year.",
+          "answer": "The renewal fee for the Swiggy Ornge HDFC Bank Credit Card is **INR 500 + applicable taxes** from the second year onwards, and it is charged once to continue enjoying the card’s benefits [hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5].\n\nIt can be waived if you spend **Rs. 1,50,000 or more in the preceding year** [hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5].",
+          "contexts": [
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5] Swiggy Ornge HDFC Bank Credit Card | Section: 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n## 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n- Annual fee of INR 500 + applicable taxes is charged once to enjoy the benefits of Swiggy Ornge HDFC Bank Credit Card\n\n- Annual fee will be levied within 120 days. Renewal year fee of Rs 500 will be charged from second year onwards.\n\n- Renewal Year Fee waiver is applicable on spends of Rs. 1,50,000 and above in the preceding Year",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14] Swiggy BLCK HDFC Bank Credit Card | Section: 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n## 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n- Annual fee of INR 1000+ applicable taxes is charged once to enjoy the benefits of Swiggy BLCK HDFC Bank Credit Card.\n\n- Joining Fee of Rs. 1000 will be waived on spending Rs.75,000 in the first 90 days. (Applicable for first Year only)\n\n- Annual fee will be levied within 120 days. Renewal year fee of Rs 1000 will be charged from second year onwards.",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.4] Swiggy Ornge HDFC Bank Credit Card | Section: 2.6 Welcome Benefit\n\n## 2.6 Welcome Benefit\n\n- Eligible cardholders are entitled for complimentary Swiggy One Membership for 12 months as welcome benefit. For existing Swiggy One Membership holders, the benefit will be extended by 12 months\n\n- Cardholder is eligible for welcome benefit on card activation. Card activation can be done one or more below mentioned ways –\n\n1. making a transaction using the Credit Card,\n\n2. to use the card via OTP or IVR, setting PIN for the card, and enabling card controls such as online transactions, enabling international transactions etc.\n\n- The activation should happen within 37 days of card issuance, to claim complementary Swiggy One membership for 3 months.\n\n- The customers need to claim 'Swiggy One' on Swiggy app post card activation to unlock the benefit. This option will be available on the Swiggy app within 2-3 days of card activation.\n\n- Please click here for the detailed T&Cs on Swiggy One Membership (available under the section Swiggy One Membership Program Specific Terms) and unlocking the benefit on Swiggy app.\n\n- Link: https://www.swiggy.com/terms-and-conditions.\n\n- Below are the terms of membership\n\n|Scenarios|Current User membership|Membership issued|\n|---|---|---|\n|1|No membership|Complimentary Swiggy One Membership for 12 Months|\n|3|Existing One Membership|Top up to be done post expiry of the existing Swiggy one membership|\n|4|BLCK Membership|New Swiggy one Membership will be disabled and can be claimed on expiration of the BLCK membership|",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.4-5] Swiggy Ornge HDFC Bank Credit Card | Section: Please Click here for card activation guidelines\n\n## Please Click here for card activation guidelines\n\n## 2.7 Additional Offer during Birthday Week\n\n- Additional 10% discount on Swiggy Dineout upto Rs.500 on minimum order value of Rs. 3000. This is over and above 10% cashback on Swiggy Dineout using the card. For detailed T&Cs on Swiggy Dineout, please refer to the offer terms and conditions at the restaurant booking page\n\n- The offer is applicable for a duration of 7 days (3 days prior and 3 days after the birthday). For example – Cardholder bank registered Birthday is on 14th Oct. The eligibility of the offer is from 11th Oct to 17th Oct (both days inclusive).\n\n- Birthday date should be as per the bank records while applying for the card will be considered for the offer.\n\n- The offer is applicable once per cardholder.\n\n- Follow below steps on the Swiggy app in order to redeem –\n\n1. Click on \"Claim now\" button on Swiggy app main page or Dineout page on Birthday related communication.\n\n2. Select the restaurant of your choice and book your preferred slot\n\n3. Apply the coupon \"SWIGGYCARDBDAY\" available in the 'Apply Coupon' section while making the payment via Dineout\n\n4. Make the payment using your Swiggy Ornge HDFC Bank credit card on Dineout.\n\n- Cardholder are eligible for this offer only post 30 days after card activation. (Ex – if card activation is done on 1st of November, and DOB is 2nd November, offer is not applicable).\n\n- Offer start date : 21st Oct’24\n\n- Swiggy reserves the right, at any time, without prior notice and without assigning any reason whatsoever, to add/alter/modify/change or vary all of these terms and conditions or to replace, wholly or in part, this offer by another offer, whether similar to this offer or not, or to extend or withdraw it altogether",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1] Swiggy Ornge HDFC Bank Credit Card | Section: Terms and Conditions - Swiggy Ornge HDFC Bank Credit Card\n\n## Terms and Conditions - Swiggy Ornge HDFC Bank Credit Card\n\n## 1. Customer Value Proposition\n\n- Cashback on Swiggy Ornge HDFC Bank Credit Card will be processed as per the following table –\n\nTable 1.1\n\n|Type of Spends|Cashback|Capping|Exclusions / Inclusions|\n|---|---|---|---|\n|Spends on Swiggy App* (Food Delivery, Instamart and Dineout)|5% cashback|Rs.1500 per billing cycle [one merged cell across 4 rows]|Exclusions- Transactions made using Swiggy Money Wallet, Swiggy Liquor, and any other categories (if any) decided later|\n|Spends on select Online Merchants and categories like Apparels, Pharmacies, Pet stores, Personal Care, Electronics, Entertainment, Travel, Discount Stores & Local cabs basis eligible list of MCCs|5% cashback|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Cleartrip|5% + (6% Instant Discount on Travel and 19% Instant Discount on Hotels)|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Nykaa|5% Cashback + 5% Instant Discount|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Spends on other categories *|1% cashback|Rs.1000 per billing cycle|Exclusions- Fuel, Rent, Jewellery, Govt. spends, Gaming and Education, EMI & Wallet|\n\n- Refer section 2.3 on Eligible list of Brands, Categories and MCC\n\n- Capping per billing cycle and Exclusions for each cashback category are applicable\n\n- Cashback will not be accrued for the following transactions using Swiggy Ornge HDFC Bank Credit Card\n\n- ❖ Prepaid Card/Gift Card/Wallet\n\n- ❖ Rent\n\n- ❖ Government related transactions\n\n- ❖ Gaming\n\n- ❖ Education\n\n- ❖ Fuel",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.9] Swiggy Ornge HDFC Bank Credit Card | Section: 5.1 Swiggy account T&Cs\n\n## 5.1 Swiggy account T&Cs\n\n- Swiggy reserves the right to suspend or terminate Cardmember's Swiggy Account and his/her access to the services on its platform (i) if any information provided during the registration process or thereafter proves to be inaccurate, not current or incomplete; (ii) if it is believed that your actions may cause legal liability for you, other users or Swiggy; and/or (iii) if you are found to be non-compliant with the Terms of Use or other Swiggy policies accessible at https://www.swiggy.com/terms-and-conditions \"\n\n- Any campaign that is running on Swiggy app outside of existing product features will only be applicable to the customers applying from Swiggy app.\n\n- Any offers run on Swiggy app will be specific to the mobile number registered with the Swiggy account where the offer is shown. Users will not be able to avail the offer using a different mobile number.\n\n- ➢ For quick access to Most Important Terms & Conditions and Fees and Charges click here\n\n- ➢ For quick access to Card Member Agreement click here\n\n- ➢ For Key fact statement Click here"
+          ],
+          "seconds": 2.7,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.9999999999,
+            "factual_correctness": 0.8
+          },
+          "errors": {}
+        },
+        {
+          "id": "q08",
+          "card_id": "swiggy_hdfc_ornge",
+          "question": "What is the difference in annual fee between the Swiggy Ornge and Swiggy BLCK HDFC cards?",
+          "reference": "Swiggy Ornge charges Rs 500 plus taxes and Swiggy BLCK charges Rs 1,000 plus taxes.",
+          "answer": "The annual fee for Swiggy Ornge HDFC Bank Credit Card is INR 500 + applicable taxes, while Swiggy BLCK HDFC Bank Credit Card is INR 1000 + applicable taxes. So, the difference is INR 500 + applicable taxes. [hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5][hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14]",
+          "contexts": [
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.5] Swiggy Ornge HDFC Bank Credit Card | Section: 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n## 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n- Annual fee of INR 500 + applicable taxes is charged once to enjoy the benefits of Swiggy Ornge HDFC Bank Credit Card\n\n- Annual fee will be levied within 120 days. Renewal year fee of Rs 500 will be charged from second year onwards.\n\n- Renewal Year Fee waiver is applicable on spends of Rs. 1,50,000 and above in the preceding Year",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14] Swiggy BLCK HDFC Bank Credit Card | Section: 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n## 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n- Annual fee of INR 1000+ applicable taxes is charged once to enjoy the benefits of Swiggy BLCK HDFC Bank Credit Card.\n\n- Joining Fee of Rs. 1000 will be waived on spending Rs.75,000 in the first 90 days. (Applicable for first Year only)\n\n- Annual fee will be levied within 120 days. Renewal year fee of Rs 1000 will be charged from second year onwards.",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1] Swiggy Ornge HDFC Bank Credit Card | Section: Terms and Conditions - Swiggy Ornge HDFC Bank Credit Card\n\n## Terms and Conditions - Swiggy Ornge HDFC Bank Credit Card\n\n## 1. Customer Value Proposition\n\n- Cashback on Swiggy Ornge HDFC Bank Credit Card will be processed as per the following table –\n\nTable 1.1\n\n|Type of Spends|Cashback|Capping|Exclusions / Inclusions|\n|---|---|---|---|\n|Spends on Swiggy App* (Food Delivery, Instamart and Dineout)|5% cashback|Rs.1500 per billing cycle [one merged cell across 4 rows]|Exclusions- Transactions made using Swiggy Money Wallet, Swiggy Liquor, and any other categories (if any) decided later|\n|Spends on select Online Merchants and categories like Apparels, Pharmacies, Pet stores, Personal Care, Electronics, Entertainment, Travel, Discount Stores & Local cabs basis eligible list of MCCs|5% cashback|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Cleartrip|5% + (6% Instant Discount on Travel and 19% Instant Discount on Hotels)|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Nykaa|5% Cashback + 5% Instant Discount|Rs.1500 per billing cycle [one merged cell across 4 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Spends on other categories *|1% cashback|Rs.1000 per billing cycle|Exclusions- Fuel, Rent, Jewellery, Govt. spends, Gaming and Education, EMI & Wallet|\n\n- Refer section 2.3 on Eligible list of Brands, Categories and MCC\n\n- Capping per billing cycle and Exclusions for each cashback category are applicable\n\n- Cashback will not be accrued for the following transactions using Swiggy Ornge HDFC Bank Credit Card\n\n- ❖ Prepaid Card/Gift Card/Wallet\n\n- ❖ Rent\n\n- ❖ Government related transactions\n\n- ❖ Gaming\n\n- ❖ Education\n\n- ❖ Fuel",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.1-2] Swiggy Ornge HDFC Bank Credit Card | Section: 1. Customer Value Proposition\n\n- ❖ Jewellery\n\n- ❖ Smartpay\n\n- ❖ Smartbuy portal\n\n- ❖ EMI (all type)\n\n- ❖ Cash advances, Purchase of travelers’ cheques\n\n- ❖ Purchase of foreign currency and fees\n\n- ❖ Any other categories as decided from Time to Time\n\n## 2.2 5% cashback on Swiggy App (Food ordering, Instamart and Dineout)\n\n- Earning 5% Cashback using Swiggy Ornge HDFC Bank Credit Card is applicable only on transaction done on Swiggy Food ordering, Instamart and Dineout.\n\n- Transactions made on any other Swiggy platform except the above stated platforms won’t qualify for the 5% Cashback category\n\n- Please refer Table 1.1 for capping per billing cycle and exclusions on 5% Cashback category.\n\nNote:\n\n(Please refer to Section 4.2 for more details on cashback redemption)\n\n5% Cashback on Swiggy Platform on eligible categories are calculated basis the Merchant IDs (MIDs), Terminal IDs(TIDs) shared by the co-brand partner. If in case the TID is not available in the set-up, such transactions will not qualify for the benefit .",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.4] Swiggy Ornge HDFC Bank Credit Card | Section: 2.6 Welcome Benefit\n\n## 2.6 Welcome Benefit\n\n- Eligible cardholders are entitled for complimentary Swiggy One Membership for 12 months as welcome benefit. For existing Swiggy One Membership holders, the benefit will be extended by 12 months\n\n- Cardholder is eligible for welcome benefit on card activation. Card activation can be done one or more below mentioned ways –\n\n1. making a transaction using the Credit Card,\n\n2. to use the card via OTP or IVR, setting PIN for the card, and enabling card controls such as online transactions, enabling international transactions etc.\n\n- The activation should happen within 37 days of card issuance, to claim complementary Swiggy One membership for 3 months.\n\n- The customers need to claim 'Swiggy One' on Swiggy app post card activation to unlock the benefit. This option will be available on the Swiggy app within 2-3 days of card activation.\n\n- Please click here for the detailed T&Cs on Swiggy One Membership (available under the section Swiggy One Membership Program Specific Terms) and unlocking the benefit on Swiggy app.\n\n- Link: https://www.swiggy.com/terms-and-conditions.\n\n- Below are the terms of membership\n\n|Scenarios|Current User membership|Membership issued|\n|---|---|---|\n|1|No membership|Complimentary Swiggy One Membership for 12 Months|\n|3|Existing One Membership|Top up to be done post expiry of the existing Swiggy one membership|\n|4|BLCK Membership|New Swiggy one Membership will be disabled and can be claimed on expiration of the BLCK membership|",
+            "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10] Swiggy BLCK HDFC Bank Credit Card | Section: Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## 1. Customer Value Proposition\n\n- Cashback on Swiggy BLCK HDFC Bank Credit Card will be processed as per the following table –\n\nTable 1.1\n\n|Type of Spends|Cashback|Capping|Exclusions / Inclusions|\n|---|---|---|---|\n|Spends on Swiggy App* (Food Delivery, Instamart and Dineout)|10% cashback|Rs.1500 per billing cycle|Exclusions- Transactions made using Swiggy Money Wallet, Swiggy Liquor, and any other categories (if any) decided later|\n|Spends on online shopping across Famous Merchants and categories like Apparels, Pharmacies, Pet stores, Personal Care, Electronics, Entertainment, Travel, Discount Stores & Local cabs basis eligible list of MCCs|5% cashback|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Cleartrip|5% + (6% Instant Discount on Travel and 19% Instant Discount on Hotels)|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Nykaa|5% Cashback + 5% Instant Discount|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Spends on other categories *|1% cashback|Rs.1000 per billing cycle|Exclusions- Fuel, Rent, Jewellery, Govt. spends, Gaming and Education, EMI & Wallet|\n\nRefer section 2.3 on Eligible list of Brands, Categories and MCC\n\n- Capping per billing cycle and Exclusions for each cashback category are applicable\n\n- Cashback will not be accrued for the following transactions using Swiggy BLCK HDFC Bank Credit Card\n\n- ❖ Prepaid Card/Gift Card/Wallet\n\n- ❖ Rent\n\n- ❖ Government related transactions\n\n- ❖ Gaming\n\n- ❖ Education\n\n- ❖ Fuel\n\n- ❖ Jewellery\n\n- ❖ Smartpay"
+          ],
+          "seconds": 2.0,
+          "scores": {
+            "faithfulness": 1.0,
+            "context_recall": 1.0,
+            "context_precision": 0.0,
+            "factual_correctness": 0.8
+          },
+          "errors": {}
+        }
+      ]
+    },
+    "usage": {
+      "total": {
+        "prompt_tokens": 393415,
+        "cached_prompt_tokens": 2816,
+        "completion_tokens": 30010,
+        "reasoning_tokens": 0,
+        "requests": 239,
+        "est_cost_usd": 0.4282
+      },
+      "by_step": {
+        "Card Rules Researcher (gpt-5.4-mini)": {
+          "prompt_tokens": 30919,
+          "cached_prompt_tokens": 0,
+          "completion_tokens": 1234,
+          "reasoning_tokens": 0,
+          "requests": 16,
+          "est_cost_usd": 0.028742
+        },
+        "baseline_qa (gpt-5.4-mini)": {
+          "prompt_tokens": 19168,
+          "cached_prompt_tokens": 0,
+          "completion_tokens": 915,
+          "reasoning_tokens": 0,
+          "requests": 8,
+          "est_cost_usd": 0.018493
+        },
+        "ragas_judge (gpt-5.4-mini)": {
+          "prompt_tokens": 343328,
+          "cached_prompt_tokens": 2816,
+          "completion_tokens": 27861,
+          "reasoning_tokens": 0,
+          "requests": 215,
+          "est_cost_usd": 0.38097
+        }
+      }
+    }
+  },
+  "_meta": {
+    "tag": "v3_prompt_rules",
+    "suite": "all",
+    "limit": 8,
+    "refresh_rules": true,
+    "llm_model": "openai/gpt-5.4-mini",
+    "eval_llm_model": "gpt-5.4-mini",
+    "top_k": 6,
+    "researcher_prompt": "v3",
+    "index": {
+      "chunker": "v2.1",
+      "chunks": 397,
+      "reset": true,
+      "built_at": "2026-10-28T13:35:11"
+    },
+    "run_at": "2026-10-28T19:07:52"
+  }
+}

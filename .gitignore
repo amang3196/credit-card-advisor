@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/pdfs/*.pdf
+data/extracted/
+data/chunks.jsonl
+data/index_info.json
+eval/results/*.json
+!eval/results/latest.json
+wheels/
+_to_delete*/
+.vscode/
+# Personal interview notes (not part of the public repo)
+SUMMARY.md

@@ -1,0 +1,46 @@
+{
+  "_status": "VERIFIED",
+  "_sources": {
+    "rates": "icici_amazon_pay_tnc_2026-10.pdf p.16-17 (5% on amazon.in for Prime, 3% non-Prime, 2% digital categories via Amazon Pay, 1% on non-Amazon purchases; no caps stated)",
+    "exclusions": "icici_amazon_pay_tnc_2026-10.pdf p.17 (rent from 18 Jun 2024; utility outside Amazon, education, international from 11 Oct 2025; fuel, gold, tax; EMI)",
+    "fee": "icici_amazon_pay_mitc_2026-07.pdf p.1 (no joining or annual fee)"
+  },
+  "_merchant_specific": [
+    "2% on bill payments / recharges made through Amazon Pay: utilities are assumed to be paid directly, so they're excluded"
+  ],
+  "_notes": "CHANGED from the draft: utilities are now excluded (rule from 11 Oct 2025). Insurance and travel are NOT excluded and earn 1%. Mapping rule (same as the agent's prompt): a merchant-specific rate is applied to a whole category only if those merchants are most of it; otherwise the base rate is kept and it's listed under _merchant_specific.",
+  "card_id": "amazon_pay_icici",
+  "card_name": "Amazon Pay ICICI Bank Credit Card",
+  "annual_fee_inr": 0,
+  "fee_waiver_spend_inr": null,
+  "fee_waiver_excluded_categories": [],
+  "reward_rules": [
+    {
+      "categories": [
+        "amazon"
+      ],
+      "rate_pct": 5,
+      "cap_inr": null,
+      "requires_prime": true,
+      "description": "5% on Amazon (Prime)",
+      "source": "icici_amazon_pay_tnc_2026-10.pdf p.16"
+    },
+    {
+      "categories": [
+        "amazon"
+      ],
+      "rate_pct": 3,
+      "cap_inr": null,
+      "description": "3% on Amazon (non-Prime)",
+      "source": "icici_amazon_pay_tnc_2026-10.pdf p.17"
+    }
+  ],
+  "base_rate_pct": 1,
+  "base_cap_inr": null,
+  "excluded_categories": [
+    "fuel",
+    "rent",
+    "utilities"
+  ],
+  "overall_cap_inr": null
+}

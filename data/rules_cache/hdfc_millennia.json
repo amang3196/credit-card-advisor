@@ -1,0 +1,103 @@
+{
+  "card_id": "hdfc_millennia",
+  "extracted_at": "2026-10-28T13:25:39.603795+00:00",
+  "model": "openai/gpt-5.4-mini",
+  "seconds": 17.9,
+  "usage": {
+    "prompt_tokens": 35469,
+    "cached_prompt_tokens": 16000,
+    "completion_tokens": 1761,
+    "reasoning_tokens": 0,
+    "requests": 3,
+    "est_cost_usd": 0.0237
+  },
+  "rules": {
+    "card_id": "hdfc_millennia",
+    "card_name": "HDFC Bank Millennia Credit Card",
+    "annual_fee_inr": 0.0,
+    "fee_waiver_spend_inr": null,
+    "fee_waiver_excluded_categories": [],
+    "reward_rules": [
+      {
+        "categories": [
+          "amazon",
+          "flipkart",
+          "swiggy",
+          "zomato",
+          "other_online"
+        ],
+        "rate_pct": 5.0,
+        "cap_inr": 1000.0,
+        "cap_period": "month",
+        "requires_prime": false,
+        "description": "5% CashBack on Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber & Zomato; listed online merchants only; valid only for non-EMI spends. Merchant/MCC restrictions apply, including Uber only on MCC 4121 and wallet-load MCC 6540 not eligible.",
+        "source": "hdfc_millennia_tnc_2026-07.pdf p.1; hdfc_millennia_tnc_2026-07.pdf p.2"
+      },
+      {
+        "categories": [
+          "other_online",
+          "offline",
+          "travel"
+        ],
+        "rate_pct": 1.0,
+        "cap_inr": 1000.0,
+        "cap_period": "month",
+        "requires_prime": false,
+        "description": "1% CashBack on all other spends. Gift/prepaid card loads and voucher purchases are treated as other spends. Smartpay transactions are considered under the 1% CashBack category.",
+        "source": "hdfc_millennia_tnc_2026-07.pdf p.1; hdfc_millennia_tnc_2026-07.pdf p.3"
+      }
+    ],
+    "base_rate_pct": 1.0,
+    "base_cap_inr": 1000.0,
+    "base_cap_period": "month",
+    "excluded_categories": [
+      "fuel",
+      "rent",
+      "utilities",
+      "insurance"
+    ],
+    "overall_cap_inr": null,
+    "overall_cap_period": "statement_cycle",
+    "gotchas": [
+      "CashBack is processed as CashPoints, and CashPoints value for statement redemption is 1 CashPoint = ₹1 for Millennia Credit Card Holders. Source: hdfc_millennia_tnc_2026-07.pdf p.1; p.2; p.3; p.6",
+      "The 5% online merchant list is explicitly limited to 10 merchants: Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber and Zomato. Source: hdfc_millennia_tnc_2026-07.pdf p.2",
+      "The monthly cap for 5% CashBack is 1,000 CashPoints in a calendar month; spends beyond the capping of 1,000 shall not be considered for CashPoints posting. Source: hdfc_millennia_tnc_2026-07.pdf p.2",
+      "The monthly cap for 1% CashBack on other spends is 1,000 CashPoints in a calendar month; spends beyond the capping of 1,000 shall not be considered for CashPoints posting. Source: hdfc_millennia_tnc_2026-07.pdf p.3",
+      "CashBack valid only for non-EMI spends in the 10 online merchants. Source: hdfc_millennia_tnc_2026-07.pdf p.1",
+      "CashPoints shall not be eligible for fuel spends, rent payments, govt related transactions, cash advances, payment of outstanding balances, payment of card fees and other charges, and Smart EMI / Dial an EMI transactions. Source: hdfc_millennia_tnc_2026-07.pdf p.2; p.3",
+      "A separate note says with effect from 1st September 2024, wallet loading and EMI transactions will NOT earn Reward Points, and wallet MCC 6540 is named. Source: hdfc_millennia_tnc_2026-07.pdf p.1",
+      "Education payments made through third-party apps will NOT earn Reward Points, but education payments made directly through college/school websites or their POS machines will earn Reward Points. Education MCCs: 8211, 8220, 8241, 8244, 8249, 8299. Source: hdfc_millennia_tnc_2026-07.pdf p.1",
+      "Renewal membership fee payments do not earn CashPoints. Source: hdfc_millennia_tnc_2026-07.pdf p.4",
+      "If you redeem rewards toward statement credit (CashBack), a ₹50 redemption fee is charged effective 1st August 2024. Source: hdfc_millennia_tnc_2026-07.pdf p.6",
+      "Reward points redemption for CashBack redemption are capped per calendar month to 3,000 rewards points. Source: hdfc_millennia_tnc_2026-07.pdf p.6",
+      "Fuel surcharge waiver is separate from rewards: 1% fuel surcharge waiver on fuel transactions, minimum transaction ₹400, maximum transaction ₹5,000, maximum waiver ₹250 per statement cycle. Source: hdfc_millennia_tnc_2026-07.pdf p.4",
+      "Fuel transactions above ₹15,000 per transaction attract a 1% fee capped at ₹3000 per transaction. Source: hdfc_millennia_tnc_2026-07.pdf p.5",
+      "Utility transactions above ₹50,000 per transaction attract a 1% fee capped at ₹3000 per transaction; insurance transactions are not considered utility transactions and hence no charge will be applicable. Source: hdfc_millennia_tnc_2026-07.pdf p.5",
+      "Rent payments through listed services/MCC 6513 attract a 1% fee capped at ₹3000 per transaction. Source: hdfc_millennia_tnc_2026-07.pdf p.5",
+      "Net spends target for the milestone voucher is ₹1 lac within a specified calendar quarter; EMI principal amount paid during the calendar quarter is counted, SmartEMI/Dial An EMI is not counted. Source: hdfc_millennia_tnc_2026-07.pdf p.3-4",
+      "The milestone voucher is for ₹1000 and the message is valid for 120 days; queries after 90 days from end of qualification quarter will not be entertained. Source: hdfc_millennia_tnc_2026-07.pdf p.3-4"
+    ],
+    "sources": [
+      "hdfc_millennia_tnc_2026-07.pdf p.1",
+      "hdfc_millennia_tnc_2026-07.pdf p.2",
+      "hdfc_millennia_tnc_2026-07.pdf p.3",
+      "hdfc_millennia_tnc_2026-07.pdf p.4",
+      "hdfc_millennia_tnc_2026-07.pdf p.5",
+      "hdfc_millennia_tnc_2026-07.pdf p.6"
+    ]
+  },
+  "contexts": [
+    "[hdfc_millennia_tnc_2026-07.pdf p.4] HDFC Bank Millennia Credit Card | Section: Milestone Benefit – Terms & Conditions\n\nFor more options, please visit www.gyftr.com/hdfcbankmillennia/\n\nFor any help, give a missed call at 7840089420\n\n- The voucher once issued to the cardholder can’t be changed or reissued.\n\n- Queries on Quarterly spends milestone voucher/coupon after 90 days of end of the qualification quarter won’t be entertained.\n\n- The validity of the voucher will be applicable as per the selected voucher T&C.\n\n- The voucher not utilized within the mentioned period will not be reissued.",
+    "[hdfc_millennia_tnc_2026-07.pdf p.5] HDFC Bank Millennia Credit Card | Section: Important Changes in Charges:\n\n## Important Changes in Charges:\n\nEffective 1st August, 2024, the following revision to your HDFC Bank Credit card charges will apply.\n\n## Rental Transactions:\n\nIf you use services like (but not limited to) CRED, PayTM, Cheq, MobiKwik, Freecharge, and others to pay rent/ for txns under below MCC, a 1% fee will be charged on the transaction amount and capped at ₹3000 per transaction. Rental Mcc: 6513",
+    "[hdfc_millennia_tnc_2026-07.pdf p.4] HDFC Bank Millennia Credit Card | Section: Other Benefits –Terms & Conditions\n\n## Other Benefits –Terms & Conditions\n\n- Welcome Benefit of 1000 CashPoints will be given to the cardholder if the joining membership fee is paid.\n\n- There will be no cashpoints posting for renewal membership fee payments.\n\n- 1% Fuel Surcharge waiver on fuel transactions (Minimum transaction of ₹400, Maximum transaction of ₹5,000 & Maximum waiver of ₹250 per statement cycle). The rate of surcharge may vary depending on the fuel station and their acquiring bank. Taxes as applicable shall apply further. In any case, Bank shall be giving a maximum waiver of 1% in case of any dispute, subject to limit applicable limits.\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card.",
+    "[hdfc_millennia_tnc_2026-07.pdf p.1] HDFC Bank Millennia Credit Card | Section: Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## Terms & Conditions – HDFC Bank Millennia Credit Card\n\n## CashBack Proposition\n\nDefinition: For the Millennia Credit Card, the following terms, unless the context otherwise admits, shall have the following meanings:\n\n- CashBack shall mean the CashPoints awarded in the customer’s credit card account under the reward points scheme.\n\n- CashBack will be processed as per the following table:\n\n|Spends on|CashBack|Maximum CashBack / CashPointsper Cycle|\n|---|---|---|\n|CashBack on Amazon, BookMyShow, Cult.fit,|5%|1000|\n|Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ,|||\n|Uber & Zomato*|||\n|Other Spends (except Fuel, EMI, Wallet,|1%|1000|\n|Rentpayments,Govt related txns)|||\n\n- CashBack valid only for non-emi spends in the 10 online merchants.\n\n- Gift or Prepaid Card loads & Voucher Purchase transactions will be considered in other spends category.\n\nNote:\n\n- Effective 1st December 2023, complimentary lounge access on domestic airports will no longer be available on Millennia Credit Card\n\n- Effective 1st September 2024, Education payments made through third-party apps will NOT earn Reward Points. However, education payments made directly through college/school websites or their POS machines will earn Reward Points. Education MCCs: 8211,8220,8241,8244,8249,8299\n\n- Effective 1st September 2024, Wallet loading and EMI transactions will NOT earn Reward Points. Wallet MCC: 6540\n\nNote : Cardholder can redeem CashPoints as CashBack against their outstanding on the Millennia Credit Card.The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.",
+    "[hdfc_millennia_tnc_2026-07.pdf p.3-4] HDFC Bank Millennia Credit Card | Section: Milestone Benefit – Terms & Conditions\n\n## Milestone Benefit – Terms & Conditions\n\n- Cardholder will be eligible if he/she achieves the Net spends (Spends minus Reversals) target of ₹1 lac within the specified calendar quarter.\n\n- The calendar quarter are January to March, April to June, July to September, October to December.\n\n- The transaction settled from the merchant within the calendar quarter will be eligible for considering the target achievement and settlement/Posting date of the transaction\n\n- EMI Principal amount paid during the calendar quarter only will be considered under spend target achievement.\n\n- SmartEMI/Dial An EMI (DAE) amount will not considered under this Milestone benefit achievement.\n\n- Cardholder can view the spends achievement via Net Banking. Please follow the path to check: Net banking login -> cards ->Enquire ->Redeem Reward Points -> Select Card -> My Rewards -> Spend Promo Details\n\n- Once cardholder is eligible post achieving the target, voucher message will be triggered to registered phone number & email ID within 30 working days.\n\n- The voucher message triggered to the customer through SMS & Email will be valid and active only for 120 days from the triggered date.\n\n- The cardholder needs to select from the available voucher options. He/she can choose by replying back to the specified number with the option to get the voucher or visit the vendor page by clicking on the link available in the message/email for selecting the voucher of his/her choice.\n\n- The sample SMS which the card holder will receive: `o` Congrats! You are eligible for a Free Gift Voucher worth INR 1000 on your HDFC Bank Millennia Credit Card.\n\nTo claim, SMS:\n\nMILNIA A for Big Basket\n\nMILNIA B for BookMyShow\n\nMILNIA C for Pizza Hut\n\nMILNIA D for PVR MILNIA\n\nE for Uber\n\nAnd send to 53030.",
+    "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n- A cardholder will not be eligible for 1% CashPoints on prepaid card/gift Card/ wallet load and / or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners)\n\n- Smartpay transactions will be considered under 1% CashBack category.\n\n- With effect from 1st January 2023, Rent payments and Government related transactions will NOT earn Reward Points.",
+    "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n## 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- 10 online merchants qualifying for 5% CashBack are Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber & Zomato\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the 1st week of the subsequent calendar month.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- The Cardholder can earn up to 1,000 CashPoints under the 5% CashBack on 10 online merchants in a calendar month.\n\n- CashBack of 5% on 10 merchants are calculated basis the Terminal / merchant IDs (TIDs & MIDs) shared by the respective merchant partners. If in case the TID / MID is not available in the set-up, such transactions will not qualify for the benefit.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- Incase the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the equivalent CashPoints will be reversed/adjusted under the 5% CashPoints category.\n\n- CashPoints shall not be eligible for the following spends on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` Smart EMI / Dial an EMI transaction",
+    "[hdfc_millennia_tnc_2026-07.pdf p.2] HDFC Bank Millennia Credit Card | Section: 5% CashBack on 10 Online Merchants – Terms & Conditions\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- A cardholder will be eligible for 1% CashPoints as per product feature if he/she does a transaction through SmartBuy/PayZapp which includes transaction from 10 online merchants also. All other existing SmartBuy/PayZapp offers will be applicable as per SmartBuy/PayZapp Terms & Conditions.\n\n- A cardholder will be eligible for 1% CashPoints on prepaid card/gift Card/ and/ or voucher purchases. All the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa, MasterCard, RuPay and Diners) will not be considered under 5% CashPoints even if it is from the 10 online merchants.\n\n- The 5% CashPoints on Uber is eligible for travel/commute related spends. The Uber transactions carried out through the MCC code of 4121 (as defined by card networks Visa, MasterCard, RuPay and Diners) will only be considered for 5% CashPoints.",
+    "[hdfc_millennia_tnc_2026-07.pdf p.3] HDFC Bank Millennia Credit Card | Section: 1% CashBack on other spends – Terms & Conditions\n\n## 1% CashBack on other spends – Terms & Conditions\n\n- 1% cashback on all other spends excluding Fuel, Wallet, EMI, govt, rental transactions.\n\n- CashPoints are an exclusive Rewards metric system created for our Credit Cardholders. CashPoints can be utilized towards CashBack redemption against the statement at the rate of 1 CashPoint = ₹1 for Millennia Credit Card Holders.\n\n- The CashPoints will be posted on calendar month basis, the transaction settled in the system between 1st to 30/31st of the calendar month will be posted in the subsequent month 1st week.\n\n- The transaction settled from the merchant will be eligible for Cashpoints and settlement/Posting date of the transaction will be considered for points calculation.\n\n- Spends beyond the capping of 1,000 shall not be considered for CashPoints posting.\n\n- CashPoints shall not be eligible for the following spends/transactions on the card, `o` Fuel Spends `o` Rent payments and Govt Related transactions `o` Cash Advances `o` Payment of Outstanding Balances `o` Payment of card fees and other charges `o` All EMI transactions(even if preclosed) including Smart EMI / Dial an EMI transaction\n\n- The Cardholder can earn up to 1,000 CashPoints under the 1% CashBack on other spends in a calendar month.\n\n- CashPoints earned will be computed based on spends during the calendar month period minus any returns or refunds during the same period.\n\n- In case the purchase/transaction is returned/cancelled/reversed post calendar month completion. Then the CashPoints will be reversed from next month earning under the 1% CashPoints category.",
+    "[hdfc_millennia_tnc_2026-07.pdf p.6] HDFC Bank Millennia Credit Card | Section: CashPoints Redemption –Terms & Conditions\n\n## CashPoints Redemption –Terms & Conditions\n\n- CashBack will be given in the form of CashPoints, which can be redeemed by the customer against the statement balance. The CashPoints will be posted as Reward Points only.\n\n- Effective 1st August 2024, if you redeem your rewards towards statement credit (CashBack), a ₹50 redemption fee will be charged.\n\n- The redemption against the statement balance will be at the rate of 1 CashPoint = ₹1, and can be done via Net Banking login, Phone Banking, or physical redemption form.\n\n- The minimum CashPoints balance required for redemption against the statement balance is 500 CashPoints.\n\n- CashPoints can also be used for redemption against travel benefits like Flight & Hotel bookings and Rewards Catalogue at the SmartBuy Rewards Portal, at a value of 1 CashPoint = ₹0.30\n\n- For redemption against Flights and Hotels via SmartBuy, Credit Card members can redeem up to a maximum of 50% of the booking value through Cash Points (1 CashPoint = ₹0.30). Rest of the transaction amount will have to be paid via the HDFC Bank Credit Card\n\n- With effect from 1st January 2023, Reward points redemption for flights & hotels bookings are capped per calendar month at 50,000.\n\n- Unredeemed CashPoints will expire/lapse after 2 years of accumulation.\n\n- If the cardholder opts for redemption of the cashpoints via reward catalogue, there will be debit of ₹99+Taxes towards redemption handling charges.\n\n- With effect from 1st February 2023, Reward points redemption for CashBack redemption are capped per calendar month to 3,000 rewards points.\n\n- With effect from 1st February 2023, cardmembers can redeem upto 70% of product/Voucher value through Reward points on select vouchers/products and pay the remaining amount via Credit card.",
+    "[hdfc_millennia_tnc_2026-07.pdf p.5] HDFC Bank Millennia Credit Card | Section: Fuel Transactions:\n\n## Fuel Transactions:\n\nIf you spend less than ₹ 15000 per transaction on fuel, no additional fee will be charged. However, if you spend more than ₹15,000 per transaction on fuel, a 1% fee will be charged on the entire amount and capped at ₹3000 per transaction.\n\n## Utility Transactions:\n\nIf you spend less than ₹ 50,000 per transaction on Utilities, no additional fee will be charged. However, if you spend more than ₹50,000 per transaction on utilities, a 1% fee will be charged on the entire amount and capped at ₹3000 per transaction.\n\nInsurance transactions will not be considered as Utility transactions and hence no charge will be applicable.",
+    "[hdfc_millennia_tnc_2026-07.pdf p.5] HDFC Bank Millennia Credit Card | Section: Educational Transactions:\n\n## Educational Transactions:\n\nIf you make education payments through college/school websites or their POS machines, there will be no fees. International education payments are excluded from this charge. However, on education payments through third-party apps like (but not limited to) CRED, PayTM, Cheq, MobiKwik and others, a 1% fee will be charged and capped at ₹3000 per transaction.\n\nAll fees are subject to GST as per government regulations.\n\nThe Merchant Category codes are defined by the network (Visa, Master Card, Rupay, Diners). HDFC Bank does not define the merchant category."
+  ]
+}

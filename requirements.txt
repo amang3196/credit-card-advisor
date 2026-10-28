@@ -1,0 +1,22 @@
+# Python 3.11 or 3.12 recommended
+crewai[google-genai]==1.15.30
+pinecone>=10.2,<11
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pymupdf>=2.0
+pymupdf4llm>=2.0          # v2 chunker: PDF -> Markdown (tables, headings)
+pyyaml>=6.0
+python-dotenv>=1.0
+pydantic>=2.7
+
+# Evaluation
+ragas==0.4.3
+langchain-community==0.4.1   # ragas 0.4.3 fails to import with langchain-community 0.4.2
+openai>=1.40                 # RAGAS judge talks to Gemini through its OpenAI-compatible endpoint
+
+# UI
+streamlit>=1.50
+requests>=2.31
+
+# Tests
+pytest>=8

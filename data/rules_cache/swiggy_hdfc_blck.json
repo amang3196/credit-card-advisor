@@ -1,0 +1,116 @@
+{
+  "card_id": "swiggy_hdfc_blck",
+  "extracted_at": "2026-10-28T13:26:16.958939+00:00",
+  "model": "openai/gpt-5.4-mini",
+  "seconds": 16.0,
+  "usage": {
+    "prompt_tokens": 17033,
+    "cached_prompt_tokens": 2816,
+    "completion_tokens": 1739,
+    "reasoning_tokens": 0,
+    "requests": 2,
+    "est_cost_usd": 0.0187
+  },
+  "rules": {
+    "card_id": "swiggy_hdfc_blck",
+    "card_name": "Swiggy BLCK HDFC Bank Credit Card",
+    "annual_fee_inr": 1000.0,
+    "fee_waiver_spend_inr": 75000.0,
+    "fee_waiver_excluded_categories": [
+      "fuel",
+      "rent",
+      "utilities",
+      "insurance",
+      "amazon",
+      "flipkart",
+      "swiggy",
+      "zomato",
+      "other_online",
+      "offline",
+      "travel"
+    ],
+    "reward_rules": [
+      {
+        "categories": [
+          "swiggy"
+        ],
+        "rate_pct": 10.0,
+        "cap_inr": 1500.0,
+        "cap_period": "statement_cycle",
+        "requires_prime": false,
+        "description": "10% cashback on Swiggy App spends for Food Delivery, Instamart and Dineout only. Other Swiggy platforms do not qualify. Minimum transaction Rs. 249.",
+        "source": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10; hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.15"
+      },
+      {
+        "categories": [
+          "amazon",
+          "flipkart",
+          "zomato",
+          "other_online",
+          "travel"
+        ],
+        "rate_pct": 5.0,
+        "cap_inr": 1500.0,
+        "cap_period": "statement_cycle",
+        "requires_prime": false,
+        "description": "5% cashback on select online merchant and category spends on eligible online transactions and listed merchants/categories, including Amazon, Flipkart, Nykaa, Cleartrip, Ajio, Netflix, Hotstar, BookMyShow, Meesho, and select merchant/category MCCs. Cleartrip and Nykaa also have instant discounts in addition to cashback.",
+        "source": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10-11; hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.11-12"
+      },
+      {
+        "categories": [
+          "offline",
+          "other_online"
+        ],
+        "rate_pct": 1.0,
+        "cap_inr": 1000.0,
+        "cap_period": "statement_cycle",
+        "requires_prime": false,
+        "description": "1% cashback on other spends not covered by the higher cashback categories.",
+        "source": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10; hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.12"
+      }
+    ],
+    "base_rate_pct": 1.0,
+    "base_cap_inr": 1000.0,
+    "base_cap_period": "statement_cycle",
+    "excluded_categories": [
+      "fuel",
+      "rent",
+      "utilities",
+      "insurance"
+    ],
+    "overall_cap_inr": null,
+    "overall_cap_period": "statement_cycle",
+    "gotchas": [
+      "The 10% Swiggy cashback applies only to Swiggy Food ordering, Instamart and Dineout; transactions on any other Swiggy platform do not qualify. Source: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10-11",
+      "For the 10% cashback category, the minimum transaction amount is Rs. 249. For the 5% and 1% cashback categories, the minimum transaction amount is Rs. 100. Source: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.15; hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.17",
+      "Cashback is calculated on posting date and auto-redeemed against outstanding balance excluding finance charges. Source: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.15; hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.17",
+      "The 5% merchant/category table is online-only and only select merchants mapped under the listed MCCs are eligible. Any other MCCs are not eligible for the 5% cashback category. Source: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.11-12",
+      "The 5% table explicitly includes Amazon, Flipkart, Nykaa, ClearTrip, Ajio, Netflix, Hotstar, BookMyShow and Meesho, plus categories such as Apparels, Pharmacies, Pet Stores, Personal Care, electronics, entertainment, travel, discount stores and local cabs. Source: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.11-12",
+      "The 1% cashback excludes Fuel, Rent, Government related transactions, EMI, Gaming, Education, Gift Card, Wallet and Jewellery. Source: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10; hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.12",
+      "The fee section states an annual fee of INR 1000 plus applicable taxes, and says the renewal year fee of Rs 1000 is charged from second year onwards. It also says the joining fee of Rs 1000 is waived on spending Rs. 75,000 in the first 90 days, applicable for first year only. Source: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14",
+      "The documents do not state a renewal-fee waiver spend for the annual/renewal fee after the first year. Source: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14",
+      "A revision or later effective-date notice was not found that changes the core cashback rates or fee row in the searched document set. Source: hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10-18"
+    ],
+    "sources": [
+      "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10",
+      "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10-11",
+      "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.11-12",
+      "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.12",
+      "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14",
+      "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.15",
+      "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.17"
+    ]
+  },
+  "contexts": [
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.12] Swiggy BLCK HDFC Bank Credit Card | Section: 2.4 1% cashback on Other spends\n\n## 2.4 1% cashback on Other spends\n\n- Exclusion for 1% cashback category – Fuel, Rent, Government related transactions, EMI, Gaming, Education, Gift Card, Wallet and Jewelry.\n\n## 2.5 List of Excluded cashback Categories with Swiggy BLCK HDFC Bank Credit Card –\n\n|Category|MCC|\n|---|---|\n|Fuel [one merged cell across 4 rows]|5172|\n|Fuel [one merged cell across 4 rows]|5541|\n|Fuel [one merged cell across 4 rows]|5542|\n|Fuel [one merged cell across 4 rows]|5983|\n|Rent|6513|\n|Wallet|6540|\n|Jl ewery [one merged cell across 2 rows]|5094|\n|Jl ewery [one merged cell across 2 rows]|5944|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9211|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9222|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9223|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9311|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9399|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9402|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9405|\n|G ld i ovt. reate transactons [one merged cell across 8 rows]|9950|\n|Gift Cards|5947|\n|EMI|Multiple MCCs|\n|Gaming|5816|\n|Education|8211, 8220, 8241, 8244, 8249, 8299|\n\n- For capping per billing cycle and more details on exclusions on 1% Cashback categories, please refer to Table 1.1 (stated above)",
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.11-12] Swiggy BLCK HDFC Bank Credit Card | Section: 2.3 5% cashback on Select Online merchant & category spends\n\n## 2.3 5% cashback on Select Online merchant & category spends\n\n- 5% Cashback will only be accrued on online transactions done on following Brands and categories on certain MCCs with Swiggy BLCK HDFC Bank Credit Card -\n\nRefer Table 2.1 for detailed list of MCCs\n\n- Eligible Merchant Category Codes and Merchants for 5% Cashback on Swiggy BLCK HDFC Bank Credit Card are stated as follows in Table 2.1\n\n- Any other MCC except stated under table 2.1 are not eligible for 5% cashback.\n\n- Only select merchants mapped under the MCCs listed in Table 2.1are eligible for 5% Cashback.\n\nTable 2.1\n\n|Merchant/Category|MCC|\n|---|---|\n|Apparels|5137,5139,5611,5621,5631,5641,5651,5655,5661,5691,5697,5699,5948|\n|Pharmacies|5122,5912,5975,8042,8043|\n|Pet Stores|5192,5733,5735,5941,5942,5945,5995,7829,7941|\n|Personal Care|5977,7230,7297,7298|\n|Ola, Zoom, Uber|4111, 4121, 5511, 5521, 7512|\n|Reliance Retail, VijaySales,Croma|1731, 5045, 5046, 5065, 5099, 5722, 5732, 5734, 5946, 7372, 7622, 7623, 7629, 7631|\n|Paytm Travel,||\n|EaseMyTrip, Ixigo, Yatra,Ibibo|4111, 4112, 4121, 4131, 4722, 7011|\n|Amazon, Flipkart,||\n|Nykaa, ClearTrip, Ajio,|All online transactions except standard excluded MCCs (refer table 2.5)|\n|Netflix,Hotstar,||\n|BookMyShow,||\n|Meesho||\n\n*Only select merchants covered under MCC included under Table 1.2 are eligible for 5% Cashback\n\nPlease note that MCC code is captured by the Merchant, and Bank does not hold any responsibility of crediting cashback if the MCC code is wrongly captured at the merchant end for off us transactions.",
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10] Swiggy BLCK HDFC Bank Credit Card | Section: Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## Terms and Conditions - Swiggy BLCK HDFC Bank Credit Card\n\n## 1. Customer Value Proposition\n\n- Cashback on Swiggy BLCK HDFC Bank Credit Card will be processed as per the following table –\n\nTable 1.1\n\n|Type of Spends|Cashback|Capping|Exclusions / Inclusions|\n|---|---|---|---|\n|Spends on Swiggy App* (Food Delivery, Instamart and Dineout)|10% cashback|Rs.1500 per billing cycle|Exclusions- Transactions made using Swiggy Money Wallet, Swiggy Liquor, and any other categories (if any) decided later|\n|Spends on online shopping across Famous Merchants and categories like Apparels, Pharmacies, Pet stores, Personal Care, Electronics, Entertainment, Travel, Discount Stores & Local cabs basis eligible list of MCCs|5% cashback|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Cleartrip|5% + (6% Instant Discount on Travel and 19% Instant Discount on Hotels)|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Nykaa|5% Cashback + 5% Instant Discount|Rs.1500 per billing cycle [one merged cell across 3 rows]|Inclusions- Refer to Table 2.3 for inclusions [one merged cell across 3 rows]|\n|Spends on other categories *|1% cashback|Rs.1000 per billing cycle|Exclusions- Fuel, Rent, Jewellery, Govt. spends, Gaming and Education, EMI & Wallet|\n\nRefer section 2.3 on Eligible list of Brands, Categories and MCC\n\n- Capping per billing cycle and Exclusions for each cashback category are applicable\n\n- Cashback will not be accrued for the following transactions using Swiggy BLCK HDFC Bank Credit Card\n\n- ❖ Prepaid Card/Gift Card/Wallet\n\n- ❖ Rent\n\n- ❖ Government related transactions\n\n- ❖ Gaming\n\n- ❖ Education\n\n- ❖ Fuel\n\n- ❖ Jewellery\n\n- ❖ Smartpay",
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10-11] Swiggy BLCK HDFC Bank Credit Card | Section: 1. Customer Value Proposition\n\n- ❖ Smartbuy portal\n\n- ❖ EMI (all type)\n\n- ❖ Cash advances, Purchase of travelers’ cheques\n\n- ❖ Purchase of foreign currency and fees\n\n- ❖ Any other categories as decided from Time to Time\n\n## 2.2 10% cashback on Swiggy App (Food ordering, Instamart and Dineout)\n\n- Earning 10% Cashback using Swiggy BLCK HDFC Bank Credit Card is applicable only on transaction done on Swiggy Food ordering, Instamart and Dineout.\n\n- Transactions made on any other Swiggy platform except the above stated platforms won’t qualify for the 10% Cashback category\n\n- Please refer Table 1.1 for capping per billing cycle and exclusions on 10% Cashback category.\n\nNote:\n\n(Please refer to Section 4.2 for more details on cashback redemption)\n\n10% Cashback on Swiggy Platform on eligible categories are calculated basis the Merchant IDs (MIDs), Terminal IDs(TIDs) shared by the co-brand partner. If in case the TID is not available in the set-up, such transactions will not qualify for the benefit .",
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.15] Swiggy BLCK HDFC Bank Credit Card | Section: 4.1 Cashback T&Cs on Swiggy BLCK HDFC Bank Credit Card\n\n## 4.1 Cashback T&Cs on Swiggy BLCK HDFC Bank Credit Card\n\n- The transaction settled from the merchant will be eligible for Cashback and Posting date of the transaction will be considered for cashback calculation.\n\n- For any transaction against which the posting date is recorded under the next statement, Cashback will be posted in the card account statement in accordance with posting date.\n\n- Payments/credits not initiated by the customer such as Merchant refund/cashback/charge reversals etc. received into the credit card account will not be considered as a payment towards the outstanding of the card. However, such credits will be considered to compute the subsequent month’s dues.\n\n- In order to earn 10% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 249 using the card.\n\n- In order to earn 5% and 1% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 100 using the card.\n\n- Cashback can only be earned on eligible transactions as defined by as Table 1.1 (stated above)\n\n- Cashback earned will be calculated based on all the spends across defined cashback categories during the statement period minus any returns or refunds during the same period.\n\n- The principal cardholder will forthwith be disqualified from earning the cashbacks, if Swiggy BLCK HDFC Bank Credit Card is terminated at any time for any reason, whether by the primary Cardholder or the Bank.\n\n- Any remaining Cashback including Cashbacks pending credit into the Swiggy account of the Cardholder shall immediately cease to be valid upon the occurrence of the following:\n\n- a) The cancellation of the Swiggy BLCK HDFC Bank credit card",
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.17] Swiggy BLCK HDFC Bank Credit Card | Section: 4.2 Cashback Redemption\n\n## 4.2 Cashback Redemption\n\n## 4.2.1 T&Cs\n\n- Cashback earned for current billing cycle will be auto redeemed against outstanding amount. Note – Cashback will not get adjusted or auto redeemed against Financial Charges accrued. Cashback auto redemption is solely applicable on outstanding balance excluding the Finance charges.\n\n- For more details on Finance charges please refer Most Important Terms and Conditions.\n\n- In order to earn 10% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 249 using the card.\n\n- In order to earn 5% and 1% Cashback on eligible transactions using Swiggy BLCK HDFC Bank Credit Card, the cardholder should make a minimum transaction of Rs. 100 using the card.\n\n- Cashback can only be earned on eligible transactions as defined by as Table 1.1 (stated above)",
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14] Swiggy BLCK HDFC Bank Credit Card | Section: 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n## 3.1 Renewal Year Fee Waiver (Applicable for priced cards)\n\n- Annual fee of INR 1000+ applicable taxes is charged once to enjoy the benefits of Swiggy BLCK HDFC Bank Credit Card.\n\n- Joining Fee of Rs. 1000 will be waived on spending Rs.75,000 in the first 90 days. (Applicable for first Year only)\n\n- Annual fee will be levied within 120 days. Renewal year fee of Rs 1000 will be charged from second year onwards.",
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.13] Swiggy BLCK HDFC Bank Credit Card | Section: Please Click here for card activation guidelines\n\n## Please Click here for card activation guidelines\n\n## 2.7 Additional Offer during Birthday Week\n\n- Additional 10% discount on Swiggy Dineout upto Rs.500 on minimum order value of Rs. 3000. This is over and above 10% cashback on Swiggy Dineout using the card. For detailed T&Cs on Swiggy Dineout, please refer to the offer terms and conditions at the restaurant booking page\n\n- The offer is applicable for a duration of 7 days (3 days prior and 3 days after the birthday). For example – Cardholder bank registered Birthday is on 14th Oct. The eligibility of the offer is from 11th Oct to 17th Oct (both days inclusive).\n\n- Birthday date should be as per the bank records while applying for the card will be considered for the offer.\n\n- The offer is applicable once per cardholder.\n\n- Follow below steps on the Swiggy app in order to redeem –\n\n1. Click on \"Claim now\" button on Swiggy app main page or Dineout page on Birthday related communication.\n\n2. Select the restaurant of your choice and book your preferred slot\n\n3. Apply the coupon \"SWIGGYCARDBDAY\" available in the 'Apply Coupon' section while making the payment via Dineout\n\n4. Make the payment using your Swiggy HDFC credit card on Dineout.\n\n- Cardholder are eligible for this offer only post 30 days after card activation. (Ex – if card activation is done on 1st of November, and DOB is 2nd November, offer is not applicable).\n\n- Offer start date : 21st Oct’24\n\n- Swiggy reserves the right, at any time, without prior notice and without assigning any reason whatsoever, to add/alter/modify/change or vary all of these terms and conditions or to replace, wholly or in part, this offer by another offer, whether similar to this offer or not, or to extend or withdraw it altogether",
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.18] Swiggy BLCK HDFC Bank Credit Card | Section: 5.1 Swiggy account T&Cs\n\n## 5.1 Swiggy account T&Cs\n\n- Swiggy reserves the right to suspend or terminate Cardmember's Swiggy Account and his/her access to the services on its platform (i) if any information provided during the registration process or thereafter proves to be inaccurate, not current or incomplete; (ii) if it is believed that your actions may cause legal liability for you, other users or Swiggy; and/or (iii) if you are found to be non-compliant with the Terms of Use or other Swiggy policies accessible at https://www.swiggy.com/terms-and-conditions \"\n\n- Any campaign that is running on Swiggy app outside of existing product features will only be applicable to the customers applying from Swiggy app.\n\n- Any offers run on Swiggy app will be specific to the mobile number registered with the Swiggy account where the offer is shown. Users will not be able to avail the offer using a different mobile number.\n\n- ➢ For quick access to Most Important Terms & Conditions and Fees and Charges click here\n\n- ➢ For quick access to Card Member Agreement click here\n\n- ➢ For Key fact statement Click here",
+    "[hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.15-16] Swiggy BLCK HDFC Bank Credit Card | Section: 4.1 Cashback T&Cs on Swiggy BLCK HDFC Bank Credit Card\n\n- Any cashback related discrepancy needs to be reported in writing within 30 days from the statement generation date in which transaction related to the said cashback appears.\n\n- Cashback will be displayed in form of summary in statements (e-statement, web statement, physical statement & PDF) for all the transaction made during a particular billing cycle. The transaction level details regarding the cashback will not be displayed in the statements.\n\n|Posting Description|\n|---|\n|10% SwiggyBLCK Cashback Rev|\n|10% SwiggyBLCK Cashback|\n|5% SwiggyBLCK Cashback Rev|\n|5% SwiggyBLCK Cashback|\n|1% SwiggyBLCK Cashback Rev|\n|1% SwiggyBLCK Cashback|\n\nFor e.g., Consider a billing cycle from 15th January to 14th February\n\nSwiggy BLCK HDFC Bank Credit Card\n\n|Transaction Date|Posting Date|Transaction Narration|Transaction Amount|Cashback|Summary|\n|---|---|---|---|---|---|\n|19th Jan|20th Jan|SwiggyTransaction|1000|100|transactions on Swiggy will earn 10% cashback|\n|21st Jan||10% SwiggyBLCK Cashback|100|||\n|21st Jan|22nd Jan|Swiggy Transaction|150|0|transactions on Swiggy less than 249 will not earn cashback|\n|25th Jan|26th Jan|Offline Spends|1800|18|transactions on offline spends earn 1% cashback|\n|27th Jan||1% SwiggyBLCK Cashback|18|||\n|28th Jan|29th Jan|Online Transaction on Nykaa|2500|125|Two transactions done on the same posting Date will show|\n|28th Jan|29th Jan|Online Transaction on Croma|20000|1000| cumulative cashback|\n|30th Jan||5% SwiggyBLCK Cashback|1125|||\n|4th Feb|5th Feb|Reversal on Croma|-20000|-1000|Reversal of transactions will reverse equivalent cashback|\n|6th Feb||5% Swiggy BLCK Cashback Rev|-1000|||\n|10th Feb|11th Feb|Online Transactions on Apparels|30000|1375|Capping for the 5% Cashback accrual 1500|\n|12th Feb||5% SwiggyBLCK Cashback|1375|||\n|||Total|35450|||"
+  ]
+}

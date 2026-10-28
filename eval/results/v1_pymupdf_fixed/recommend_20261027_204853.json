@@ -1,0 +1,334 @@
+{
+  "recommend": {
+    "summary": {
+      "crew": {
+        "top_pick_accuracy": 0.4,
+        "mean_regret_inr": 2854.0,
+        "mean_abs_error_inr": 1794.0,
+        "within_10pct_share": 0.533
+      },
+      "baseline": {
+        "top_pick_accuracy": 0.2,
+        "mean_regret_inr": 456.0,
+        "mean_abs_error_inr": 3979.0,
+        "within_10pct_share": 0.067
+      }
+    },
+    "rows": {
+      "crew": [
+        {
+          "persona": "p1_amazon_prime",
+          "gold_top": "swiggy_hdfc_blck",
+          "pred_top": "swiggy_hdfc_blck",
+          "regret": 0.0,
+          "gold_values": [
+            8400.0,
+            2050.0,
+            9720.0,
+            9360.0,
+            9740.0,
+            9720.0
+          ],
+          "pred_values": [
+            8400.0,
+            2050.0,
+            8540.0,
+            8181.18,
+            9380.0,
+            3600.0
+          ],
+          "abs_errors": [
+            0.0,
+            0.0,
+            1180.0,
+            1178.8199999999997,
+            360.0,
+            6120.0
+          ]
+        },
+        {
+          "persona": "p2_food_delivery",
+          "gold_top": "swiggy_hdfc_blck",
+          "pred_top": "swiggy_hdfc_blck",
+          "regret": 0.0,
+          "gold_values": [
+            2520.0,
+            1930.0,
+            7800.0,
+            9720.0,
+            11900.0,
+            8280.0
+          ],
+          "pred_values": [
+            2520.0,
+            5050.0,
+            8540.0,
+            8541.18,
+            11900.0,
+            8280.0
+          ],
+          "abs_errors": [
+            0.0,
+            3120.0,
+            740.0,
+            1178.8199999999997,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "persona": "p3_rent_big_spender",
+          "gold_top": "swiggy_hdfc_ornge",
+          "pred_top": "flipkart_axis",
+          "regret": 10560.0,
+          "gold_values": [
+            6120.0,
+            8520.0,
+            9000.0,
+            18600.0,
+            17900.0,
+            19080.0
+          ],
+          "pred_values": [
+            6120.0,
+            23100.0,
+            14300.0,
+            14541.18,
+            17420.0,
+            16200.0
+          ],
+          "abs_errors": [
+            0.0,
+            14580.0,
+            5300.0,
+            4058.8199999999997,
+            480.0,
+            2880.0
+          ]
+        },
+        {
+          "persona": "p4_flipkart_offline",
+          "gold_top": "hdfc_millennia",
+          "pred_top": "flipkart_axis",
+          "regret": 240.0,
+          "gold_values": [
+            3240.0,
+            7800.0,
+            8040.0,
+            7800.0,
+            6860.0,
+            8040.0
+          ],
+          "pred_values": [
+            3000.0,
+            7800.0,
+            6860.0,
+            6621.18,
+            6860.0,
+            3000.0
+          ],
+          "abs_errors": [
+            240.0,
+            0.0,
+            1180.0,
+            1178.8199999999997,
+            0.0,
+            5040.0
+          ]
+        },
+        {
+          "persona": "p5_light_online",
+          "gold_top": "swiggy_hdfc_ornge",
+          "pred_top": "flipkart_axis",
+          "regret": 3470.0,
+          "gold_values": [
+            3000.0,
+            1930.0,
+            3960.0,
+            4221.18,
+            4220.0,
+            5400.0
+          ],
+          "pred_values": [
+            3000.0,
+            4270.0,
+            4220.0,
+            4221.18,
+            4220.0,
+            3000.0
+          ],
+          "abs_errors": [
+            0.0,
+            2340.0,
+            260.0,
+            0.0,
+            0.0,
+            2400.0
+          ]
+        }
+      ],
+      "baseline": [
+        {
+          "persona": "p1_amazon_prime",
+          "gold_top": "swiggy_hdfc_blck",
+          "pred_top": "sbi_cashback",
+          "regret": 380.0,
+          "gold_values": [
+            8400.0,
+            2050.0,
+            9720.0,
+            9360.0,
+            9740.0,
+            9720.0
+          ],
+          "pred_values": [
+            8640.0,
+            4800.0,
+            7200.0,
+            18240.0,
+            6600.0,
+            4810.0
+          ],
+          "abs_errors": [
+            240.0,
+            2750.0,
+            2520.0,
+            8880.0,
+            3140.0,
+            4910.0
+          ]
+        },
+        {
+          "persona": "p2_food_delivery",
+          "gold_top": "swiggy_hdfc_blck",
+          "pred_top": "swiggy_hdfc_blck",
+          "regret": 0.0,
+          "gold_values": [
+            2520.0,
+            1930.0,
+            7800.0,
+            9720.0,
+            11900.0,
+            8280.0
+          ],
+          "pred_values": [
+            2520.0,
+            0.0,
+            0.0,
+            0.0,
+            14420.0,
+            10210.0
+          ],
+          "abs_errors": [
+            0.0,
+            1930.0,
+            7800.0,
+            9720.0,
+            2520.0,
+            1930.0
+          ]
+        },
+        {
+          "persona": "p3_rent_big_spender",
+          "gold_top": "swiggy_hdfc_ornge",
+          "pred_top": "sbi_cashback",
+          "regret": 480.0,
+          "gold_values": [
+            6120.0,
+            8520.0,
+            9000.0,
+            18600.0,
+            17900.0,
+            19080.0
+          ],
+          "pred_values": [
+            4800.0,
+            6000.0,
+            10000.0,
+            12000.0,
+            7200.0,
+            7200.0
+          ],
+          "abs_errors": [
+            1320.0,
+            2520.0,
+            1000.0,
+            6600.0,
+            10700.0,
+            11880.0
+          ]
+        },
+        {
+          "persona": "p4_flipkart_offline",
+          "gold_top": "hdfc_millennia",
+          "pred_top": "sbi_cashback",
+          "regret": 240.0,
+          "gold_values": [
+            3240.0,
+            7800.0,
+            8040.0,
+            7800.0,
+            6860.0,
+            8040.0
+          ],
+          "pred_values": [
+            1800.0,
+            2000.0,
+            3000.0,
+            3600.0,
+            1210.0,
+            1210.0
+          ],
+          "abs_errors": [
+            1440.0,
+            5800.0,
+            5040.0,
+            4200.0,
+            5650.0,
+            6830.0
+          ]
+        },
+        {
+          "persona": "p5_light_online",
+          "gold_top": "swiggy_hdfc_ornge",
+          "pred_top": "sbi_cashback",
+          "regret": 1178.82,
+          "gold_values": [
+            3000.0,
+            1930.0,
+            3960.0,
+            4221.18,
+            4220.0,
+            5400.0
+          ],
+          "pred_values": [
+            3840.0,
+            2410.0,
+            2420.0,
+            6620.0,
+            2420.0,
+            2410.0
+          ],
+          "abs_errors": [
+            840.0,
+            480.0,
+            1540.0,
+            2398.8199999999997,
+            1800.0,
+            2990.0
+          ]
+        }
+      ]
+    }
+  },
+  "_meta": {
+    "tag": "v1_pymupdf_fixed",
+    "suite": "recommend",
+    "limit": null,
+    "refresh_rules": false,
+    "llm_model": "gemini/gemini-3.5-flash-lite",
+    "eval_llm_model": "gemini-3.5-flash-lite",
+    "top_k": 6,
+    "run_at": "2026-10-27T20:48:53"
+  }
+}

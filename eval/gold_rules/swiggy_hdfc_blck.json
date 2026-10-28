@@ -1,0 +1,48 @@
+{
+  "_status": "VERIFIED",
+  "_sources": {
+    "rates_and_caps": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10 (Table 1.1: Swiggy 10% max 1,500; online 5% max 1,500; other 1% max 1,000, each per billing cycle)",
+    "online_list": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.11 (Table 2.1, same list as Ornge)",
+    "exclusions": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10",
+    "fee": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.14 (Rs 1,000 + taxes; joining fee waived on Rs 75,000 in first 90 days; NO renewal waiver stated)"
+  },
+  "_notes": "CHANGED from the draft: travel earns 5% (travel sites are on the online list). Unlike Ornge, BLCK has separate caps for Swiggy and online. Zomato gets 1%. Minimum transaction Rs 249 for 10%. Mapping rule (same as the agent's prompt): a merchant-specific rate is applied to a whole category only if those merchants are most of it; otherwise the base rate is kept and it's listed under _merchant_specific.",
+  "card_id": "swiggy_hdfc_blck",
+  "card_name": "Swiggy BLCK HDFC Bank Credit Card",
+  "annual_fee_inr": 1000,
+  "fee_waiver_spend_inr": null,
+  "fee_waiver_excluded_categories": [],
+  "reward_rules": [
+    {
+      "categories": [
+        "swiggy"
+      ],
+      "rate_pct": 10,
+      "cap_inr": 1500,
+      "cap_period": "statement_cycle",
+      "description": "10% on Swiggy",
+      "source": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10"
+    },
+    {
+      "categories": [
+        "amazon",
+        "flipkart",
+        "other_online",
+        "travel"
+      ],
+      "rate_pct": 5,
+      "cap_inr": 1500,
+      "cap_period": "statement_cycle",
+      "description": "5% on select online",
+      "source": "hdfc_swiggy_ornge_blck_tnc_2026-03.pdf p.10-11"
+    }
+  ],
+  "base_rate_pct": 1,
+  "base_cap_inr": 1000,
+  "base_cap_period": "statement_cycle",
+  "excluded_categories": [
+    "fuel",
+    "rent"
+  ],
+  "overall_cap_inr": null
+}

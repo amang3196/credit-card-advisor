@@ -1,0 +1,41 @@
+{
+  "_status": "VERIFIED",
+  "_sources": {
+    "rates_and_caps": "axis_flipkart_revision_2025-06.pdf p.1 (from 20 Jun 2025: 5% Flipkart max 4,000 per statement quarter; 5% Cleartrip max 4,000; 7.5% Myntra max 4,000)",
+    "exclusions": "axis_flipkart_revision_2025-06.pdf p.2 (utility & telecom, education, rent, wallet, govt, insurance, gold & jewellery, fuel, financial institutions)",
+    "fee": "axis_common_mitc.pdf p.2 (Rs 500, waived on spends of Rs 3,50,000 in the preceding card anniversary year); rent and wallet loads don't count toward the waiver (revision p.2)"
+  },
+  "_merchant_specific": [
+    "7.5% on Myntra (max Rs 4,000/quarter): part of other_online, kept at base rate",
+    "5% on Cleartrip (max Rs 4,000/quarter): part of travel, kept at base rate"
+  ],
+  "_notes": "CHANGED from the draft: removed the 4% Swiggy 'preferred partner' rule because none of the ingested PDFs state it. Base rate 1% is only implied ('increased from earlier cashback of 1% on Myntra'); the full card T&C would confirm it. Mapping rule (same as the agent's prompt): a merchant-specific rate is applied to a whole category only if those merchants are most of it; otherwise the base rate is kept and it's listed under _merchant_specific.",
+  "card_id": "flipkart_axis",
+  "card_name": "Flipkart Axis Bank Credit Card",
+  "annual_fee_inr": 500,
+  "fee_waiver_spend_inr": 350000,
+  "fee_waiver_excluded_categories": [
+    "rent"
+  ],
+  "reward_rules": [
+    {
+      "categories": [
+        "flipkart"
+      ],
+      "rate_pct": 5,
+      "cap_inr": 4000,
+      "cap_period": "quarter",
+      "description": "5% on Flipkart",
+      "source": "axis_flipkart_revision_2025-06.pdf p.1"
+    }
+  ],
+  "base_rate_pct": 1,
+  "base_cap_inr": null,
+  "excluded_categories": [
+    "fuel",
+    "rent",
+    "insurance",
+    "utilities"
+  ],
+  "overall_cap_inr": null
+}

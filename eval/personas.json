@@ -1,0 +1,32 @@
+[
+  {
+    "id": "p1_amazon_prime",
+    "description": "I shop a lot on Amazon, around 12k a month, and I have Prime. About 2,000 on Swiggy, 8,000 at local shops, 3k on bills and 3k on petrol.",
+    "spend": {"amazon": 12000, "swiggy": 2000, "offline": 8000, "utilities": 3000, "fuel": 3000},
+    "amazon_prime_member": true
+  },
+  {
+    "id": "p2_food_delivery",
+    "description": "Most of my money goes on food apps: 8,000 a month on Swiggy and 3,000 on Zomato. Another 4k on Myntra and Nykaa and 6k in shops. No Prime.",
+    "spend": {"swiggy": 8000, "zomato": 3000, "other_online": 4000, "offline": 6000},
+    "amazon_prime_member": false
+  },
+  {
+    "id": "p3_rent_big_spender",
+    "description": "I pay my 30k rent by credit card. 25k a month in shops and restaurants, 15k other online shopping, 5k on Flipkart, about 72k a year on flights and hotels, 4k bills and 5k fuel.",
+    "spend": {"rent": 30000, "offline": 25000, "other_online": 15000, "flipkart": 5000, "travel": 6000, "utilities": 4000, "fuel": 5000},
+    "amazon_prime_member": false
+  },
+  {
+    "id": "p4_flipkart_offline",
+    "description": "Flipkart is my main shopping site, about 10k a month. I spend 15k in stores, 4k on fuel and pay 24k a year in insurance premiums.",
+    "spend": {"flipkart": 10000, "offline": 15000, "fuel": 4000, "insurance": 2000},
+    "amazon_prime_member": false
+  },
+  {
+    "id": "p5_light_online",
+    "description": "Light user: 3k on Amazon (Prime member), 2k on Flipkart, 3k on other apps and websites, 5k in shops each month.",
+    "spend": {"amazon": 3000, "flipkart": 2000, "other_online": 3000, "offline": 5000},
+    "amazon_prime_member": true
+  }
+]
